@@ -1,0 +1,962 @@
+"Site.ID","Unique.ID","Block","Tube.No","Pod.Produced","Medic.spp","Range","Origin","Community","changed.from.MSU.shipment.name","MSU.Genotype","Generation.Received","WSU.Genotype","date.f","date.s","date_diff","GPS.1","GPS.2"
+"SCA","W0001",1,878,"Field","Mpol","Native","San Carlo, Italy","c2","","SCAc2-10","F0","MP-SCAc2-10-F0","6/24/16","4/9/16",76,44.086395,12.187785
+"FUS","W0002",1,43,"MSU","Mpol","Native","Fuseta, Portugal","C","","FUSC2","F1","MP-FUSC2-F1","5/31/16","4/9/16",52,NA,NA
+"ALT","W0003",1,141,"MSU","Mpol","Native","Alter, Portugal","","","ALT08","F1","MP-ALT08-F1","5/31/16","4/9/16",52,37.168255,-8.090313
+"ORB","W0004",1,860,"Field","Mpol","Native","Orbetella, Italy","","ORBc1-11","ORB11","F0","MP-ORB11-F0","6/10/16","4/9/16",62,42.44123,11.20262
+"RHA","W0005",1,840,"Field","Mpol","Native","Rome Harbor parking lot, Italy","","RHAc1-09","RHA09","F0","MP-RHA09-F0","6/15/16","4/9/16",67,NA,NA
+"CVD","W0006",1,35,"MSU","Mpol","Native","Castro Verde, Portugal","","","CVD09","F1","MP-CVD09-F1","6/1/16","4/9/16",53,37.708491,-8.099286
+"CAM","W0007",1,4,"MSU","Mpol","Native","Castro Marim, Portugal","","","CAM09","F1","MP-CAM09-F1","6/1/16","4/9/16",53,37.21854,-7.4492062
+"MEL","W0008",1,91,"MSU","Mpol","Invaded","Roseburg, OR, USA","","","MEL13","F1","MP-MEL13-F1","6/6/16","4/9/16",58,43.221144,-123.406702
+"DEB","W0009",1,379,"MSU","Mpol","Native","Deba, Gipuzkoa, Spain","","","DEB09","F1","MP-DEB09-F1","6/15/16","4/9/16",67,43.301433,2.344602
+"SAN","W0010",1,755,"Field","Mpol","Native","Santona, Spain","","","SAN36-01","F0","MP-SAN36-01-F0","7/13/16","4/9/16",95,43.45713,4.353194
+"LDS","W0011",1,154,"MSU","Mpol","Native","Lac du Sagou, France","","","LDS07","F1","MP-LDS07-F1","6/13/16","4/9/16",65,43.67624,3.352244
+"HUE","W0012",1,328,"MSU","Mpol","Native","Huelva, Spain","","","HUE08","F1","MP-HUE08-F1","5/23/16","4/9/16",44,37.265483,-6.854716
+"STA","W0013",1,1,"MSU","Mpol","Invaded","Saint Augustine, FL, USA","","","STA11","F2","MP-STA11-F2","5/24/16","4/9/16",45,29.55354,-81193554
+"LAT","W0014",1,799,"Field","Mpol","Native","Latera, Italy","","LATc1-08","LAT08","F0","MP-LAT08-F0",NA,"4/9/16",NA,42.62872,11.82045
+"HIG","W0015",1,657,"Field","Mpol","Native","San Sebastian, Spain","","","HIG04-01","F0","MP-HIG04-01-F0","7/13/16","4/9/16",95,43.39133,1.792166
+"SDS","W0016",1,310,"MSU","Mpol","Invaded","San Diego, California, USA","","","SDS1a","F1","MP-SDS1a-F1","5/31/16","4/9/16",52,32.775721,-117.074083
+"BHI","W0017",1,187,"MSU","Mpol","Invaded","Berkeley, CA, USA","","","BHI33-08","F1","MP-BHI33-08-F1","5/31/16","4/9/16",52,37.875926,-122.350833
+"COS","W0018",1,49,"MSU","Mpol","Native","Huelva, Spain","","","COS09","F1","MP-COS09-F1","6/6/16","4/9/16",58,37.449665,-6.569143
+"AUR","W0019",1,938,"Field","Mpol","Native","Aurelius, actually near Breccia, Italy","","AURc1-15","AUR15","F0","MP-AUR15-F0","5/17/16","4/9/16",38,45.54358,10.15363
+"NAR","W0020",1,594,"Field","Mpol","Native","Narbonne, France","c1","","NARc1-04","F0","MP-NARc1-04-F0","6/6/16","4/9/16",58,43.15515,3.070667
+"CAR","W0021",1,604,"Field","Mpol","Native","Carcassonne, France","","","CAR09","F0","MP-CAR09-F0","6/20/16","4/9/16",72,43.204557,2.37969
+"MLR","W0022",1,368,"MSU","Mpol","Invaded","Napa, CA, USA","","","MLR08","F1","MP-MLR08-F1","6/1/16","4/9/16",53,38.873952,-122.42384
+"ARC","W0023",1,109,"MSU","Mpol","Invaded","Arcata, CA, USA","","","ARC12","F1","MP-ARC12-F1","6/17/16","4/9/16",69,40.87011,-124.11282
+"CRG","W0024",1,188,"MSU","Mpol","Native","Seville, Spain","","","CRG08","F1","MP-CRG08-F1","6/6/16","4/9/16",58,37.429805,-6.21776
+"CDC","W0025",1,619,"Field","Mpol","Native","Arles, France","c1","","CDCc1-05","F0","MP-CDCc1-05-F0",NA,"4/9/16",NA,43.618907,4.813317
+"MMG","W0026",1,930,"Field","Mpol","Native","Montemolina Garden, Italy","c2","","MMGc2-09","F0","MP-MMGc2-09-F0",NA,"4/9/16",NA,42.63074,8.14856
+"","W0027",1,468,"USDA","Mpol","","Morocco","","","W65475","","MP-W65475","5/18/16","4/9/16",39,42.643558,11.850325
+"DCR","W0028",1,253,"MSU","Mpol","Invaded","Vista, CA, USA","","","DCR08","F1","MP-DCR08-F1","6/1/16","4/9/16",53,33.184978,-117.310682
+"RTM","W0029",1,90,"MSU","Mpol","Native","Rio Tia Mayor, Spain","","","RTM12","F1","MP-RTM12-F1","6/2/16","4/9/16",54,NA,NA
+"MML","W0030",1,896,"Field","Mpol","Native","Montemolina, Italy","c1","","MMLc1-09","F0","MP-MMLc1-09-F0",NA,"4/9/16",NA,42.828173,12.37152
+"MIR","W0031",1,821,"Field","Mpol","Native","Mirabilandia, Italy","c1","","MIRc1-08","F0","MP-MIRc1-08-F0",NA,"4/9/16",NA,44.33056,12.295502
+"AZN","W0032",1,216,"MSU","Mpol","Native","Aznalcollar, Seville, Spain","","","AZN08","F1","MP-AZN08-F1","5/31/16","4/9/16",52,37.531929,-6.286561
+"","W0033",1,479,"USDA","Mpol","","Granada, Spain","","","PI543037","","MP-PI543037","6/6/16","4/9/16",58,42.643558,11.850325
+"LIS","W0034",1,240,"MSU","Mpol","Native","Lisbon, Portugal","","","LIS08","F1","MP-LIS08-F1","6/10/16","4/9/16",62,38.818216,-9.142902
+"EMO","W0035",1,144,"MSU","Mpol","Invaded","Temecula, CA, USA","","","EMO08","F1","MP-EMO08-F1","6/8/16","4/9/16",60,33.501351,-117.192456
+"HIG","W0036",1,671,"Field","Mpol","Native","San Sebastian, Spain","","","HIG20-03","F0","MP-HIG20-03-F0","7/15/16","4/9/16",97,43.39133,1.792166
+"BOL","W0037",1,914,"Field","Mpol","Native","Bolsera 1, Italy","","","BOL09","F0","MP-BOL09-F0",NA,"4/9/16",NA,NA,NA
+"","W0038",1,456,"USDA","Mpol","","Spain","","","PI319034","","MP-PI319034","5/17/16","4/9/16",38,42.643558,11.850325
+"MUS","W0039",1,603,"Field","Mpol","Native","Frontignan, France","s1","MUS1-06","MUSs1-06","F0","MP-MUSs1-06-F0","7/18/16","4/9/16",100,43.476116,3.762642
+"PEA","W0040",1,611,"Field","Mpol","Invaded","Casa Grande, AZ, USA","","PEA15-02","PEA15","F0","MP-PEA15-F0",NA,"4/9/16",NA,32.878033,-111.748964
+"FUR","W0041",1,949,"Field","Mpol","Native","Furbara road, Italy","c1","","FURc1-08","F0","MP-FURc1-08-F0","7/5/16","4/9/16",87,NA,NA
+"SAN","W0042",1,733,"Field","Mpol","Native","Santona, Spain","","","SAN12-02","F0","MP-SAN12-02-F0","7/25/16","4/9/16",107,43.45713,4.353194
+"MIR","W0043",2,829,"Field","Mpol","Native","Mirabilandia, Italy","c1","","MIRc1-16","F0","MP-MIRc1-16-F0","7/29/16","4/9/16",111,44.33056,12.295502
+"MLR","W0044",2,208,"MSU","Mpol","Invaded","Napa, CA, USA","","","MLR16","F1","MP-MLR16-F1","6/2/16","4/9/16",54,38.873952,-122.42384
+"DEB","W0045",2,163,"MSU","Mpol","Native","Deba, Gipuzkoa, Spain","","","DEB18","F1","MP-DEB18-F1","6/6/16","4/9/16",58,43.301433,2.344602
+"MUS","W0046",2,707,"Field","Mpol","Native","Frontignan, France","s1","MUS1-11","MUSs1-11","F0","MP-MUSs1-11-F0","6/13/16","4/9/16",65,43.476116,3.762642
+"LDS","W0047",2,433,"MSU","Mpol","Native","Lac du Sagou, France","c3","","LDSc3-01","F1","MP-LDSc3-01-F1","6/13/16","4/9/16",65,43.67624,3.352244
+"EMO","W0048",2,32,"MSU","Mpol","Invaded","Temecula, CA, USA","","","EMO15","F1","MP-EMO15-F1","5/31/16","4/9/16",52,33.501351,-117.192456
+"CAM","W0049",2,127,"MSU","Mpol","Native","Castro Marim, Portugal","","","CAM16","F1","MP-CAM16-F1","5/31/16","4/9/16",52,37.21854,-7.4492062
+"DCR","W0050",2,196,"MSU","Mpol","Invaded","Vista, CA, USA","","","DCR15","F1","MP-DCR15-F1","5/23/16","4/9/16",44,33.184978,-117.310682
+"HIG","W0051",2,427,"MSU","Mpol","Native","San Sebastian, Spain","","","HIG27-03","F1","MP-HIG27-03-F1","7/25/16","4/9/16",107,43.39133,1.792166
+"MML","W0052",2,903,"Field","Mpol","Native","Montemolina, Italy","c1","","MMLc1-16","F0","MP-MMLc1-16-F0",NA,"4/9/16",NA,42.828173,12.37152
+"SCA","W0053",2,886,"Field","Mpol","Native","San Carlo, Italy","c2","","SCAc2-18","F0","MP-SCAc2-18-F0","6/20/16","4/9/16",72,44.086395,12.187785
+"LIS","W0054",2,75,"MSU","Mpol","Native","Lisbon, Portugal","","","LIS14","F1","MP-LIS14-F1","6/15/16","4/9/16",67,38.818216,-9.142902
+"BOL","W0055",2,922,"Field","Mpol","Native","Bolsera 1, Italy","","","BOL17","F0","MP-BOL17-F0",NA,"4/9/16",NA,NA,NA
+"MMG","W0056",2,558,"Field","Mpol","Native","Montemolina Garden, Italy","c2","","MMGc2-16","F0","MP-MMGc2-16-F0",NA,"4/9/16",NA,42.63074,8.14856
+"MEL","W0057",2,286,"MSU","Mpol","Invaded","Roseburg, OR, USA","","","MEL23","F1","MP-MEL23-F1","5/25/16","4/9/16",46,43.221144,-123.406702
+"HUE","W0058",2,300,"MSU","Mpol","Native","Huelva, Spain","","","HUE15","F1","MP-HUE15-F1","5/20/16","4/9/16",41,37.265483,-6.854716
+"BHI","W0059",2,438,"MSU","Mpol","Invaded","Berkeley, CA, USA","","","BHI33-15","F1","MP-BHI33-15-F1","6/2/16","4/9/16",54,37.875926,-122.350833
+"CRG","W0060",2,140,"MSU","Mpol","Native","Seville, Spain","","","CRG15","F1","MP-CRG15-F1","5/31/16","4/9/16",52,37.429805,-6.21776
+"RHA","W0061",2,847,"Field","Mpol","Native","Rome Harbor parking lot, Italy","","RHAc1-16","RHA16","F0","MP-RHA16-F0","7/7/16","4/9/16",89,NA,NA
+"NAR","W0062",2,715,"Field","Mpol","Native","Narbonne, France","c1","","NARc1-10","F0","MP-NARc1-10-F0","6/6/16","4/9/16",58,43.15515,3.070667
+"SAN","W0063",2,739,"Field","Mpol","Native","Santona, Spain","","","SAN19-01","F0","MP-SAN19-01-F0",NA,"4/9/16",NA,43.45713,4.353194
+"","W0064",2,492,"USDA","Mpol","","Uzbeckistan","","","W68297","","MP-W68297","5/25/16","4/9/16",46,42.643558,11.850325
+"HIG","W0065",2,443,"MSU","Mpol","Native","San Sebastian, Spain","","","HIG06-04","F1","MP-HIG06-04-F1",NA,"4/9/16",NA,43.39133,1.792166
+"AZN","W0066",2,355,"MSU","Mpol","Native","Aznalcollar, Seville, Spain","","","AZN15","F1","MP-AZN15-F1","6/1/16","4/9/16",53,37.531929,-6.286561
+"FUS","W0067",2,155,"MSU","Mpol","Native","Fuseta, Portugal","E","","FUSE1","F1","MP-FUSE1-F1","5/31/16","4/9/16",52,NA,NA
+"ALT","W0068",2,298,"MSU","Mpol","Native","Alter, Portugal","","","ALT15","F1","MP-ALT15-F1","5/31/16","4/9/16",52,37.168255,-8.090313
+"CVD","W0069",2,257,"MSU","Mpol","Native","Castro Verde, Portugal","","","CVD16","F1","MP-CVD16-F1","5/31/16","4/9/16",52,37.708491,-8.099286
+"PEA","W0070",2,610,"Field","Mpol","Invaded","Casa Grande, AZ, USA","","","PEA23","F0","MP-PEA23-F0","6/2/16","4/9/16",54,32.878033,-111.748964
+"ARC","W0071",2,50,"MSU","Mpol","Invaded","Arcata, CA, USA","","","ARC22","F1","MP-ARC22-F1","5/31/16","4/9/16",52,40.87011,-124.11282
+"","W0072",2,500,"USDA","Mpol","","Chile","","","PI368943","","MP-PI368943","5/20/16","4/9/16",41,42.643558,11.850325
+"SDS","W0073",2,74,"MSU","Mpol","Invaded","San Diego, California, USA","","","SDS2-05","F1","MP-SDS2-05-F1","5/31/16","4/9/16",52,32.775721,-117.074083
+"CDC","W0074",2,624,"Field","Mpol","Native","Arles, France","c1","","CDCc1-09","F0","MP-CDCc1-09-F0","7/7/16","4/9/16",89,43.618907,4.813317
+"","W0075",2,476,"USDA","Mpol","","Spain","","","PI577425","","MP-PI577425","5/17/16","4/9/16",38,42.643558,11.850325
+"ARC","W0076",3,409,"MSU","Mpol","Invaded","Arcata, CA, USA","","","ARC29","F1","MP-ARC29-F1","6/10/16","4/9/16",62,40.87011,-124.11282
+"DEB","W0077",3,258,"MSU","Mpol","Native","Deba, Gipuzkoa, Spain","","","DEB30","F1","MP-DEB30-F1","6/27/16","4/9/16",79,43.301433,2.344602
+"","W0078",3,504,"USDA","Mpol","","Uruguay","","","PI404795","","MP-PI404795","6/6/16","4/9/16",58,42.643558,11.850325
+"LDS","W0079",3,696,"Field","Mpol","Native","Lac du Sagou, France","c3","","LDSc3-11","F0","MP-LDSc3-11-F0","6/8/16","4/9/16",60,43.67624,3.352244
+"NAR","W0080",3,412,"MSU","Mpol","Native","Narbonne, France","c3","","NARc3-04","F1","MP-NARc3-04-F1","6/17/16","4/9/16",69,43.15515,3.070667
+"","W0081",3,466,"USDA","Mpol","","Lebanon","","","W65316","","MP-W65316","5/17/16","4/9/16",38,42.643558,11.850325
+"SAN","W0082",3,745,"Field","Mpol","Native","Santona, Spain","","","SAN28-02","F0","MP-SAN28-02-F0","7/27/16","4/9/16",109,43.45713,4.353194
+"MUS","W0083",3,205,"MSU","Mpol","Native","Frontignan, France","s2","MUS2-04","MUSs2-04","F1","MP-MUSs2-04-F1","6/8/16","4/9/16",60,43.476116,3.762642
+"CDC","W0084",3,445,"MSU","Mpol","Native","Arles, France","c2","","CDCc2-06-01","F1","MP-CDCc2-06-01-F1","7/11/16","4/9/16",93,43.618907,4.813317
+"HIG","W0085",3,689,"Field","Mpol","Native","San Sebastian, Spain","","","HIG12-03","F0","MP-HIG12-03-F0","7/27/16","4/9/16",109,43.39133,1.792166
+"DCR","W0086",4,186,"MSU","Mpol","Invaded","Vista, CA, USA","","","DCR17","F1","MP-DCR17-F1","5/31/16","4/9/16",52,33.184978,-117.310682
+"CRG","W0087",4,94,"MSU","Mpol","Native","Seville, Spain","","","CRG17","F1","MP-CRG17-F1","6/6/16","4/9/16",58,37.429805,-6.21776
+"CAM","W0088",4,164,"MSU","Mpol","Native","Castro Marim, Portugal","","","CAM18","F1","MP-CAM18-F1","5/24/16","4/9/16",45,37.21854,-7.4492062
+"AZN","W0089",4,170,"MSU","Mpol","Native","Aznalcollar, Seville, Spain","","","AZN17","F1","MP-AZN17-F1","6/1/16","4/9/16",53,37.531929,-6.286561
+"","W0090",4,482,"USDA","Mpol","","Iraq","","","PI577440","","MP-PI577440","5/18/16","4/9/16",39,42.643558,11.850325
+"HUE","W0091",4,692,"Field","Mpol","Native","Huelva, Spain","","","HUE17","F0","MP-HUE17-F0","5/31/16","4/9/16",52,37.265483,-6.854716
+"RHA","W0092",4,849,"Field","Mpol","Native","Rome Harbor parking lot, Italy","","RHAc1-18","RHA18","F0","MP-RHA18-F0",NA,"4/9/16",NA,NA,NA
+"MEL","W0093",4,224,"MSU","Mpol","Invaded","Roseburg, OR, USA","","","MEL25","F1","MP-MEL25-F1","5/26/16","4/9/16",47,43.221144,-123.406702
+"MLR","W0094",4,72,"MSU","Mpol","Invaded","Napa, CA, USA","","","MLR18","F1","MP-MLR18-F1","6/6/16","4/9/16",58,38.873952,-122.42384
+"","W0095",4,495,"USDA","Mpol","","Chile 1","","","PI368947","","MP-PI368947","5/18/16","4/9/16",39,42.643558,11.850325
+"MMG","W0096",4,928,"Field","Mpol","Native","Montemolina Garden, Italy","c2","","MMGc2-18","F0","MP-MMGc2-18-F0","7/5/16","4/9/16",87,42.63074,8.14856
+"EMO","W0097",4,156,"MSU","Mpol","Invaded","Temecula, CA, USA","","","EMO17","F1","MP-EMO17-F1","5/25/16","4/9/16",46,33.501351,-117.192456
+"LDS","W0098",4,421,"MSU","Mpol","Native","Lac du Sagou, France","c3","","LDSc3-02-02","F1","MP-LDSc3-02-02-F1","6/27/16","4/9/16",79,43.67624,3.352244
+"HIG","W0099",4,678,"Field","Mpol","Native","San Sebastian, Spain","","HIG29","HIG29-01","F0","MP-HIG29-01-F0","7/11/16","4/9/16",93,43.39133,1.792166
+"DEB","W0100",4,176,"MSU","Mpol","Native","Deba, Gipuzkoa, Spain","","","DEB23","F1","MP-DEB23-F1","6/13/16","4/9/16",65,43.301433,2.344602
+"HIG","W0101",4,682,"Field","Mpol","Native","San Sebastian, Spain","","","HIG09-02","F0","MP-HIG09-02-F0","7/13/16","4/9/16",95,43.39133,1.792166
+"CVD","W0102",4,45,"MSU","Mpol","Native","Castro Verde, Portugal","","","CVD18","F1","MP-CVD18-F1","6/6/16","4/9/16",58,37.708491,-8.099286
+"SAN","W0103",4,741,"Field","Mpol","Native","Santona, Spain","","","SAN20-01","F0","MP-SAN20-01-F0","7/22/16","4/9/16",104,43.45713,4.353194
+"BHI","W0104",4,183,"MSU","Mpol","Invaded","Berkeley, CA, USA","","","BHI33-17","F1","MP-BHI33-17-F1","6/1/16","4/9/16",53,37.875926,-122.350833
+"ARC","W0105",4,151,"MSU","Mpol","Invaded","Arcata, CA, USA","","","ARC24","F1","MP-ARC24-F1","6/8/16","4/9/16",60,40.87011,-124.11282
+"NAR","W0106",4,717,"Field","Mpol","Native","Narbonne, France","c1","","NARc1-12","F0","MP-NARc1-12-F0","6/6/16","4/9/16",58,43.15515,3.070667
+"LIS","W0107",4,324,"MSU","Mpol","Native","Lisbon, Portugal","","","LIS16","F1","MP-LIS16-F1","6/6/16","4/9/16",58,38.818216,-9.142902
+"SDS","W0108",4,202,"MSU","Mpol","Invaded","San Diego, California, USA","","","SDS2-07","F1","MP-SDS2-07-F1","6/1/16","4/9/16",53,32.775721,-117.074083
+"PEA","W0109",4,322,"MSU","Mpol","Invaded","Casa Grande, AZ, USA","","","PEA26","F1","MP-PEA26-F1","5/31/16","4/9/16",52,32.878033,-111.748964
+"FUS","W0110",4,212,"MSU","Mpol","Native","Fuseta, Portugal","E","","FUSE3","F1","MP-FUSE3-F1","5/31/16","4/9/16",52,NA,NA
+"MUS","W0111",4,709,"Field","Mpol","Native","Frontignan, France","s1","MUS1-13","MUSs1-13","F0","MP-MUSs1-13-F0","6/13/16","4/9/16",65,43.476116,3.762642
+"CDC","W0112",4,634,"Field","Mpol","Native","Arles, France","c1","","CDCc1-11","F0","MP-CDCc1-11-F0","7/20/16","4/9/16",102,43.618907,4.813317
+"SAN","W0113",5,750,"Field","Mpol","Native","Santona, Spain","","","SAN31-02","F0","MP-SAN31-02-F0","7/27/16","4/9/16",109,43.45713,4.353194
+"","W0114",5,487,"USDA","Mpol","","Corsica, France","","","W65327","","MP-W65327","5/23/16","4/9/16",44,42.643558,11.850325
+"MUS","W0115",5,181,"MSU","Mpol","Native","Frontignan, France","s2","MUS2-09","MUSs2-09","F1","MP-MUSs2-09-F1","6/8/16","4/9/16",60,43.476116,3.762642
+"NAR","W0116",5,123,"MSU","Mpol","Native","Narbonne, France","c3","","NARc3-08","F1","MP-NARc3-08-F1","6/20/16","4/9/16",72,43.15515,3.070667
+"HIG","W0117",5,663,"Field","Mpol","Native","San Sebastian, Spain","","","HIG16-01","F0","MP-HIG16-01-F0","7/11/16","4/9/16",93,43.39133,1.792166
+"CDC","W0118",5,635,"Field","Mpol","Native","Arles, France","c2","","CDCc2-13","F0","MP-CDCc2-13-F0","7/11/16","4/9/16",93,43.618907,4.813317
+"","W0119",5,508,"USDA","Mpol","","Bolivia","","","PI478440","","MP-PI478440","5/23/16","4/9/16",44,42.643558,11.850325
+"MUS","W0120",6,335,"MSU","Mpol","Native","Frontignan, France","s2","MUS2-01","MUSs2-01","F1","MP-MUSs2-01-F1","6/10/16","4/9/16",62,43.476116,3.762642
+"DEB","W0121",6,647,"Field","Mpol","Native","Deba, Gipuzkoa, Spain","","","DEB28-02","F0","MP-DEB28-04-F0","6/22/16","4/9/16",74,43.301433,2.344602
+"LIS","W0122",6,590,"Field","Mpol","Native","Lisbon, Portugal","","","LIS20","F0","MP-LIS20-F0","6/6/16","4/9/16",58,38.818216,-9.142902
+"HIG","W0123",6,686,"Field","Mpol","Native","San Sebastian, Spain","","","HIG11-02","F0","MP-HIG11-02-F0","7/11/16","4/9/16",93,43.39133,1.792166
+"NAR","W0124",6,272,"MSU","Mpol","Native","Narbonne, France","c3","","NARc3-02","F1","MP-NARc3-02-F1","6/8/16","4/9/16",60,43.15515,3.070667
+"MEL","W0125",6,704,"Field","Mpol","Invaded","Roseburg, OR, USA","","","MEL29","F0","MP-MEL29-F0","6/29/16","4/9/16",81,43.221144,-123.406702
+"BHI","W0126",6,631,"Field","Mpol","Invaded","Berkeley, CA, USA","","","BHI33-21","F0","MP-BHI33-21-F0","6/2/16","4/9/16",54,37.875926,-122.350833
+"LDS","W0127",6,320,"MSU","Mpol","Native","Lac du Sagou, France","c3","","LDSc3-07","F1","MP-LDSc3-07-F1","6/27/16","4/9/16",79,43.67624,3.352244
+"SAN","W0128",6,431,"MSU","Mpol","Native","Santona, Spain","","","SAN20-05","F1","MP-SAN20-05-F1","6/27/16","4/9/16",79,43.45713,4.353194
+"PEA","W0129",6,235,"MSU","Mpol","Invaded","Casa Grande, AZ, USA","","","PEA36","F1","MP-PEA36-F1","5/23/16","4/9/16",44,32.878033,-111.748964
+"ARC","W0130",6,263,"MSU","Mpol","Invaded","Arcata, CA, USA","","","ARC26","F1","MP-ARC26-F1","6/6/16","4/9/16",58,40.87011,-124.11282
+"","W0131",6,472,"USDA","Mpol","","Sardinia, Italy","","","W65257","","MP-W65257","5/25/16","4/9/16",46,42.643558,11.850325
+"CDC","W0132",6,587,"Field","Mpol","Native","Arles, France","c2","","CDCc2-04","F0","MP-CDCc2-04-F0",NA,"4/9/16",NA,43.618907,4.813317
+"","W0133",6,496,"USDA","Mpol","","Chile 4","","","PI368958","","MP-PI368958","5/23/16","4/9/16",44,42.643558,11.850325
+"NAR","W0134",7,377,"MSU","Mpol","Native","Narbonne, France","c2","","NARc2-01","F1","MP-NARc2-01-F1","6/10/16","4/9/16",62,43.15515,3.070667
+"HUE","W0135",7,694,"Field","Mpol","Native","Huelva, Spain","","","HUE19","F0","MP-HUE19-F0","5/31/16","4/9/16",52,37.265483,-6.854716
+"EMO","W0136",7,146,"MSU","Mpol","Invaded","Temecula, CA, USA","","","EMO19","F1","MP-EMO19-F1","5/25/16","4/9/16",46,33.501351,-117.192456
+"FUS","W0137",7,173,"MSU","Mpol","Native","Fuseta, Portugal","F","","FUSF5","F1","MP-FUSF5-F1","6/29/16","4/9/16",81,NA,NA
+"LDS","W0138",7,12,"MSU","Mpol","Native","Lac du Sagou, France","c3","","LDSc3-04","F1","MP-LDSc3-04-F1","6/24/16","4/9/16",76,43.67624,3.352244
+"CDC","W0139",7,14,"MSU","Mpol","Native","Arles, France","c2","","CDCc2-02","F1","MP-CDCc2-02-F1","6/27/16","4/9/16",79,43.618907,4.813317
+"HIG","W0140",7,684,"Field","Mpol","Native","San Sebastian, Spain","","","HIG10-02","F0","MP-HIG10-02-F0","6/29/16","4/9/16",81,43.39133,1.792166
+"MEL","W0141",7,702,"Field","Mpol","Invaded","Roseburg, OR, USA","","","MEL27","F0","MP-MEL27-F0","6/17/16","4/9/16",69,43.221144,-123.406702
+"CAM","W0142",7,207,"MSU","Mpol","Native","Castro Marim, Portugal","","","CAM20","F1","MP-CAM20-F1","6/1/16","4/9/16",53,37.21854,-7.4492062
+"","W0143",7,517,"USDA","Mpol","","Chile 3","","","PI368951","","MP-PI368951","5/26/16","4/9/16",47,42.643558,11.850325
+"AZN","W0144",7,369,"MSU","Mpol","Native","Aznalcollar, Seville, Spain","","","AZN19","F1","MP-AZN19-F1","6/6/16","4/9/16",58,37.531929,-6.286561
+"SAN","W0145",7,743,"Field","Mpol","Native","Santona, Spain","","","SAN20-03","F0","MP-SAN20-03-F0",NA,"4/9/16",NA,43.45713,4.353194
+"ARC","W0146",7,628,"Field","Mpol","Invaded","Arcata, CA, USA","","","ARC25-01","F0","MP-ARC25-01-F0","6/8/16","4/9/16",60,40.87011,-124.11282
+"CVD","W0147",7,353,"MSU","Mpol","Native","Castro Verde, Portugal","","","CVD20","F1","MP-CVD20-F1","5/31/16","4/9/16",52,37.708491,-8.099286
+"","W0148",7,460,"USDA","Mpol","","Lebanon","","","W64614","","MP-W64614","6/22/16","4/9/16",74,42.643558,11.850325
+"CRG","W0149",7,40,"MSU","Mpol","Native","Seville, Spain","","","CRG20","F1","MP-CRG20-F1","6/8/16","4/9/16",60,37.429805,-6.21776
+"PEA","W0150",7,269,"MSU","Mpol","Invaded","Casa Grande, AZ, USA","","","PEA33","F1","MP-PEA33-F1","5/20/16","4/9/16",41,32.878033,-111.748964
+"SDS","W0151",7,321,"MSU","Mpol","Invaded","San Diego, California, USA","","","SDS2-09","F1","MP-SDS2-09-F1","6/1/16","4/9/16",53,32.775721,-117.074083
+"DEB","W0152",7,71,"MSU","Mpol","Native","Deba, Gipuzkoa, Spain","","","DEB27","F1","MP-DEB27-F1","6/13/16","4/9/16",65,43.301433,2.344602
+"DCR","W0153",7,247,"MSU","Mpol","Invaded","Vista, CA, USA","","","DCR19","F1","MP-DCR19-F1","6/1/16","4/9/16",53,33.184978,-117.310682
+"LIS","W0154",7,351,"MSU","Mpol","Native","Lisbon, Portugal","","","LIS18","F1","MP-LIS18-F1","6/6/16","4/9/16",58,38.818216,-9.142902
+"MLR","W0155",7,357,"MSU","Mpol","Invaded","Napa, CA, USA","","","MLR20","F1","MP-MLR20-F1","6/1/16","4/9/16",53,38.873952,-122.42384
+"BHI","W0156",7,107,"MSU","Mpol","Invaded","Berkeley, CA, USA","","","BHI33-19","F1","MP-BHI33-19-F1","6/6/16","4/9/16",58,37.875926,-122.350833
+"MUS","W0157",7,711,"Field","Mpol","Native","Frontignan, France","s1","MUS1-15","MUSs1-15","F0","MP-MUSs1-15-F0","6/10/16","4/9/16",62,43.476116,3.762642
+"SAN","W0158",8,744,"Field","Mpol","Native","Santona, Spain","","","SAN28-01","F0","MP-SAN28-01-F0","7/7/16","4/9/16",89,43.45713,4.353194
+"MEL","W0159",8,706,"Field","Mpol","Invaded","Roseburg, OR, USA","","","MEL31","F0","MP-MEL31-F0","6/27/16","4/9/16",79,43.221144,-123.406702
+"","W0160",8,449,"USDA","Mpol","","Brazil","","","PI404356","","MP-PI404356","5/31/16","4/9/16",52,42.643558,11.850325
+"LDS","W0161",8,695,"Field","Mpol","Native","Lac du Sagou, France","c3","","LDSc3-10","F0","MP-LDSc3-10-F0","6/8/16","4/9/16",60,43.67624,3.352244
+"DEB","W0162",8,439,"MSU","Mpol","Native","Deba, Gipuzkoa, Spain","","","DEB28-04","F1","MP-DEB28-02-F1","7/11/16","4/9/16",93,43.301433,2.344602
+"LIS","W0163",8,700,"Field","Mpol","Native","Lisbon, Portugal","","","LIS22","F0","MP-LIS22-F0","6/6/16","4/9/16",58,38.818216,-9.142902
+"","W0164",8,518,"USDA","Mpol","","Cyprus","","","W65298","","MP-W65298","5/20/16","4/9/16",41,42.643558,11.850325
+"CDC","W0165",8,13,"MSU","Mpol","Native","Arles, France","c2","","CDCc2-05","F1","MP-CDCc2-05-F1","7/5/16","4/9/16",87,43.618907,4.813317
+"HIG","W0166",8,688,"Field","Mpol","Native","San Sebastian, Spain","","","HIG12-02","F0","MP-HIG12-02-F0","7/15/16","4/9/16",97,43.39133,1.792166
+"ARC","W0167",8,194,"MSU","Mpol","Invaded","Arcata, CA, USA","","","ARC28","F1","MP-ARC28-F1","6/6/16","4/9/16",58,40.87011,-124.11282
+"NAR","W0168",8,418,"MSU","Mpol","Native","Narbonne, France","c3","","NARc3-03","F1","MP-NARc3-03-F1","6/20/16","4/9/16",72,43.15515,3.070667
+"MUS","W0169",8,385,"MSU","Mpol","Native","Frontignan, France","s2","MUS2-03","MUSs2-03","F1","MP-MUSs2-03-F1","6/8/16","4/9/16",60,43.476116,3.762642
+"MUS","W0170",9,712,"Field","Mpol","Native","Frontignan, France","s1","MUS1-16","MUSs1-16","F0","MP-MUSs1-16-F0",NA,"4/9/16",NA,43.476116,3.762642
+"PEA","W0171",9,97,"MSU","Mpol","Invaded","Casa Grande, AZ, USA","","","PEA34","F1","MP-PEA34-F1","5/31/16","4/9/16",52,32.878033,-111.748964
+"CDC","W0172",9,400,"MSU","Mpol","Native","Arles, France","c2","","CDCc2-03","F1","MP-CDCc2-03-F1","8/3/16","4/9/16",116,43.618907,4.813317
+"MEL","W0173",9,703,"Field","Mpol","Invaded","Roseburg, OR, USA","","","MEL28","F0","MP-MEL28-F0",NA,"4/9/16",NA,43.221144,-123.406702
+"DCR","W0174",9,330,"MSU","Mpol","Invaded","Vista, CA, USA","","","DCR20","F1","MP-DCR20-F1","5/27/16","4/9/16",48,33.184978,-117.310682
+"AZN","W0175",9,200,"MSU","Mpol","Native","Aznalcollar, Seville, Spain","","","AZN20","F1","MP-AZN20-F1","5/31/16","4/9/16",52,37.531929,-6.286561
+"BHI","W0176",9,15,"MSU","Mpol","Invaded","Berkeley, CA, USA","","","BHI33-20","F1","MP-BHI33-20-F1","6/1/16","4/9/16",53,37.875926,-122.350833
+"LIS","W0177",9,366,"MSU","Mpol","Native","Lisbon, Portugal","","","LIS19","F1","MP-LIS19-F1","6/6/16","4/9/16",58,38.818216,-9.142902
+"HIG","W0178",9,685,"Field","Mpol","Native","San Sebastian, Spain","","","HIG11-01","F0","MP-HIG11-01-F0","7/18/16","4/9/16",100,43.39133,1.792166
+"LDS","W0179",9,3,"MSU","Mpol","Native","Lac du Sagou, France","c3","","LDSc3-06","F1","MP-LDSc3-06-F1","6/20/16","4/9/16",72,43.67624,3.352244
+"","W0180",9,491,"USDA","Mpol","","Italy","","","W65256","","MP-W65256","5/23/16","4/9/16",44,42.643558,11.850325
+"SAN","W0181",9,429,"MSU","Mpol","Native","Santona, Spain","","","SAN20-04","F1","MP-SAN20-04-F1","7/20/16","4/9/16",102,43.45713,4.353194
+"EMO","W0182",9,24,"MSU","Mpol","Invaded","Temecula, CA, USA","","","EMO20","F1","MP-EMO20-F1","5/31/16","4/9/16",52,33.501351,-117.192456
+"CRG","W0183",9,55,"MSU","Mpol","Native","Seville, Spain","","","CRG21","F1","MP-CRG21-F1","5/26/16","4/9/16",47,37.429805,-6.21776
+"","W0184",9,502,"USDA","Mpol","","Chile  ","","","PI368956","","MP-PI368956","5/18/16","4/9/16",39,42.643558,11.850325
+"MLR","W0185",9,304,"MSU","Mpol","Invaded","Napa, CA, USA","","","MLR21","F1","MP-MLR21-F1","6/2/16","4/9/16",54,38.873952,-122.42384
+"SDS","W0186",9,206,"MSU","Mpol","Invaded","San Diego, California, USA","","","SDS2-10","F1","MP-SDS2-10-F1","6/6/16","4/9/16",58,32.775721,-117.074083
+"NAR","W0187",9,191,"MSU","Mpol","Native","Narbonne, France","c3","","NARc3-01","F1","MP-NARc3-01-F1","6/10/16","4/9/16",62,43.15515,3.070667
+"ARC","W0188",9,629,"Field","Mpol","Invaded","Arcata, CA, USA","","","ARC25-02","F0","MP-ARC25-02-F0","6/13/16","4/9/16",65,40.87011,-124.11282
+"DEB","W0189",9,646,"Field","Mpol","Native","Deba, Gipuzkoa, Spain","","","DEB28-01","F0","MP-DEB28-03-F0","7/18/16","4/9/16",100,43.301433,2.344602
+"COS","W0190",10,591,"Field","Mpol","Native","Huelva, Spain","","","COS01","F0","MP-COS01-F0","6/29/16","4/9/16",81,37.449665,-6.569143
+"ORB","W0191",10,851,"Field","Mpol","Native","Orbetella, Italy","","ORBc1-02","ORB02","F0","MP-ORB02-F0","6/15/16","4/9/16",67,42.44123,11.20262
+"MAG","W0192",10,787,"Grusak GH","Mpol","Invaded","Half Moon Bay, CA, USA","","","MAG69","F1?","MP-MAG69-F1","6/6/16","4/9/16",58,NA,NA
+"MMG","W0193",10,947,"Field","Mpol","Native","Montemolina Garden, Italy","c2","","MMGc2-02","F0","MP-MMGc2-02-F0","7/15/16","4/9/16",97,42.63074,8.14856
+"CRG","W0194",10,265,"MSU","Mpol","Native","Seville, Spain","","","CRG02","F1","MP-CRG02-F1","5/31/16","4/9/16",52,37.429805,-6.21776
+"MLR","W0195",10,116,"MSU","Mpol","Invaded","Napa, CA, USA","","","MLR02","F1","MP-MLR02-F1","6/8/16","4/9/16",60,38.873952,-122.42384
+"CDC","W0196",10,637,"Field","Mpol","Native","Arles, France","c2","","CDCc2-15","F0","MP-CDCc2-15-F0",NA,"4/9/16",NA,43.618907,4.813317
+"CAR","W0197",10,302,"MSU","Mpol","Native","Carcassonne, France","","","CAR04","F1","MP-CAR04-F1","6/27/16","4/9/16",79,43.204557,2.37969
+"MEL","W0198",10,106,"MSU","Mpol","Invaded","Roseburg, OR, USA","","","MEL02","F1","MP-MEL02-F1","6/2/16","4/9/16",54,43.221144,-123.406702
+"FUR","W0199",10,942,"Field","Mpol","Native","Furbara road, Italy","c1","","FURc1-01","F0","MP-FURc1-01-F0","6/13/16","4/9/16",65,NA,NA
+"CAM","W0200",10,241,"MSU","Mpol","Native","Castro Marim, Portugal","","","CAM02","F1","MP-CAM02-F1","5/23/16","4/9/16",44,37.21854,-7.4492062
+"DEB","W0201",10,641,"Field","Mpol","Native","Deba, Gipuzkoa, Spain","","","DEB03-01","F0","MP-DEB03-01-F0","7/20/16","4/9/16",102,43.301433,2.344602
+"STA","W0202",10,762,"FIU","Mpol","Invaded","Saint Augustine, FL, USA","","","STA01-02","F1","MP-STA01-02-F1","5/31/16","4/9/16",52,29.55354,-81193554
+"EMO","W0203",10,147,"MSU","Mpol","Invaded","Temecula, CA, USA","","","EMO02","F1","MP-EMO02-F1","5/26/16","4/9/16",47,33.501351,-117.192456
+"HUE","W0204",10,47,"MSU","Mpol","Native","Huelva, Spain","","","HUE02","F1","MP-HUE02-F1","5/31/16","4/9/16",52,37.265483,-6.854716
+"HIG","W0205",10,651,"Field","Mpol","Native","San Sebastian, Spain","","","HIG01-02","F0","MP-HIG01-02-F0","7/11/16","4/9/16",93,43.39133,1.792166
+"ALT","W0206",10,30,"MSU","Mpol","Native","Alter, Portugal","","","ALT02","F1","MP-ALT02-F1","5/31/16","4/9/16",52,37.168255,-8.090313
+"AUR","W0207",10,925,"Field","Mpol","Native","Aurelius, actually near Breccia, Italy","","AURc1-02","AUR02","F0","MP-AUR02-F0","5/31/16","4/9/16",52,45.54358,10.15363
+"HIG","W0208",10,665,"Field","Mpol","Native","San Sebastian, Spain","","","HIG17-01","F0","MP-HIG17-01-F0","7/22/16","4/9/16",104,43.39133,1.792166
+"ARC","W0209",10,393,"MSU","Mpol","Invaded","Arcata, CA, USA","","","ARC04","F1","MP-ARC04-F1","8/1/16","4/9/16",114,40.87011,-124.11282
+"MML","W0210",10,890,"Field","Mpol","Native","Montemolina, Italy","c1","","MMLc1-03","F0","MP-MMLc1-03-F0",NA,"4/9/16",NA,42.828173,12.37152
+"LIS","W0211",10,69,"MSU","Mpol","Native","Lisbon, Portugal","","","LIS02","F1","MP-LIS02-F1","6/10/16","4/9/16",62,38.818216,-9.142902
+"","W0212",10,503,"USDA","Mpol","","Bolivia","","","PI478467","","MP-PI478467","5/31/16","4/9/16",52,42.643558,11.850325
+"MUS","W0213",10,432,"MSU","Mpol","Native","Frontignan, France","s2","MUS2-10-02","MUSs2-10-02","F1","MP-MUSs2-10-02-F1","6/27/16","4/9/16",79,43.476116,3.762642
+"RHA","W0214",10,834,"Field","Mpol","Native","Rome Harbor parking lot, Italy","","RHAc1-03","RHA03","F0","MP-RHA03-F0",NA,"4/9/16",NA,NA,NA
+"BOL","W0215",10,907,"Field","Mpol","Native","Bolsera 1, Italy","","","BOL02","F0","MP-BOL02-F0",NA,"4/9/16",NA,NA,NA
+"SAN","W0216",10,751,"Field","Mpol","Native","Santona, Spain","","","SAN34-01","F0","MP-SAN34-01-F0","7/25/16","4/9/16",107,43.45713,4.353194
+"MIR","W0217",10,815,"Field","Mpol","Native","Mirabilandia, Italy","c1","","MIRc1-02","F0","MP-MIRc1-02-F0","6/22/16","4/9/16",74,44.33056,12.295502
+"RTM","W0218",10,131,"MSU","Mpol","Native","Rio Tia Mayor, Spain","","","RTM02","F1","MP-RTM02-F1","6/8/16","4/9/16",60,NA,NA
+"CDC","W0219",10,396,"MSU","Mpol","Native","Arles, France","c1","","CDCc1-02","F1","MP-CDCc1-02-F1","7/5/16","4/9/16",87,43.618907,4.813317
+"PEA","W0220",10,237,"MSU","Mpol","Invaded","Casa Grande, AZ, USA","","","PEA02","F1","MP-PEA02-F1","5/24/16","4/9/16",45,32.878033,-111.748964
+"LAT","W0221",10,793,"Field","Mpol","Native","Latera, Italy","","LATc1-02","LAT02","F0","MP-LAT02-F0",NA,"4/9/16",NA,42.62872,11.82045
+"RIV","W0222",10,37,"MSU","Mpol","Invaded","Hillsborough, FL, USA","","","RIV02","F1","MP-RIV02-F1","5/27/16","4/9/16",48,27.59369,-82.27948
+"NAR","W0223",10,719,"Field","Mpol","Native","Narbonne, France","c3","","NARc3-10","F0","MP-NARc3-10-F0","6/13/16","4/9/16",65,43.15515,3.070667
+"","W0224",10,516,"USDA","Mpol","","Iran","","","PI227025","","MP-PI227025","6/2/16","4/9/16",54,42.643558,11.850325
+"SDS","W0225",10,48,"MSU","Mpol","Invaded","San Diego, California, USA","","","SDS1-02","F1","MP-SDS1-02-F1","5/27/16","4/9/16",48,32.775721,-117.074083
+"SCA","W0226",10,870,"Field","Mpol","Native","San Carlo, Italy","c2","","SCAc2-02","F0","MP-SCAc2-02-F0","6/24/16","4/9/16",76,44.086395,12.187785
+"NAR","W0227",10,88,"MSU","Mpol","Native","Narbonne, France","c1","","NARc1-01","F1","MP-NARc1-01-F1","6/20/16","4/9/16",72,43.15515,3.070667
+"SAN","W0228",10,727,"Field","Mpol","Native","Santona, Spain","","","SAN09-01","F0","MP-SAN09-01-F0","7/25/16","4/9/16",107,43.45713,4.353194
+"FUS","W0229",10,367,"MSU","Mpol","Native","Fuseta, Portugal","A","","FUSA4","F1","MP-FUSA4-F1","6/13/16","4/9/16",65,NA,NA
+"","W0230",10,448,"USDA","Mpol","","Malta","","","W65375","","MP-W65375","5/17/16","4/9/16",38,42.643558,11.850325
+"AZN","W0231",10,221,"MSU","Mpol","Native","Aznalcollar, Seville, Spain","","","AZN02","F1","MP-AZN02-F1","6/2/16","4/9/16",54,37.531929,-6.286561
+"DCR","W0232",10,348,"MSU","Mpol","Invaded","Vista, CA, USA","","","DCR02","F1","MP-DCR02-F1","5/26/16","4/9/16",47,33.184978,-117.310682
+"CVD","W0233",10,82,"MSU","Mpol","Native","Castro Verde, Portugal","","","CVD02","F1","MP-CVD02-F1","5/31/16","4/9/16",52,37.708491,-8.099286
+"LDS","W0234",10,410,"MSU","Mpol","Native","Lac du Sagou, France","","","LDS01","F1","MP-LDS01-F1","6/22/16","4/9/16",74,43.67624,3.352244
+"MUS","W0235",10,602,"Field","Mpol","Native","Frontignan, France","s1","MUS1-01","MUSs1-01","F0","MP-MUSs1-01-F0","6/8/16","4/9/16",60,43.476116,3.762642
+"BHI","W0236",10,361,"MSU","Mpol","Invaded","Berkeley, CA, USA","","","BHI33-02","F1","MP-BHI33-02-F1","6/6/16","4/9/16",58,37.875926,-122.350833
+"PAL","W0237",10,112,"MSU","Mpol","Invaded","Palatka, FL, USA","","","PAL05","F1","MP-PAL05-F1","6/1/16","4/9/16",53,29.384424,-81.37429
+"ARC","W0238",11,87,"MSU","Mpol","Invaded","Arcata, CA, USA","","","ARC08","F1","MP-ARC08-F1","7/18/16","4/9/16",100,40.87011,-124.11282
+"SAN","W0239",11,731,"Field","Mpol","Native","Santona, Spain","","","SAN11-02","F0","MP-SAN11-02-F0",NA,"4/9/16",NA,43.45713,4.353194
+"CAR","W0240",11,392,"MSU","Mpol","Native","Carcassonne, France","","","CAR07","F1","MP-CAR07-F1","7/27/16","4/9/16",109,43.204557,2.37969
+"MEL","W0241",11,306,"MSU","Mpol","Invaded","Roseburg, OR, USA","","","MEL11","F1","MP-MEL11-F1","6/1/16","4/9/16",53,43.221144,-123.406702
+"CVD","W0242",11,215,"MSU","Mpol","Native","Castro Verde, Portugal","","","CVD07","F1","MP-CVD07-F1","6/6/16","4/9/16",58,37.708491,-8.099286
+"","W0243",11,488,"USDA","Mpol","","Peru","","","PI308523","","MP-PI308523","6/1/16","4/9/16",53,42.643558,11.850325
+"EMO","W0244",11,115,"MSU","Mpol","Invaded","Temecula, CA, USA","","","EMO06","F1","MP-EMO06-F1","5/31/16","4/9/16",52,33.501351,-117.192456
+"ALT","W0245",11,381,"MSU","Mpol","Native","Alter, Portugal","","","ALT06","F1","MP-ALT06-F1","5/31/16","4/9/16",52,37.168255,-8.090313
+"NAR","W0246",11,723,"Field","Mpol","Native","Narbonne, France","c3","","NARc3-14","F0","MP-NARc3-14-F0","6/15/16","4/9/16",67,43.15515,3.070667
+"HIG","W0247",11,655,"Field","Mpol","Native","San Sebastian, Spain","","","HIG03-01","F0","MP-HIG03-01-F0","7/2/16","4/9/16",84,43.39133,1.792166
+"RTM","W0248",11,248,"MSU","Mpol","Native","Rio Tia Mayor, Spain","","","RTM07","F1","MP-RTM07-F1","6/13/16","4/9/16",65,NA,NA
+"FUS","W0249",11,334,"MSU","Mpol","Native","Fuseta, Portugal","B","","FUSB5","F1","MP-FUSB5-F1","6/6/16","4/9/16",58,NA,NA
+"CAM","W0250",11,125,"MSU","Mpol","Native","Castro Marim, Portugal","","","CAM07","F1","MP-CAM07-F1","6/1/16","4/9/16",53,37.21854,-7.4492062
+"FUR","W0251",11,946,"Field","Mpol","Native","Furbara road, Italy","c1","","FURc1-05","F0","MP-FURc1-05-F0","6/13/16","4/9/16",65,NA,NA
+"MMG","W0252",11,936,"Field","Mpol","Native","Montemolina Garden, Italy","c2","","MMGc2-07","F0","MP-MMGc2-07-F0",NA,"4/9/16",NA,42.63074,8.14856
+"HUE","W0253",11,86,"MSU","Mpol","Native","Huelva, Spain","","","HUE06","F1","MP-HUE06-F1","6/2/16","4/9/16",54,37.265483,-6.854716
+"SCA","W0254",11,876,"Field","Mpol","Native","San Carlo, Italy","c2","","SCAc2-08","F0","MP-SCAc2-08-F0","7/7/16","4/9/16",89,44.086395,12.187785
+"NAR","W0255",11,595,"Field","Mpol","Native","Narbonne, France","c1","","NARc1-03","F0","MP-NARc1-03-F0","6/10/16","4/9/16",62,43.15515,3.070667
+"DEB","W0256",11,278,"MSU","Mpol","Native","Deba, Gipuzkoa, Spain","","","DEB07","F1","MP-DEB07-F1","6/8/16","4/9/16",60,43.301433,2.344602
+"MLR","W0257",11,149,"MSU","Mpol","Invaded","Napa, CA, USA","","","MLR06","F1","MP-MLR06-F1","6/6/16","4/9/16",58,38.873952,-122.42384
+"STA","W0258",11,120,"MSU","Mpol","Invaded","Saint Augustine, FL, USA","","","STA05","F2","MP-STA05-F2","6/2/16","4/9/16",54,29.55354,-81193554
+"ORB","W0259",11,858,"Field","Mpol","Native","Orbetella, Italy","","ORBc1-09","ORB09","F0","MP-ORB09-F0","6/10/16","4/9/16",62,42.44123,11.20262
+"LIS","W0260",11,138,"MSU","Mpol","Native","Lisbon, Portugal","","","LIS06","F1","MP-LIS06-F1","6/10/16","4/9/16",62,38.818216,-9.142902
+"MIR","W0261",11,819,"Field","Mpol","Native","Mirabilandia, Italy","c1","","MIRc1-06","F0","MP-MIRc1-06-F0","6/29/16","4/9/16",81,44.33056,12.295502
+"LAT","W0262",11,797,"Field","Mpol","Native","Latera, Italy","","LATc1-06","LAT06","F0","MP-LAT06-F0","7/11/16","4/9/16",93,42.62872,11.82045
+"MUS","W0263",11,110,"MSU","Mpol","Native","Frontignan, France","s1","MUS1-05","MUSs1-05","F1","MP-MUSs1-05-F1","6/2/16","4/9/16",54,43.476116,3.762642
+"","W0264",11,494,"USDA","Mpol","","Portugal","","","PI493293","","MP-PI493293","5/31/16","4/9/16",52,42.643558,11.850325
+"AZN","W0265",11,16,"MSU","Mpol","Native","Aznalcollar, Seville, Spain","","","AZN06","F1","MP-AZN06-F1","6/2/16","4/9/16",54,37.531929,-6.286561
+"BHI","W0266",11,440,"MSU","Mpol","Invaded","Berkeley, CA, USA","","","BHI33-06","F1","MP-BHI33-06-F1","6/2/16","4/9/16",54,37.875926,-122.350833
+"COS","W0267",11,586,"Field","Mpol","Native","Huelva, Spain","","","COS06","F0","MP-COS06-F0",NA,"4/9/16",NA,37.449665,-6.569143
+"MML","W0268",11,894,"Field","Mpol","Native","Montemolina, Italy","c1","","MMLc1-07","F0","MP-MMLc1-07-F0","8/1/16","4/9/16",114,42.828173,12.37152
+"","W0269",11,513,"USDA","Mpol","","Algeria","","","W65435","","MP-W65435","5/31/16","4/9/16",52,42.643558,11.850325
+"PEA","W0270",11,303,"MSU","Mpol","Invaded","Casa Grande, AZ, USA","","","PEA13","F1","MP-PEA13-F1","5/31/16","4/9/16",52,32.878033,-111.748964
+"HIG","W0271",11,669,"Field","Mpol","Native","San Sebastian, Spain","","","HIG20-01","F0","MP-HIG20-01-F0","7/15/16","4/9/16",97,43.39133,1.792166
+"DCR","W0272",11,336,"MSU","Mpol","Invaded","Vista, CA, USA","","","DCR06","F1","MP-DCR06-F1","5/31/16","4/9/16",52,33.184978,-117.310682
+"RHA","W0273",11,838,"Field","Mpol","Native","Rome Harbor parking lot, Italy","","RHAc1-07","RHA07","F0","MP-RHA07-F0",NA,"4/9/16",NA,NA,NA
+"SAN","W0274",11,754,"Field","Mpol","Native","Santona, Spain","","","SAN35-02","F0","MP-SAN35-02-F0",NA,"4/9/16",NA,43.45713,4.353194
+"CDC","W0275",11,419,"MSU","Mpol","Native","Arles, France","c1","","CDCc1-04","F1","MP-CDCc1-04-F1",NA,"4/9/16",NA,43.618907,4.813317
+"LDS","W0276",11,142,"MSU","Mpol","Native","Lac du Sagou, France","","","LDS05","F1","MP-LDS05-F1","6/27/16","4/9/16",79,43.67624,3.352244
+"BOL","W0277",11,912,"Field","Mpol","Native","Bolsera 1, Italy","","","BOL07","F0","MP-BOL07-F0",NA,"4/9/16",NA,NA,NA
+"AUR","W0278",11,935,"Field","Mpol","Native","Aurelius, actually near Breccia, Italy","","AURc1-12","AUR12","F0","MP-AUR12-F0","6/22/16","4/9/16",74,45.54358,10.15363
+"CRG","W0279",11,311,"MSU","Mpol","Native","Seville, Spain","","","CRG06","F1","MP-CRG06-F1","6/13/16","4/9/16",65,37.429805,-6.21776
+"SDS","W0280",11,95,"MSU","Mpol","Invaded","San Diego, California, USA","","","SDS1-06","F1","MP-SDS1-06-F1","5/31/16","4/9/16",52,32.775721,-117.074083
+"PAL","W0281",11,294,"MSU","Mpol","Invaded","Palatka, FL, USA","","","PAL09","F1","MP-PAL09-F1","6/2/16","4/9/16",54,29.384424,-81.37429
+"FUR","W0282",12,951,"Field","Mpol","Native","Furbara road, Italy","c1","","FURc1-10","F0","MP-FURc1-10-F0","6/20/16","4/9/16",72,NA,NA
+"LIS","W0283",12,391,"MSU","Mpol","Native","Lisbon, Portugal","","","LIS10","F1","MP-LIS10-F1","6/8/16","4/9/16",60,38.818216,-9.142902
+"CVD","W0284",12,319,"MSU","Mpol","Native","Castro Verde, Portugal","","","CVD11","F1","MP-CVD11-F1","6/1/16","4/9/16",53,37.708491,-8.099286
+"BHI","W0285",12,169,"MSU","Mpol","Invaded","Berkeley, CA, USA","","","BHI33-10","F1","MP-BHI33-10-F1","6/1/16","4/9/16",53,37.875926,-122.350833
+"MMG","W0286",12,824,"Field","Mpol","Native","Montemolina Garden, Italy","c2","","MMGc2-11","F0","MP-MMGc2-11-F0","7/27/16","4/9/16",109,42.63074,8.14856
+"ORB","W0287",12,862,"Field","Mpol","Native","Orbetella, Italy","","ORBc1-13","ORB13","F0","MP-ORB13-F0","6/1/16","4/9/16",53,42.44123,11.20262
+"FUS","W0288",12,134,"MSU","Mpol","Native","Fuseta, Portugal","C","","FUSC4","F1","MP-FUSC4-F1","5/27/16","4/9/16",48,NA,NA
+"ARC","W0289",12,126,"MSU","Mpol","Invaded","Arcata, CA, USA","","","ARC15","F1","MP-ARC15-F1","6/6/16","4/9/16",58,40.87011,-124.11282
+"SAN","W0290",12,757,"Field","Mpol","Native","Santona, Spain","","SAN37","SAN37-01","F0","MP-SAN37-01-F0",NA,"4/9/16",NA,43.45713,4.353194
+"","W0291",12,464,"USDA","Mpol","Invaded","AL, USA","","","PI566876","","MP-PI566876","5/31/16","4/9/16",52,42.643558,11.850325
+"","W0292",12,505,"USDA","Mpol","","Chile 2","","","PI368938","","MP-PI368938","5/31/16","4/9/16",52,42.643558,11.850325
+"MML","W0293",12,898,"Field","Mpol","Native","Montemolina, Italy","c1","","MMLc1-11","F0","MP-MMLc1-11-F0",NA,"4/9/16",NA,42.828173,12.37152
+"ALT","W0294",12,103,"MSU","Mpol","Native","Alter, Portugal","","","ALT10","F1","MP-ALT10-F1","6/6/16","4/9/16",58,37.168255,-8.090313
+"SCA","W0295",12,880,"Field","Mpol","Native","San Carlo, Italy","c2","","SCAc2-12","F0","MP-SCAc2-12-F0","7/5/16","4/9/16",87,44.086395,12.187785
+"SDS","W0296",12,380,"MSU","Mpol","Invaded","San Diego, California, USA","","","SDS1c","F1","MP-SDS1c-F1","5/31/16","4/9/16",52,32.775721,-117.074083
+"MIR","W0297",12,823,"Field","Mpol","Native","Mirabilandia, Italy","c1","","MIRc1-10","F0","MP-MIRc1-10-F0",NA,"4/9/16",NA,44.33056,12.295502
+"DEB","W0298",12,100,"MSU","Mpol","Native","Deba, Gipuzkoa, Spain","","","DEB12","F1","MP-DEB12-F1","6/20/16","4/9/16",72,43.301433,2.344602
+"RTM","W0299",12,312,"MSU","Mpol","Native","Rio Tia Mayor, Spain","","","RTM14","F1","MP-RTM14-F1","6/6/16","4/9/16",58,NA,NA
+"MLR","W0300",12,373,"MSU","Mpol","Invaded","Napa, CA, USA","","","MLR10","F1","MP-MLR10-F1","6/8/16","4/9/16",60,38.873952,-122.42384
+"MEL","W0301",12,57,"MSU","Mpol","Invaded","Roseburg, OR, USA","","","MEL17","F1","MP-MEL17-F1","6/13/16","4/9/16",65,43.221144,-123.406702
+"STA","W0302",12,62,"MSU","Mpol","Invaded","Saint Augustine, FL, USA","","","STA14","F2","MP-STA14-F2","5/31/16","4/9/16",52,29.55354,-81193554
+"DCR","W0303",12,83,"MSU","Mpol","Invaded","Vista, CA, USA","","","DCR10","F1","MP-DCR10-F1","5/31/16","4/9/16",52,33.184978,-117.310682
+"HIG","W0304",12,659,"Field","Mpol","Native","San Sebastian, Spain","","","HIG05-01","F0","MP-HIG05-01-F0","7/11/16","4/9/16",93,43.39133,1.792166
+"HUE","W0305",12,230,"MSU","Mpol","Native","Huelva, Spain","","","HUE10","F1","MP-HUE10-F1",NA,"4/9/16",NA,37.265483,-6.854716
+"COS","W0306",12,262,"MSU","Mpol","Native","Huelva, Spain","","","COS11","F1","MP-COS11-F1","5/24/16","4/9/16",45,37.449665,-6.569143
+"CAM","W0307",12,59,"MSU","Mpol","Native","Castro Marim, Portugal","","","CAM11","F1","MP-CAM11-F1","6/6/16","4/9/16",58,37.21854,-7.4492062
+"NAR","W0308",12,404,"MSU","Mpol","Native","Narbonne, France","c1","","NARc1-06","F1","MP-NARc1-06-F1","6/20/16","4/9/16",72,43.15515,3.070667
+"CDC","W0309",12,622,"Field","Mpol","Native","Arles, France","c1","","CDCc1-06","F0","MP-CDCc1-06-F0","6/29/16","4/9/16",81,43.618907,4.813317
+"AUR","W0310",12,940,"Field","Mpol","Native","Aurelius, actually near Breccia, Italy","","AURc1-17","AUR17","F0","MP-AUR17-F0","6/8/16","4/9/16",60,45.54358,10.15363
+"AZN","W0311",12,139,"MSU","Mpol","Native","Aznalcollar, Seville, Spain","","","AZN10","F1","MP-AZN10-F1","6/6/16","4/9/16",58,37.531929,-6.286561
+"CAR","W0312",12,387,"MSU","Mpol","Native","Carcassonne, France","","","CAR10","F1","MP-CAR10-F1","7/18/16","4/9/16",100,43.204557,2.37969
+"LDS","W0313",12,203,"MSU","Mpol","Native","Lac du Sagou, France","","","LDS10","F1","MP-LDS10-F1",NA,"4/9/16",NA,43.67624,3.352244
+"PEA","W0314",12,613,"Field","Mpol","Invaded","Casa Grande, AZ, USA","","","PEA17","F0","MP-PEA17-F0",NA,"4/9/16",NA,32.878033,-111.748964
+"RHA","W0315",12,842,"Field","Mpol","Native","Rome Harbor parking lot, Italy","","RHAc1-11","RHA11","F0","MP-RHA11-F0",NA,"4/9/16",NA,NA,NA
+"HIG","W0316",12,673,"Field","Mpol","Native","San Sebastian, Spain","","","HIG23-02","F0","MP-HIG23-02-F0","7/25/16","4/9/16",107,43.39133,1.792166
+"CRG","W0317",12,61,"MSU","Mpol","Native","Seville, Spain","","","CRG10","F1","MP-CRG10-F1","6/17/16","4/9/16",69,37.429805,-6.21776
+"MUS","W0318",12,598,"Field","Mpol","Native","Frontignan, France","s1","MUS1-07","MUSs1-07","F0","MP-MUSs1-07-F0","7/2/16","4/9/16",84,43.476116,3.762642
+"BOL","W0319",12,916,"Field","Mpol","Native","Bolsera 1, Italy","","","BOL11","F0","MP-BOL11-F0","7/2/16","4/9/16",84,NA,NA
+"EMO","W0320",12,160,"MSU","Mpol","Invaded","Temecula, CA, USA","","","EMO10","F1","MP-EMO10-F1","5/26/16","4/9/16",47,33.501351,-117.192456
+"SAN","W0321",12,735,"Field","Mpol","Native","Santona, Spain","","","SAN16-01","F0","MP-SAN16-01-F0","7/20/16","4/9/16",102,43.45713,4.353194
+"","W0322",12,511,"USDA","Mpol","","Germany","","","W65534","","MP-W65534",NA,"4/9/16",NA,42.643558,11.850325
+"HIG","W0323",13,661,"Field","Mpol","Native","San Sebastian, Spain","","","HIG15-01","F0","MP-HIG15-01-F0","7/18/16","4/9/16",100,43.39133,1.792166
+"CDC","W0324",13,434,"MSU","Mpol","Native","Arles, France","c2","","CDCc2-07-02","F1","MP-CDCc2-07-02-F1","7/11/16","4/9/16",93,43.618907,4.813317
+"","W0325",13,493,"USDA","Mpol","","Spain","","","W65325","","MP-W65325","5/24/16","4/9/16",45,42.643558,11.850325
+"NAR","W0326",13,34,"MSU","Mpol","Native","Narbonne, France","c3","","NARc3-06","F1","MP-NARc3-06-F1","6/8/16","4/9/16",60,43.15515,3.070667
+"SAN","W0327",13,748,"Field","Mpol","Native","Santona, Spain","","","SAN30-02","F0","MP-SAN30-02-F0","7/22/16","4/9/16",104,43.45713,4.353194
+"MUS","W0328",13,225,"MSU","Mpol","Native","Frontignan, France","s2","MUS2-07","MUSs2-07","F1","MP-MUSs2-07-F1","6/29/16","4/9/16",81,43.476116,3.762642
+"","W0329",13,465,"USDA","Mpol","","Urfa, Turkey","","","PI459208","","MP-PI459208","6/10/16","4/9/16",62,42.643558,11.850325
+"DEB","W0330",13,648,"Field","Mpol","Native","Deba, Gipuzkoa, Spain","","","DEB32-01","F0","MP-DEB32-01-F0","7/13/16","4/9/16",95,43.301433,2.344602
+"MML","W0331",14,897,"Field","Mpol","Native","Montemolina, Italy","c1","","MMLc1-10","F0","MP-MMLc1-10-F0",NA,"4/9/16",NA,42.828173,12.37152
+"LIS","W0332",14,363,"MSU","Mpol","Native","Lisbon, Portugal","","","LIS09","F1","MP-LIS09-F1","6/24/16","4/9/16",76,38.818216,-9.142902
+"","W0333",14,450,"USDA","Mpol","","Australia","","","W65527","","MP-W65527","5/26/16","4/9/16",47,42.643558,11.850325
+"SCA","W0334",14,879,"Field","Mpol","Native","San Carlo, Italy","c2","","SCAc2-11","F0","MP-SCAc2-11-F0","6/17/16","4/9/16",69,44.086395,12.187785
+"MMG","W0335",14,927,"Field","Mpol","Native","Montemolina Garden, Italy","c2","","MMGc2-10","F0","MP-MMGc2-10-F0",NA,"4/9/16",NA,42.63074,8.14856
+"","W0336",14,470,"USDA","Mpol","","Cordoba, Spain","","","PI543041","","MP-PI543041","6/10/16","4/9/16",62,42.643558,11.850325
+"SAN","W0337",14,756,"Field","Mpol","Native","Santona, Spain","","","SAN36-02","F0","MP-SAN36-02-F0","7/25/16","4/9/16",107,43.45713,4.353194
+"ALT","W0338",14,360,"MSU","Mpol","Native","Alter, Portugal","","","ALT09","F1","MP-ALT09-F1","6/2/16","4/9/16",54,37.168255,-8.090313
+"RTM","W0339",14,374,"MSU","Mpol","Native","Rio Tia Mayor, Spain","","","RTM13","F1","MP-RTM13-F1","6/8/16","4/9/16",60,NA,NA
+"FUR","W0340",14,950,"Field","Mpol","Native","Furbara road, Italy","c1","","FURc1-09","F0","MP-FURc1-09-F0","7/18/16","4/9/16",100,NA,NA
+"COS","W0341",14,180,"MSU","Mpol","Native","Huelva, Spain","","","COS10","F1","MP-COS10-F1","6/6/16","4/9/16",58,37.449665,-6.569143
+"NAR","W0342",14,234,"MSU","Mpol","Native","Narbonne, France","c1","","NARc1-05","F1","MP-NARc1-05-F1","6/27/16","4/9/16",79,43.15515,3.070667
+"LDS","W0343",14,105,"MSU","Mpol","Native","Lac du Sagou, France","","","LDS09","F1","MP-LDS09-F1","6/22/16","4/9/16",74,43.67624,3.352244
+"HIG","W0344",14,658,"Field","Mpol","Native","San Sebastian, Spain","","","HIG04-02","F0","MP-HIG04-02-F0","7/15/16","4/9/16",97,43.39133,1.792166
+"DEB","W0345",14,643,"Field","Mpol","Native","Deba, Gipuzkoa, Spain","","DEB11","DEB11-01","F0","MP-DEB11-01-F0",NA,"4/9/16",NA,43.301433,2.344602
+"MUS","W0346",14,397,"MSU","Mpol","Native","Frontignan, France","s1","MUS1-07","MUSs1-07","F1","MP-MUSs1-07-F1","6/29/16","4/9/16",81,43.476116,3.762642
+"DCR","W0347",14,99,"MSU","Mpol","Invaded","Vista, CA, USA","","","DCR09","F1","MP-DCR09-F1","5/31/16","4/9/16",52,33.184978,-117.310682
+"ARC","W0348",14,137,"MSU","Mpol","Invaded","Arcata, CA, USA","","","ARC14","F1","MP-ARC14-F1","6/6/16","4/9/16",58,40.87011,-124.11282
+"BHI","W0349",14,340,"MSU","Mpol","Invaded","Berkeley, CA, USA","","","BHI33-09","F1","MP-BHI33-09-F1","6/6/16","4/9/16",58,37.875926,-122.350833
+"MEL","W0350",14,171,"MSU","Mpol","Invaded","Roseburg, OR, USA","","","MEL16","F1","MP-MEL16-F1","6/6/16","4/9/16",58,43.221144,-123.406702
+"EMO","W0351",14,288,"MSU","Mpol","Invaded","Temecula, CA, USA","","","EMO09","F1","MP-EMO09-F1","6/1/16","4/9/16",53,33.501351,-117.192456
+"AZN","W0352",14,261,"MSU","Mpol","Native","Aznalcollar, Seville, Spain","","","AZN09","F1","MP-AZN09-F1","6/6/16","4/9/16",58,37.531929,-6.286561
+"AUR","W0353",14,939,"Field","Mpol","Native","Aurelius, actually near Breccia, Italy","","AURc1-16","AUR16","F0","MP-AUR16-F0","6/13/16","4/9/16",65,45.54358,10.15363
+"HIG","W0354",14,672,"Field","Mpol","Native","San Sebastian, Spain","","","HIG23-01","F0","MP-HIG23-01-F0","7/15/16","4/9/16",97,43.39133,1.792166
+"RHA","W0355",14,841,"Field","Mpol","Native","Rome Harbor parking lot, Italy","","RHAc1-10","RHA10","F0","MP-RHA10-F0",NA,"4/9/16",NA,NA,NA
+"CDC","W0356",14,398,"MSU","Mpol","Native","Arles, France","c1","","CDCc1-06","F1","MP-CDCc1-06-F1","7/5/16","4/9/16",87,43.618907,4.813317
+"ORB","W0357",14,861,"Field","Mpol","Native","Orbetella, Italy","","ORBc1-12","ORB12","F0","MP-ORB12-F0","6/15/16","4/9/16",67,42.44123,11.20262
+"SDS","W0358",14,174,"MSU","Mpol","Invaded","San Diego, California, USA","","","SDS1b","F1","MP-SDS1b-F1","6/1/16","4/9/16",53,32.775721,-117.074083
+"CRG","W0359",14,18,"MSU","Mpol","Native","Seville, Spain","","","CRG09","F1","MP-CRG09-F1","6/6/16","4/9/16",58,37.429805,-6.21776
+"CAM","W0360",14,85,"MSU","Mpol","Native","Castro Marim, Portugal","","","CAM10","F1","MP-CAM10-F1","6/6/16","4/9/16",58,37.21854,-7.4492062
+"STA","W0361",14,21,"MSU","Mpol","Invaded","Saint Augustine, FL, USA","","","STA13","F2","MP-STA13-F2","6/6/16","4/9/16",58,29.55354,-81193554
+"HUE","W0362",14,245,"MSU","Mpol","Native","Huelva, Spain","","","HUE09","F1","MP-HUE09-F1","5/31/16","4/9/16",52,37.265483,-6.854716
+"MLR","W0363",14,218,"MSU","Mpol","Invaded","Napa, CA, USA","","","MLR09","F1","MP-MLR09-F1","6/8/16","4/9/16",60,38.873952,-122.42384
+"MIR","W0364",14,822,"Field","Mpol","Native","Mirabilandia, Italy","c1","","MIRc1-09","F0","MP-MIRc1-09-F0","6/20/16","4/9/16",72,44.33056,12.295502
+"","W0365",14,475,"USDA","Mpol","","Spain","","","PI319039","","MP-PI319039","5/31/16","4/9/16",52,42.643558,11.850325
+"FUS","W0366",14,145,"MSU","Mpol","Native","Fuseta, Portugal","C","","FUSC3","F1","MP-FUSC3-F1","5/31/16","4/9/16",52,NA,NA
+"SAN","W0367",14,734,"Field","Mpol","Native","Santona, Spain","","SAN13","SAN13-01","F0","MP-SAN13-01-F0","7/25/16","4/9/16",107,43.45713,4.353194
+"CAR","W0368",14,2,"MSU","Mpol","Native","Carcassonne, France","","","CAR09","F1","MP-CAR09-F1","7/18/16","4/9/16",100,43.204557,2.37969
+"CVD","W0369",14,281,"MSU","Mpol","Native","Castro Verde, Portugal","","","CVD10","F1","MP-CVD10-F1","6/1/16","4/9/16",53,37.708491,-8.099286
+"PEA","W0370",14,724,"Field","Mpol","Invaded","Casa Grande, AZ, USA","","","PEA15-01","F0","MP-PEA15-01-F0",NA,"4/9/16",NA,32.878033,-111.748964
+"BOL","W0371",14,915,"Field","Mpol","Native","Bolsera 1, Italy","","","BOL10","F0","MP-BOL10-F0",NA,"4/9/16",NA,NA,NA
+"","W0372",15,510,"USDA","Mpol","","Canary Islands, Spain","","","W65390","","MP-W65390","5/27/16","4/9/16",48,42.643558,11.850325
+"NAR","W0373",15,720,"Field","Mpol","Native","Narbonne, France","c3","","NARc3-11","F0","MP-NARc3-11-F0","6/10/16","4/9/16",62,43.15515,3.070667
+"ARC","W0374",15,414,"MSU","Mpol","Invaded","Arcata, CA, USA","","","ARC05","F1","MP-ARC05-F1","6/8/16","4/9/16",60,40.87011,-124.11282
+"CAM","W0375",15,254,"MSU","Mpol","Native","Castro Marim, Portugal","","","CAM03","F1","MP-CAM03-F1","5/27/16","4/9/16",48,37.21854,-7.4492062
+"PAL","W0376",15,27,"MSU","Mpol","Invaded","Palatka, FL, USA","","","PAL06","F1","MP-PAL06-F1","6/2/16","4/9/16",54,29.384424,-81.37429
+"BOL","W0377",15,908,"Field","Mpol","Native","Bolsera 1, Italy","","","BOL03","F0","MP-BOL03-F0",NA,"4/9/16",NA,NA,NA
+"DCR","W0378",15,41,"MSU","Mpol","Invaded","Vista, CA, USA","","","DCR03","F1","MP-DCR03-F1","5/26/16","4/9/16",47,33.184978,-117.310682
+"PEA","W0379",15,359,"MSU","Mpol","Invaded","Casa Grande, AZ, USA","","","PEA08","F1","MP-PEA08-F1",NA,"4/9/16",NA,32.878033,-111.748964
+"SCA","W0380",15,871,"Field","Mpol","Native","San Carlo, Italy","c2","","SCAc2-03","F0","MP-SCAc2-03-F0","6/22/16","4/9/16",74,44.086395,12.187785
+"","W0381",15,447,"MSU","Mpol","","Peru","","","PI478530","","MP-PI478530","5/23/16","4/9/16",44,42.643558,11.850325
+"BHI","W0382",15,350,"MSU","Mpol","Invaded","Berkeley, CA, USA","","","BHI33-03","F1","MP-BHI33-03-F1","6/1/16","4/9/16",53,37.875926,-122.350833
+"AUR","W0383",15,931,"Field","Mpol","Native","Aurelius, actually near Breccia, Italy","","AURc1-08","AUR08","F0","MP-AUR08-F0","6/1/16","4/9/16",53,45.54358,10.15363
+"FUR","W0384",15,943,"Field","Mpol","Native","Furbara road, Italy","c1","","FURc1-02","F0","MP-FURc1-02-F0","6/22/16","4/9/16",74,NA,NA
+"SDS","W0385",15,148,"MSU","Mpol","Invaded","San Diego, California, USA","","","SDS1-03","F1","MP-SDS1-03-F1","6/2/16","4/9/16",54,32.775721,-117.074083
+"COS","W0386",15,344,"MSU","Mpol","Native","Huelva, Spain","","","COS03","F1","MP-COS03-F1","6/6/16","4/9/16",58,37.449665,-6.569143
+"LAT","W0387",15,794,"Field","Mpol","Native","Latera, Italy","","LATc1-03","LAT03","F0","MP-LAT03-F0",NA,"4/9/16",NA,42.62872,11.82045
+"HUE","W0388",15,5,"MSU","Mpol","Native","Huelva, Spain","","","HUE03","F1","MP-HUE03-F1","5/31/16","4/9/16",52,37.265483,-6.854716
+"STA","W0389",15,760,"FIU","Mpol","Invaded","Saint Augustine, FL, USA","","STA02","STA02-01","F1","MP-STA02-01-F1","5/24/16","4/9/16",45,29.55354,-81193554
+"MUS","W0390",15,713,"Field","Mpol","Native","Frontignan, France","s2","MUS2-11","MUSs2-11","F0","MP-MUSs2-11-F0","6/10/16","4/9/16",62,43.476116,3.762642
+"LIS","W0391",15,593,"Field","Mpol","Native","Lisbon, Portugal","","","LIS03","F0","MP-LIS03-F0","6/22/16","4/9/16",74,38.818216,-9.142902
+"ALT","W0392",15,33,"MSU","Mpol","Native","Alter, Portugal","","","ALT03","F1","MP-ALT03-F1","5/25/16","4/9/16",46,37.168255,-8.090313
+"AZN","W0393",15,7,"MSU","Mpol","Native","Aznalcollar, Seville, Spain","","","AZN03","F1","MP-AZN03-F1","6/6/16","4/9/16",58,37.531929,-6.286561
+"CDC","W0394",15,589,"MSU","Mpol","Native","Arles, France","c1","","CDCc1-03","F1 ","MP-CDCc1-03-F1",NA,"4/9/16",NA,43.618907,4.813317
+"CVD","W0395",15,44,"MSU","Mpol","Native","Castro Verde, Portugal","","","CVD03","F1","MP-CVD03-F1","6/2/16","4/9/16",54,37.708491,-8.099286
+"FUS","W0396",15,352,"MSU","Mpol","Native","Fuseta, Portugal","A","","FUSA6","F1","MP-FUSA6-F1","6/6/16","4/9/16",58,NA,NA
+"HIG","W0397",15,666,"Field","Mpol","Native","San Sebastian, Spain","","","HIG17-02","F0","MP-HIG17-02-F0","7/13/16","4/9/16",95,43.39133,1.792166
+"MIR","W0398",15,816,"Field","Mpol","Native","Mirabilandia, Italy","c1","","MIRc1-03","F0","MP-MIRc1-03-F0",NA,"4/9/16",NA,44.33056,12.295502
+"RTM","W0399",15,204,"MSU","Mpol","Native","Rio Tia Mayor, Spain","","","RTM03","F1","MP-RTM03-F1","6/6/16","4/9/16",58,NA,NA
+"SAN","W0400",15,752,"Field","Mpol","Native","Santona, Spain","","","SAN34-02","F0","MP-SAN34-02-F0",NA,"4/9/16",NA,43.45713,4.353194
+"MLR","W0401",15,271,"MSU","Mpol","Invaded","Napa, CA, USA","","","MLR03","F1","MP-MLR03-F1","6/8/16","4/9/16",60,38.873952,-122.42384
+"","W0402",15,467,"USDA","Mpol","","Portugal","","","PI239880","","MP-PI239880","6/8/16","4/9/16",60,42.643558,11.850325
+"CAR","W0403",15,98,"MSU","Mpol","Native","Carcassonne, France","","","CAR05","F1","MP-CAR05-F1","7/29/16","4/9/16",111,43.204557,2.37969
+"MML","W0404",15,891,"Field","Mpol","Native","Montemolina, Italy","c1","","MMLc1-04","F0","MP-MMLc1-04-F0","6/24/16","4/9/16",76,42.828173,12.37152
+"MEL","W0405",15,266,"MSU","Mpol","Invaded","Roseburg, OR, USA","","","MEL06","F1","MP-MEL06-F1","6/8/16","4/9/16",60,43.221144,-123.406702
+"SAN","W0406",15,728,"Field","Mpol","Native","Santona, Spain","","","SAN09-02","F0","MP-SAN09-02-F0",NA,"4/9/16",NA,43.45713,4.353194
+"MAG","W0407",15,789,"Grusak GH","Mpol","Invaded","Marble Falls, TX, USA","","","MAG71","F1?","MP-MAG71-F1","6/6/16","4/9/16",58,NA,NA
+"NAR","W0408",15,596,"Field","Mpol","Native","Narbonne, France","c1","","NARc1-02","F0","MP-NARc1-02-F0","6/13/16","4/9/16",65,43.15515,3.070667
+"MUS","W0409",15,51,"MSU","Mpol","Native","Frontignan, France","s1","MUS1-02","MUSs1-02","F1","MP-MUSs1-02-F1","7/11/16","4/9/16",93,43.476116,3.762642
+"EMO","W0410",15,217,"MSU","Mpol","Invaded","Temecula, CA, USA","","","EMO03","F1","MP-EMO03-F1","6/1/16","4/9/16",53,33.501351,-117.192456
+"DEB","W0411",15,642,"Field","Mpol","Native","Deba, Gipuzkoa, Spain","","","DEB03-02","F0","MP-DEB03-02-F0","7/15/16","4/9/16",97,43.301433,2.344602
+"LDS","W0412",15,54,"MSU","Mpol","Native","Lac du Sagou, France","","","LDS02","F1","MP-LDS02-F1","6/20/16","4/9/16",72,43.67624,3.352244
+"MMG","W0413",15,864,"Field","Mpol","Native","Montemolina Garden, Italy","c2","","MMGc2-03","F0","MP-MMGc2-03-F0","8/1/16","4/9/16",114,42.63074,8.14856
+"CRG","W0414",15,152,"MSU","Mpol","Native","Seville, Spain","","","CRG03","F1","MP-CRG03-F1","6/6/16","4/9/16",58,37.429805,-6.21776
+"ORB","W0415",15,852,"Field","Mpol","Native","Orbetella, Italy","","ORBc1-03","ORB03","F0","MP-ORB03-F0","6/6/16","4/9/16",58,42.44123,11.20262
+"RIV","W0416",15,280,"MSU","Mpol","Invaded","Hillsborough, FL, USA","","","RIV08","F1","MP-RIV08-F1","5/31/16","4/9/16",52,27.59369,-82.27948
+"HIG","W0417",15,652,"Field","Mpol","Native","San Sebastian, Spain","","","HIG02-01","F0","MP-HIG02-01-F0","7/18/16","4/9/16",100,43.39133,1.792166
+"RHA","W0418",15,835,"Field","Mpol","Native","Rome Harbor parking lot, Italy","","RHAc1-04","RHA04","F0","MP-RHA04-F0",NA,"4/9/16",NA,NA,NA
+"CDC","W0419",16,420,"MSU","Mpol","Native","Arles, France","c2","","CDCc2-07-01","F1","MP-CDCc2-07-01-F1","7/20/16","4/9/16",102,43.618907,4.813317
+"SAN","W0420",16,747,"Field","Mpol","Native","Santona, Spain","","","SAN30-01","F0","MP-SAN30-01-F0","7/15/16","4/9/16",97,43.45713,4.353194
+"","W0421",16,453,"USDA","Mpol","","Turkey","","","PI459130","","MP-PI459130","6/6/16","4/9/16",58,42.643558,11.850325
+"MUS","W0422",16,178,"MSU","Mpol","Native","Frontignan, France","s2","MUS2-06","MUSs2-06","F1","MP-MUSs2-06-F1","6/24/16","4/9/16",76,43.476116,3.762642
+"HIG","W0423",16,691,"Field","Mpol","Native","San Sebastian, Spain","","","HIG13-02","F0","MP-HIG13-02-F0","6/27/16","4/9/16",79,43.39133,1.792166
+"LDS","W0424",16,698,"Field","Mpol","Native","Lac du Sagou, France","c3","","LDSc3-13","F0","MP-LDSc3-13-F0","6/8/16","4/9/16",60,43.67624,3.352244
+"NAR","W0425",16,395,"MSU","Mpol","Native","Narbonne, France","c3","","NARc3-05","F1","MP-NARc3-05-F1","6/17/16","4/9/16",69,43.15515,3.070667
+"DEB","W0426",16,84,"MSU","Mpol","Native","Deba, Gipuzkoa, Spain","","","DEB32","F1","MP-DEB32-F1","7/22/16","4/9/16",104,43.301433,2.344602
+"","W0427",16,461,"USDA","Mpol","","France","","","W65323","","MP-W65323","6/1/16","4/9/16",53,42.643558,11.850325
+"CVD","W0428",17,150,"MSU","Mpol","Native","Castro Verde, Portugal","","","CVD05","F1","MP-CVD05-F1","6/2/16","4/9/16",54,37.708491,-8.099286
+"MEL","W0429",17,256,"MSU","Mpol","Invaded","Roseburg, OR, USA","","","MEL09","F1","MP-MEL09-F1","6/10/16","4/9/16",62,43.221144,-123.406702
+"MUS","W0430",17,714,"Field","Mpol","Native","Frontignan, France","s2","MUS2-12","MUSs2-12","F0","MP-MUSs2-12-F0","6/13/16","4/9/16",65,43.476116,3.762642
+"HIG","W0431",17,653,"Field","Mpol","Native","San Sebastian, Spain","","","HIG02-02","F0","MP-HIG02-02-F0","7/27/16","4/9/16",109,43.39133,1.792166
+"CRG","W0432",17,199,"MSU","Mpol","Native","Seville, Spain","","","CRG04","F1","MP-CRG04-F1","6/6/16","4/9/16",58,37.429805,-6.21776
+"RTM","W0433",17,197,"MSU","Mpol","Native","Rio Tia Mayor, Spain","","","RTM04","F1","MP-RTM04-F1","6/6/16","4/9/16",58,NA,NA
+"SCA","W0434",17,872,"Field","Mpol","Native","San Carlo, Italy","c2","","SCAc2-04","F0","MP-SCAc2-04-F0","6/27/16","4/9/16",79,44.086395,12.187785
+"LDS","W0435",17,167,"MSU","Mpol","Native","Lac du Sagou, France","","","LDS03","F1","MP-LDS03-F1","5/31/16","4/9/16",52,43.67624,3.352244
+"SAN","W0436",17,411,"MSU","Mpol","Native","Santona, Spain","","","SAN35","F1","MP-SAN35-F1","8/1/16","4/9/16",114,43.45713,4.353194
+"RHA","W0437",17,836,"Field","Mpol","Native","Rome Harbor parking lot, Italy","","RHAc1-05","RHA05","F0","MP-RHA05-F0","6/17/16","4/9/16",69,NA,NA
+"CDC","W0438",17,618,"Field","Mpol","Native","Arles, France","c1","","CDCc1-03","F0","MP-CDCc1-03-F0","7/27/16","4/9/16",109,43.618907,4.813317
+"COS","W0439",17,239,"MSU","Mpol","Native","Huelva, Spain","","","COS04","F1","MP-COS04-F1","6/1/16","4/9/16",53,37.449665,-6.569143
+"MML","W0440",17,892,"Field","Mpol","Native","Montemolina, Italy","c1","","MMLc1-05","F0","MP-MMLc1-05-F0",NA,"4/9/16",NA,42.828173,12.37152
+"HUE","W0441",17,274,"MSU","Mpol","Native","Huelva, Spain","","","HUE04","F1","MP-HUE04-F1","5/27/16","4/9/16",48,37.265483,-6.854716
+"","W0442",17,459,"USDA","Mpol","","Tunisia","","","W65404","","MP-W65404","6/6/16","4/9/16",58,42.643558,11.850325
+"MAG","W0443",17,788,"Grusak GH","Mpol","Invaded","Houston, TX, USA","","","MAG74","F1?","MP-MAG74-F1","6/6/16","4/9/16",58,NA,NA
+"MUS","W0444",17,165,"MSU","Mpol","Native","Frontignan, France","s1","MUS1-03","MUSs1-03","F1","MP-MUSs1-03-F1","6/8/16","4/9/16",60,43.476116,3.762642
+"ALT","W0445",17,313,"MSU","Mpol","Native","Alter, Portugal","","","ALT04","F1","MP-ALT04-F1","5/31/16","4/9/16",52,37.168255,-8.090313
+"LIS","W0446",17,407,"MSU","Mpol","Native","Lisbon, Portugal","","","LIS03","F1","MP-LIS03-F1","6/24/16","4/9/16",76,38.818216,-9.142902
+"ORB","W0447",17,856,"Field","Mpol","Native","Orbetella, Italy","","ORBc1-07","ORB07","F0","MP-ORB07-F0","6/13/16","4/9/16",65,42.44123,11.20262
+"CAM","W0448",17,317,"MSU","Mpol","Native","Castro Marim, Portugal","","","CAM05","F1","MP-CAM05-F1","6/6/16","4/9/16",58,37.21854,-7.4492062
+"LAT","W0449",17,795,"Field","Mpol","Native","Latera, Italy","","LATc1-04","LAT04","F0","MP-LAT04-F0",NA,"4/9/16",NA,42.62872,11.82045
+"HIG","W0450",17,667,"Field","Mpol","Native","San Sebastian, Spain","","","HIG19-01","F0","MP-HIG19-01-F0","7/13/16","4/9/16",95,43.39133,1.792166
+"","W0451",17,477,"USDA","Mpol","","Portugal","","","PI493291","","MP-PI493291","5/31/16","4/9/16",52,42.643558,11.850325
+"NAR","W0452",17,415,"MSU","Mpol","Native","Narbonne, France","c1","","NARc1-02","F1","MP-NARc1-02-F1","6/17/16","4/9/16",69,43.15515,3.070667
+"CAR","W0453",17,442,"MSU","Mpol","Native","Carcassonne, France","","","CAR06-01","F1","MP-CAR06-01-F1","7/25/16","4/9/16",107,43.204557,2.37969
+"ARC","W0454",17,626,"Field","Mpol","Invaded","Arcata, CA, USA","","","ARC05-01","F0","MP-ARC05-01-F0",NA,"4/9/16",NA,40.87011,-124.11282
+"FUR","W0455",17,944,"Field","Mpol","Native","Furbara road, Italy","c1","","FURc1-03","F0","MP-FURc1-03-F0","7/11/16","4/9/16",93,NA,NA
+"MIR","W0456",17,817,"Field","Mpol","Native","Mirabilandia, Italy","c1","","MIRc1-04","F0","MP-MIRc1-04-F0",NA,"4/9/16",NA,44.33056,12.295502
+"SDS","W0457",17,185,"MSU","Mpol","Invaded","San Diego, California, USA","","","SDS1-04","F1","MP-SDS1-04-F1","5/27/16","4/9/16",48,32.775721,-117.074083
+"NAR","W0458",17,721,"Field","Mpol","Native","Narbonne, France","c3","","NARc3-12","F0","MP-NARc3-12-F0","6/13/16","4/9/16",65,43.15515,3.070667
+"SAN","W0459",17,729,"Field","Mpol","Native","Santona, Spain","","","SAN09-03","F0","MP-SAN09-03-F0","8/1/16","4/9/16",114,43.45713,4.353194
+"STA","W0460",17,282,"MSU","Mpol","Invaded","Saint Augustine, FL, USA","","","STA03","F2","MP-STA03-F2","5/23/16","4/9/16",44,29.55354,-81193554
+"MMG","W0461",17,929,"Field","Mpol","Native","Montemolina Garden, Italy","c2","","MMGc2-04","F0","MP-MMGc2-04-F0",NA,"4/9/16",NA,42.63074,8.14856
+"FUS","W0462",17,233,"MSU","Mpol","Native","Fuseta, Portugal","B","","FUSB1","F1","MP-FUSB1-F1","5/18/16","4/9/16",39,NA,NA
+"BHI","W0463",17,297,"MSU","Mpol","Invaded","Berkeley, CA, USA","","","BHI33-04","F1","MP-BHI33-04-F1","6/2/16","4/9/16",54,37.875926,-122.350833
+"DEB","W0464",17,307,"MSU","Mpol","Native","Deba, Gipuzkoa, Spain","","","DEB04","F1","MP-DEB04-F1","6/20/16","4/9/16",72,43.301433,2.344602
+"","W0465",17,506,"USDA","Mpol","","Afghanistan","","","PI250782","","MP-PI250782","5/31/16","4/9/16",52,42.643558,11.850325
+"DCR","W0466",17,211,"MSU","Mpol","Invaded","Vista, CA, USA","","","DCR04","F1","MP-DCR04-F1","5/31/16","4/9/16",52,33.184978,-117.310682
+"PAL","W0467",17,28,"MSU","Mpol","Invaded","Palatka, FL, USA","","","PAL07","F1","MP-PAL07-F1","6/6/16","4/9/16",58,29.384424,-81.37429
+"PEA","W0468",17,616,"Field","Mpol","Invaded","Casa Grande, AZ, USA","","","PEA10","F0","MP-PEA10-F0",NA,"4/9/16",NA,32.878033,-111.748964
+"EMO","W0469",17,58,"MSU","Mpol","Invaded","Temecula, CA, USA","","","EMO04","F1","MP-EMO04-F1","5/26/16","4/9/16",47,33.501351,-117.192456
+"MLR","W0470",17,283,"MSU","Mpol","Invaded","Napa, CA, USA","","","MLR04","F1","MP-MLR04-F1","6/6/16","4/9/16",58,38.873952,-122.42384
+"AUR","W0471",17,932,"Field","Mpol","Native","Aurelius, actually near Breccia, Italy","","AURc1-09","AUR09","F0","MP-AUR09-F0","6/1/16","4/9/16",53,45.54358,10.15363
+"AZN","W0472",17,232,"MSU","Mpol","Native","Aznalcollar, Seville, Spain","","","AZN04","F1","MP-AZN04-F1","6/6/16","4/9/16",58,37.531929,-6.286561
+"BOL","W0473",17,910,"Field","Mpol","Native","Bolsera 1, Italy","","","BOL05","F0","MP-BOL05-F0","7/15/16","4/9/16",97,NA,NA
+"RIV","W0474",17,60,"MSU","Mpol","Invaded","Hillsborough, FL, USA","","","RIV11","F1","MP-RIV11-F1","5/31/16","4/9/16",52,27.59369,-82.27948
+"","W0475",18,469,"USDA","Mpol","","France","","","W65326","","MP-W65326","6/20/16","4/9/16",72,42.643558,11.850325
+"DEB","W0476",18,649,"Field","Mpol","Native","Deba, Gipuzkoa, Spain","","","DEB32-02","F0","MP-DEB32-02-F0","7/2/16","4/9/16",84,43.301433,2.344602
+"NAR","W0477",18,386,"MSU","Mpol","Native","Narbonne, France","c3","","NARc3-07","F1","MP-NARc3-07-F1","6/8/16","4/9/16",60,43.15515,3.070667
+"SAN","W0478",18,749,"Field","Mpol","Native","Santona, Spain","","","SAN31-01","F0","MP-SAN31-01-F0","7/27/16","4/9/16",109,43.45713,4.353194
+"CDC","W0479",18,588,"Field","Mpol","Native","Arles, France","c2","","CDCc2-09","F0","MP-CDCc2-09-F0",NA,"4/9/16",NA,43.618907,4.813317
+"HIG","W0480",18,662,"Field","Mpol","Native","San Sebastian, Spain","","","HIG15-02","F0","MP-HIG15-02-F0","7/27/16","4/9/16",109,43.39133,1.792166
+"","W0481",18,485,"USDA","Mpol","","Egypt","","","PI469263","","MP-PI469263","5/17/16","4/9/16",38,42.643558,11.850325
+"MUS","W0482",18,384,"MSU","Mpol","Native","Frontignan, France","s2","MUS2-08","MUSs2-08","F1","MP-MUSs2-08-F1","6/15/16","4/9/16",67,43.476116,3.762642
+"MMG","W0483",19,909,"Field","Mpol","Native","Montemolina Garden, Italy","c2","","MMGc2-17","F0","MP-MMGc2-17-F0","7/5/16","4/9/16",87,42.63074,8.14856
+"ARC","W0484",19,52,"MSU","Mpol","Invaded","Arcata, CA, USA","","","ARC23","F1","MP-ARC23-F1","6/17/16","4/9/16",69,40.87011,-124.11282
+"NAR","W0485",19,716,"Field","Mpol","Native","Narbonne, France","c1","","NARc1-11","F0","MP-NARc1-11-F0","6/6/16","4/9/16",58,43.15515,3.070667
+"BHI","W0486",19,249,"MSU","Mpol","Invaded","Berkeley, CA, USA","","","BHI33-16","F1","MP-BHI33-16-F1","6/6/16","4/9/16",58,37.875926,-122.350833
+"","W0487",19,483,"USDA","Mpol","","Pakistan","","","PI577437","","MP-PI577437","5/17/16","4/9/16",38,42.643558,11.850325
+"HIG","W0488",19,681,"Field","Mpol","Native","San Sebastian, Spain","","","HIG09-01","F0","MP-HIG09-01-F0","7/18/16","4/9/16",100,43.39133,1.792166
+"EMO","W0489",19,354,"MSU","Mpol","Invaded","Temecula, CA, USA","","","EMO16","F1","MP-EMO16-F1",NA,"4/9/16",NA,33.501351,-117.192456
+"CVD","W0490",19,143,"MSU","Mpol","Native","Castro Verde, Portugal","","","CVD17","F1","MP-CVD17-F1","5/27/16","4/9/16",48,37.708491,-8.099286
+"MML","W0491",19,904,"Field","Mpol","Native","Montemolina, Italy","c1","","MMLc1-17","F0","MP-MMLc1-17-F0",NA,"4/9/16",NA,42.828173,12.37152
+"SAN","W0492",19,740,"Field","Mpol","Native","Santona, Spain","","","SAN19-02","F0","MP-SAN19-02-F0","7/22/16","4/9/16",104,43.45713,4.353194
+"AZN","W0493",19,10,"MSU","Mpol","Native","Aznalcollar, Seville, Spain","","","AZN16","F1","MP-AZN16-F1","6/6/16","4/9/16",58,37.531929,-6.286561
+"CDC","W0494",19,633,"Field","Mpol","Native","Arles, France","c1","","CDCc1-10","F0","MP-CDCc1-10-F0","7/7/16","4/9/16",89,43.618907,4.813317
+"HIG","W0495",19,424,"MSU","Mpol","Native","San Sebastian, Spain","","","HIG27-04","F1","MP-HIG27-04-F1","7/18/16","4/9/16",100,43.39133,1.792166
+"FUS","W0496",19,114,"MSU","Mpol","Native","Fuseta, Portugal","E","","FUSE2","F1","MP-FUSE2-F1","6/8/16","4/9/16",60,NA,NA
+"DEB","W0497",19,36,"MSU","Mpol","Native","Deba, Gipuzkoa, Spain","","","DEB19","F1","MP-DEB19-F1","7/11/16","4/9/16",93,43.301433,2.344602
+"MUS","W0498",19,708,"Field","Mpol","Native","Frontignan, France","s1","MUS1-12","MUSs1-12","F0","MP-MUSs1-12-F0","6/6/16","4/9/16",58,43.476116,3.762642
+"","W0499",19,486,"USDA","Mpol","","Chile 5","","","PI368946","","MP-PI368946","5/23/16","4/9/16",44,42.643558,11.850325
+"SDS","W0500",19,383,"MSU","Mpol","Invaded","San Diego, California, USA","","","SDS2-06","F1","MP-SDS2-06-F1","6/6/16","4/9/16",58,32.775721,-117.074083
+"DCR","W0501",19,365,"MSU","Mpol","Invaded","Vista, CA, USA","","","DCR16","F1","MP-DCR16-F1","6/1/16","4/9/16",53,33.184978,-117.310682
+"LIS","W0502",19,79,"MSU","Mpol","Native","Lisbon, Portugal","","","LIS15","F1","MP-LIS15-F1","6/8/16","4/9/16",60,38.818216,-9.142902
+"ALT","W0503",19,325,"MSU","Mpol","Native","Alter, Portugal","","","ALT16","F1","MP-ALT16-F1","5/31/16","4/9/16",52,37.168255,-8.090313
+"BOL","W0504",19,923,"Field","Mpol","Native","Bolsera 1, Italy","","","BOL18","F0","MP-BOL18-F0","6/20/16","4/9/16",72,NA,NA
+"RHA","W0505",19,848,"Field","Mpol","Native","Rome Harbor parking lot, Italy","","RHAc1-17","RHA17","F0","MP-RHA17-F0","7/2/16","4/9/16",84,NA,NA
+"PEA","W0506",19,227,"MSU","Mpol","Invaded","Casa Grande, AZ, USA","","","PEA24","F1","MP-PEA24-F1","6/2/16","4/9/16",54,32.878033,-111.748964
+"CAM","W0507",19,609,"Field","Mpol","Native","Castro Marim, Portugal","","","CAM17","F0","MP-CAM17-F0","6/2/16","4/9/16",54,37.21854,-7.4492062
+"HUE","W0508",19,606,"Field","Mpol","Native","Huelva, Spain","","","HUE16","F0","MP-HUE16-F0","5/25/16","4/9/16",46,37.265483,-6.854716
+"LDS","W0509",19,430,"MSU","Mpol","Native","Lac du Sagou, France","c3","","LDSc3-02-01","F1","MP-LDSc3-02-01-F1","6/27/16","4/9/16",79,43.67624,3.352244
+"MLR","W0510",19,157,"MSU","Mpol","Invaded","Napa, CA, USA","","","MLR17","F1","MP-MLR17-F1","6/6/16","4/9/16",58,38.873952,-122.42384
+"MEL","W0511",19,370,"MSU","Mpol","Invaded","Roseburg, OR, USA","","","MEL24","F1","MP-MEL24-F1","6/10/16","4/9/16",62,43.221144,-123.406702
+"CRG","W0512",19,93,"MSU","Mpol","Native","Seville, Spain","","","CRG16","F1","MP-CRG16-F1","6/8/16","4/9/16",60,37.429805,-6.21776
+"CDC","W0513",20,435,"MSU","Mpol","Native","Arles, France","c2","","CDCc2-06-02","F1","MP-CDCc2-06-02-F1","7/27/16","4/9/16",109,43.618907,4.813317
+"HIG","W0514",20,690,"Field","Mpol","Native","San Sebastian, Spain","","","HIG13-01","F0","MP-HIG13-01-F0","7/25/16","4/9/16",107,43.39133,1.792166
+"NAR","W0515",20,599,"Field","Mpol","Native","Narbonne, France","c3","","NARc3-05","F0","MP-NARc3-05-F0","6/8/16","4/9/16",60,43.15515,3.070667
+"DEB","W0516",20,80,"MSU","Mpol","Native","Deba, Gipuzkoa, Spain","","","DEB31","F1","MP-DEB31-F1","6/15/16","4/9/16",67,43.301433,2.344602
+"ARC","W0517",20,630,"Field","Mpol","Invaded","Arcata, CA, USA","","ARC29","ARC29-01","F0","MP-ARC29-01-F0","6/15/16","4/9/16",67,40.87011,-124.11282
+"MUS","W0518",20,31,"MSU","Mpol","Native","Frontignan, France","s2","MUS2-05","MUSs2-05","F1","MP-MUSs2-05-F1","6/17/16","4/9/16",69,43.476116,3.762642
+"SAN","W0519",20,746,"Field","Mpol","Native","Santona, Spain","","","SAN28-03","F0","MP-SAN28-03-F0",NA,"4/9/16",NA,43.45713,4.353194
+"","W0520",20,446,"USDA","Mpol","","China","","","PI458758","","MP-PI458758","6/20/16","4/9/16",72,42.643558,11.850325
+"LDS","W0521",20,697,"Field","Mpol","Native","Lac du Sagou, France","c3","","LDSc3-12","F0","MP-LDSc3-12-F0",NA,"4/9/16",NA,43.67624,3.352244
+"","W0522",20,471,"USDA","Mpol","","Greece","","","W65319","","MP-W65319","6/20/16","4/9/16",72,42.643558,11.850325
+"","W0523",21,481,"USDA","Mpol","","Morocco","","","PI577408","","MP-PI577408","6/8/16","4/9/16",60,42.643558,11.850325
+"AZN","W0524",21,285,"MSU","Mpol","Native","Aznalcollar, Seville, Spain","","","AZN14","F1","MP-AZN14-F1","6/6/16","4/9/16",58,37.531929,-6.286561
+"HIG","W0525",21,677,"Field","Mpol","Native","San Sebastian, Spain","","","HIG27-02","F0","MP-HIG27-02-F0","7/15/16","4/9/16",97,43.39133,1.792166
+"ARC","W0526",21,130,"MSU","Mpol","Invaded","Arcata, CA, USA","","","ARC21","F1","MP-ARC21-F1","5/31/16","4/9/16",52,40.87011,-124.11282
+"DCR","W0527",21,296,"MSU","Mpol","Invaded","Vista, CA, USA","","","DCR14","F1","MP-DCR14-F1","5/27/16","4/9/16",48,33.184978,-117.310682
+"FUR","W0528",21,955,"Field","Mpol","Native","Furbara road, Italy","c1","","FURc1-14","F0","MP-FURc1-14-F0","6/10/16","4/9/16",62,NA,NA
+"BHI","W0529",21,267,"MSU","Mpol","Invaded","Berkeley, CA, USA","","","BHI33-14","F1","MP-BHI33-14-F1","6/2/16","4/9/16",54,37.875926,-122.350833
+"MEL","W0530",21,614,"Field","Mpol","Invaded","Roseburg, OR, USA","","","MEL22","F0","MP-MEL22-F0",NA,"4/9/16",NA,43.221144,-123.406702
+"HUE","W0531",21,25,"MSU","Mpol","Native","Huelva, Spain","","","HUE14","F1","MP-HUE14-F1","5/31/16","4/9/16",52,37.265483,-6.854716
+"RTM","W0532",21,246,"MSU","Mpol","Native","Rio Tia Mayor, Spain","","","RTM20","F1","MP-RTM20-F1","6/6/16","4/9/16",58,NA,NA
+"SAN","W0533",21,738,"Field","Mpol","Native","Santona, Spain","","","SAN18-02","F0","MP-SAN18-02-F0","7/15/16","4/9/16",97,43.45713,4.353194
+"HIG","W0534",21,422,"MSU","Mpol","Native","San Sebastian, Spain","","","HIG06-03","F1","MP-HIG06-03-F1",NA,"4/9/16",NA,43.39133,1.792166
+"ALT","W0535",21,293,"MSU","Mpol","Native","Alter, Portugal","","","ALT14","F1","MP-ALT14-F1","5/31/16","4/9/16",52,37.168255,-8.090313
+"CVD","W0536",21,23,"MSU","Mpol","Native","Castro Verde, Portugal","","","CVD15","F1","MP-CVD15-F1","6/6/16","4/9/16",58,37.708491,-8.099286
+"","W0537",21,473,"USDA","Mpol","","Chile","","","PI368942","","MP-PI368942","5/24/16","4/9/16",45,42.643558,11.850325
+"","W0538",21,458,"USDA","Mpol","","Sicily, Italy","","","W65595","","MP-W65595","5/31/16","4/9/16",52,42.643558,11.850325
+"CDC","W0539",21,621,"Field","Mpol","Native","Arles, France","c1","","CDCc1-08","F0","MP-CDCc1-08-F0","7/27/16","4/9/16",109,43.618907,4.813317
+"MMG","W0540",21,888,"Field","Mpol","Native","Montemolina Garden, Italy","c2","","MMGc2-15","F0","MP-MMGc2-15-F0",NA,"4/9/16",NA,42.63074,8.14856
+"CAM","W0541",21,279,"MSU","Mpol","Native","Castro Marim, Portugal","","","CAM15","F1","MP-CAM15-F1","5/31/16","4/9/16",52,37.21854,-7.4492062
+"NAR","W0542",21,343,"MSU","Mpol","Native","Narbonne, France","c1","","NARc1-09","F1","MP-NARc1-09-F1","6/20/16","4/9/16",72,43.15515,3.070667
+"LDS","W0543",21,765,"Field","Mpol","Native","Lac du Sagou, France","c2","","LDSc2-04","F0","MP-LDSc2-04-F0","6/20/16","4/9/16",72,43.67624,3.352244
+"MIR","W0544",21,828,"Field","Mpol","Native","Mirabilandia, Italy","c1","","MIRc1-15","F0","MP-MIRc1-15-F0","6/13/16","4/9/16",65,44.33056,12.295502
+"SDS","W0545",21,378,"MSU","Mpol","Invaded","San Diego, California, USA","","","SDS2-04","F1","MP-SDS2-04-F1","6/2/16","4/9/16",54,32.775721,-117.074083
+"MLR","W0546",21,168,"MSU","Mpol","Invaded","Napa, CA, USA","","","MLR14","F1","MP-MLR14-F1","6/6/16","4/9/16",58,38.873952,-122.42384
+"ORB","W0547",21,867,"Field","Mpol","Native","Orbetella, Italy","","ORBc1-18","ORB18","F0","MP-ORB18-F0",NA,"4/9/16",NA,42.44123,11.20262
+"DEB","W0548",21,38,"MSU","Mpol","Native","Deba, Gipuzkoa, Spain","","","DEB17","F1","MP-DEB17-F1","6/17/16","4/9/16",69,43.301433,2.344602
+"EMO","W0549",21,389,"MSU","Mpol","Invaded","Temecula, CA, USA","","","EMO14","F1","MP-EMO14-F1","6/8/16","4/9/16",60,33.501351,-117.192456
+"PEA","W0550",21,725,"Field","Mpol","Invaded","Casa Grande, AZ, USA","","","PEA22-01","F0","MP-PEA22-01-F0","6/6/16","4/9/16",58,32.878033,-111.748964
+"RHA","W0551",21,846,"Field","Mpol","Native","Rome Harbor parking lot, Italy","","RHAc1-15","RHA15","F0","MP-RHA15-F0","7/27/16","4/9/16",109,NA,NA
+"MUS","W0552",21,231,"MSU","Mpol","Native","Frontignan, France","s1","MUS1-10","MUSs1-10","F1","MP-MUSs1-10-F1","6/10/16","4/9/16",62,43.476116,3.762642
+"FUS","W0553",21,375,"MSU","Mpol","Native","Fuseta, Portugal","D","","FUSD6","F1","MP-FUSD6-F1","5/26/16","4/9/16",47,NA,NA
+"COS","W0554",21,640,"Field","Mpol","Native","Huelva, Spain","","","COS15","F0","MP-COS15-F0","6/17/16","4/9/16",69,37.449665,-6.569143
+"SCA","W0555",21,885,"Field","Mpol","Native","San Carlo, Italy","c2","","SCAc2-17","F0","MP-SCAc2-17-F0","6/27/16","4/9/16",79,44.086395,12.187785
+"LIS","W0556",21,228,"MSU","Mpol","Native","Lisbon, Portugal","","","LIS13","F1","MP-LIS13-F1","6/8/16","4/9/16",60,38.818216,-9.142902
+"BOL","W0557",21,921,"Field","Mpol","Native","Bolsera 1, Italy","","","BOL16","F0","MP-BOL16-F0","7/13/16","4/9/16",95,NA,NA
+"MML","W0558",21,902,"Field","Mpol","Native","Montemolina, Italy","c1","","MMLc1-15","F0","MP-MMLc1-15-F0","7/25/16","4/9/16",107,42.828173,12.37152
+"CRG","W0559",21,242,"MSU","Mpol","Native","Seville, Spain","","","CRG14","F1","MP-CRG14-F1","6/8/16","4/9/16",60,37.429805,-6.21776
+"NAR","W0560",22,607,"Field","Mpol","Native","Narbonne, France","c1","","NARc1-06","F0","MP-NARc1-06-F0","6/10/16","4/9/16",62,43.15515,3.070667
+"","W0561",22,509,"USDA","Mpol","","Belgium","","","W65559","","MP-W65559","6/15/16","4/9/16",67,42.643558,11.850325
+"PEA","W0562",22,292,"MSU","Mpol","Invaded","Casa Grande, AZ, USA","","","PEA18","F1","MP-PEA18-F1","6/6/16","4/9/16",58,32.878033,-111.748964
+"","W0563",22,489,"USDA","Mpol","","Greece","","","PI577383","","MP-PI577383","6/15/16","4/9/16",67,42.643558,11.850325
+"DEB","W0564",22,644,"Field","Mpol","Native","Deba, Gipuzkoa, Spain","","","DEB14-01","F0","MP-DEB14-01-F0","6/17/16","4/9/16",69,43.301433,2.344602
+"ARC","W0565",22,444,"MSU","Mpol","Invaded","Arcata, CA, USA","","","ARC16","F1","MP-ARC16-F1","6/24/16","4/9/16",76,40.87011,-124.11282
+"CAR","W0566",22,268,"MSU","Mpol","Native","Carcassonne, France","","","CAR11","F1","MP-CAR11-F1","7/18/16","4/9/16",100,43.204557,2.37969
+"AUR","W0567",22,941,"Field","Mpol","Native","Aurelius, actually near Breccia, Italy","","AURc1-18","AUR18","F0","MP-AUR18-F0","5/17/16","4/9/16",38,45.54358,10.15363
+"HIG","W0568",22,660,"Field","Mpol","Native","San Sebastian, Spain","","","HIG05-02","F0","MP-HIG05-02-F0","7/5/16","4/9/16",87,43.39133,1.792166
+"CAM","W0569",22,153,"MSU","Mpol","Native","Castro Marim, Portugal","","","CAM12","F1","MP-CAM12-F1","5/31/16","4/9/16",52,37.21854,-7.4492062
+"FUS","W0570",22,198,"MSU","Mpol","Native","Fuseta, Portugal","D","","FUSD2","F1","MP-FUSD2-F1","5/31/16","4/9/16",52,NA,NA
+"DCR","W0571",22,339,"MSU","Mpol","Invaded","Vista, CA, USA","","","DCR11","F1","MP-DCR11-F1","5/31/16","4/9/16",52,33.184978,-117.310682
+"BOL","W0572",22,917,"Field","Mpol","Native","Bolsera 1, Italy","","","BOL12","F0","MP-BOL12-F0","7/2/16","4/9/16",84,NA,NA
+"HUE","W0573",22,284,"MSU","Mpol","Native","Huelva, Spain","","","HUE11","F1","MP-HUE11-F1","5/31/16","4/9/16",52,37.265483,-6.854716
+"LIS","W0574",22,592,"Field","Mpol","Native","Lisbon, Portugal","","","LIS10","F0","MP-LIS10-F0","6/8/16","4/9/16",60,38.818216,-9.142902
+"AZN","W0575",22,337,"MSU","Mpol","Native","Aznalcollar, Seville, Spain","","","AZN11","F1","MP-AZN11-F1","6/8/16","4/9/16",60,37.531929,-6.286561
+"MML","W0576",22,899,"Field","Mpol","Native","Montemolina, Italy","c1","","MMLc1-12","F0","MP-MMLc1-12-F0","7/5/16","4/9/16",87,42.828173,12.37152
+"RTM","W0577",22,78,"MSU","Mpol","Native","Rio Tia Mayor, Spain","","","RTM17","F1","MP-RTM17-F1","6/8/16","4/9/16",60,NA,NA
+"ALT","W0578",22,46,"MSU","Mpol","Native","Alter, Portugal","","","ALT11","F1","MP-ALT11-F1","6/6/16","4/9/16",58,37.168255,-8.090313
+"CVD","W0579",22,158,"MSU","Mpol","Native","Castro Verde, Portugal","","","CVD12","F1","MP-CVD12-F1","6/6/16","4/9/16",58,37.708491,-8.099286
+"CDC","W0580",22,437,"MSU","Mpol","Native","Arles, France","c1","","CDCc1-07-01","F1","MP-CDCc1-07-01-F1","7/5/16","4/9/16",87,43.618907,4.813317
+"BHI","W0581",22,371,"MSU","Mpol","Invaded","Berkeley, CA, USA","","","BHI33-11","F1","MP-BHI33-11-F1","6/2/16","4/9/16",54,37.875926,-122.350833
+"SAN","W0582",22,736,"Field","Mpol","Native","Santona, Spain","","","SAN16-02","F0","MP-SAN16-02-F0","7/11/16","4/9/16",93,43.45713,4.353194
+"SCA","W0583",22,881,"Field","Mpol","Native","San Carlo, Italy","c2","","SCAc2-13","F0","MP-SCAc2-13-F0","6/29/16","4/9/16",81,44.086395,12.187785
+"MEL","W0584",22,128,"MSU","Mpol","Invaded","Roseburg, OR, USA","","","MEL19","F1","MP-MEL19-F1","5/31/16","4/9/16",52,43.221144,-123.406702
+"HIG","W0585",22,674,"Field","Mpol","Native","San Sebastian, Spain","","","HIG25-01","F0","MP-HIG25-01-F0","7/15/16","4/9/16",97,43.39133,1.792166
+"MIR","W0586",22,825,"Field","Mpol","Native","Mirabilandia, Italy","c1","","MIRc1-12","F0","MP-MIRc1-12-F0","7/13/16","4/9/16",95,44.33056,12.295502
+"EMO","W0587",22,67,"MSU","Mpol","Invaded","Temecula, CA, USA","","","EMO11","F1","MP-EMO11-F1","6/6/16","4/9/16",58,33.501351,-117.192456
+"COS","W0588",22,66,"MSU","Mpol","Native","Huelva, Spain","","","COS12","F1","MP-COS12-F1","5/23/16","4/9/16",44,37.449665,-6.569143
+"CRG","W0589",22,192,"MSU","Mpol","Native","Seville, Spain","","","CRG11","F1","MP-CRG11-F1","6/6/16","4/9/16",58,37.429805,-6.21776
+"LDS","W0590",22,220,"MSU","Mpol","Native","Lac du Sagou, France","c2","","LDSc2-01","F1","MP-LDSc2-01-F1","6/13/16","4/9/16",65,43.67624,3.352244
+"FUR","W0591",22,952,"Field","Mpol","Native","Furbara road, Italy","c1","","FURc1-11","F0","MP-FURc1-11-F0","6/29/16","4/9/16",81,NA,NA
+"ORB","W0592",22,863,"Field","Mpol","Native","Orbetella, Italy","","ORBc1-14","ORB14","F0","MP-ORB14-F0","6/13/16","4/9/16",65,42.44123,11.20262
+"","W0593",22,515,"USDA","Mpol","","Chile 7","","","PI368939","","MP-PI368939","5/26/16","4/9/16",47,42.643558,11.850325
+"MLR","W0594",22,119,"MSU","Mpol","Invaded","Napa, CA, USA","","","MLR11","F1","MP-MLR11-F1","6/8/16","4/9/16",60,38.873952,-122.42384
+"SDS","W0595",22,349,"MSU","Mpol","Invaded","San Diego, California, USA","","","SDS2-01","F1","MP-SDS2-01-F1","6/1/16","4/9/16",53,32.775721,-117.074083
+"SAN","W0596",22,758,"Field","Mpol","Native","Santona, Spain","","","SAN40-01","F0","MP-SAN40-01-F0",NA,"4/9/16",NA,43.45713,4.353194
+"MUS","W0597",22,136,"MSU","Mpol","Native","Frontignan, France","s1","MUS1-08","MUSs1-08","F1","MP-MUSs1-08-F1","6/8/16","4/9/16",60,43.476116,3.762642
+"MMG","W0598",22,905,"Field","Mpol","Native","Montemolina Garden, Italy","c2","","MMGc2-12","F0","MP-MMGc2-12-F0","7/11/16","4/9/16",93,42.63074,8.14856
+"RHA","W0599",22,843,"Field","Mpol","Native","Rome Harbor parking lot, Italy","","RHAc1-12","RHA12","F0","MP-RHA12-F0","6/29/16","4/9/16",81,NA,NA
+"NAR","W0600",23,601,"Field","Mpol","Native","Narbonne, France","c3","","NARc3-03","F0","MP-NARc3-03-F0","6/22/16","4/9/16",74,43.15515,3.070667
+"DEB","W0601",23,441,"MSU","Mpol","Native","Deba, Gipuzkoa, Spain","","","DEB28-03","F1","MP-DEB28-01-F1","6/20/16","4/9/16",72,43.301433,2.344602
+"","W0602",23,484,"USDA","Mpol","","Crete, Greece","","","W65284","","MP-W65284","5/17/16","4/9/16",38,42.643558,11.850325
+"ARC","W0603",23,252,"MSU","Mpol","Invaded","Arcata, CA, USA","","","ARC27","F1","MP-ARC27-F1","6/13/16","4/9/16",65,40.87011,-124.11282
+"MUS","W0604",23,346,"MSU","Mpol","Native","Frontignan, France","s2","MUS2-02","MUSs2-02","F1","MP-MUSs2-02-F1","6/10/16","4/9/16",62,43.476116,3.762642
+"LDS","W0605",23,605,"Field","Mpol","Native","Lac du Sagou, France","c3","","LDSc3-09","F0","MP-LDSc3-09-F0","6/10/16","4/9/16",62,43.67624,3.352244
+"LIS","W0606",23,699,"Field","Mpol","Native","Lisbon, Portugal","","","LIS21","F0","MP-LIS21-F0","7/2/16","4/9/16",84,38.818216,-9.142902
+"MEL","W0607",23,705,"Field","Mpol","Invaded","Roseburg, OR, USA","","","MEL30","F0","MP-MEL30-F0","6/20/16","4/9/16",72,43.221144,-123.406702
+"","W0608",23,501,"USDA","Mpol","","Chile","","","PI368959","","MP-PI368959",NA,"4/9/16",NA,42.643558,11.850325
+"CDC","W0609",23,402,"MSU","Mpol","Native","Arles, France","c2","","CDCc2-04","F1","MP-CDCc2-04-F1","7/5/16","4/9/16",87,43.618907,4.813317
+"BHI","W0610",23,632,"Field","Mpol","Invaded","Berkeley, CA, USA","","","BHI33-22","F0","MP-BHI33-22-F0","6/2/16","4/9/16",54,37.875926,-122.350833
+"SAN","W0611",23,625,"Field","Mpol","Native","Santona, Spain","","","SAN27-01","F0","MP-SAN27-01-F0","6/27/16","4/9/16",79,43.45713,4.353194
+"PEA","W0612",23,179,"MSU","Mpol","Invaded","Casa Grande, AZ, USA","","","PEA37","F1","MP-PEA37-F1","5/31/16","4/9/16",52,32.878033,-111.748964
+"HIG","W0613",23,687,"Field","Mpol","Native","San Sebastian, Spain","","","HIG12-01","F0","MP-HIG12-01-F0","7/5/16","4/9/16",87,43.39133,1.792166
+"CRG","W0614",24,331,"MSU","Mpol","Native","Seville, Spain","","","CRG12","F1","MP-CRG12-F1","6/2/16","4/9/16",54,37.429805,-6.21776
+"BHI","W0615",24,77,"MSU","Mpol","Invaded","Berkeley, CA, USA","","","BHI33-12","F1","MP-BHI33-12-F1","6/2/16","4/9/16",54,37.875926,-122.350833
+"ARC","W0616",24,390,"MSU","Mpol","Invaded","Arcata, CA, USA","","","ARC18","F1","MP-ARC18-F1","7/25/16","4/9/16",107,40.87011,-124.11282
+"BOL","W0617",24,918,"Field","Mpol","Native","Bolsera 1, Italy","","","BOL13","F0","MP-BOL13-F0","6/17/16","4/9/16",69,NA,NA
+"FUR","W0618",24,953,"Field","Mpol","Native","Furbara road, Italy","c1","","FURc1-12","F0","MP-FURc1-12-F0","7/11/16","4/9/16",93,NA,NA
+"CAM","W0619",24,42,"MSU","Mpol","Native","Castro Marim, Portugal","","","CAM13","F1","MP-CAM13-F1","6/6/16","4/9/16",58,37.21854,-7.4492062
+"EMO","W0620",24,133,"MSU","Mpol","Invaded","Temecula, CA, USA","","","EMO12","F1","MP-EMO12-F1","5/25/16","4/9/16",46,33.501351,-117.192456
+"HUE","W0621",24,356,"MSU","Mpol","Native","Huelva, Spain","","","HUE12","F1","MP-HUE12-F1","5/27/16","4/9/16",48,37.265483,-6.854716
+"PEA","W0622",24,195,"MSU","Mpol","Invaded","Casa Grande, AZ, USA","","","PEA21","F1","MP-PEA21-F1","5/17/16","4/9/16",38,32.878033,-111.748964
+"CVD","W0623",24,295,"MSU","Mpol","Native","Castro Verde, Portugal","","","CVD13","F1","MP-CVD13-F1","6/6/16","4/9/16",58,37.708491,-8.099286
+"RTM","W0624",24,277,"MSU","Mpol","Native","Rio Tia Mayor, Spain","","","RTM18","F1","MP-RTM18-F1","6/6/16","4/9/16",58,NA,NA
+"DEB","W0625",24,645,"Field","Mpol","Native","Deba, Gipuzkoa, Spain","","","DEB14-02","F0","MP-DEB14-02-F0","6/17/16","4/9/16",69,43.301433,2.344602
+"HIG","W0626",24,675,"Field","Mpol","Native","San Sebastian, Spain","","","HIG25-02","F0","MP-HIG25-02-F0","7/13/16","4/9/16",95,43.39133,1.792166
+"RHA","W0627",24,844,"Field","Mpol","Native","Rome Harbor parking lot, Italy","","RHAc1-13","RHA13","F0","MP-RHA13-F0","6/27/16","4/9/16",79,NA,NA
+"MUS","W0628",24,597,"Field","Mpol","Native","Frontignan, France","s1","MUS1-09","MUSs1-09","F0","MP-MUSs1-09-F0","7/11/16","4/9/16",93,43.476116,3.762642
+"ORB","W0629",24,865,"Field","Mpol","Native","Orbetella, Italy","","ORBc1-16","ORB16","F0","MP-ORB16-F0",NA,"4/9/16",NA,42.44123,11.20262
+"SCA","W0630",24,882,"Field","Mpol","Native","San Carlo, Italy","c2","","SCAc2-14","F0","MP-SCAc2-14-F0","6/27/16","4/9/16",79,44.086395,12.187785
+"MIR","W0631",24,826,"Field","Mpol","Native","Mirabilandia, Italy","c1","","MIRc1-13","F0","MP-MIRc1-13-F0",NA,"4/9/16",NA,44.33056,12.295502
+"","W0632",24,490,"USDA","Mpol","","Chile","","","PI368940","","MP-PI368940","5/24/16","4/9/16",45,42.643558,11.850325
+"FUS","W0633",24,56,"MSU","Mpol","Native","Fuseta, Portugal","D","","FUSD3","F1","MP-FUSD3-F1","5/31/16","4/9/16",52,NA,NA
+"MLR","W0634",24,342,"MSU","Mpol","Invaded","Napa, CA, USA","","","MLR12","F1","MP-MLR12-F1","5/31/16","4/9/16",52,38.873952,-122.42384
+"MML","W0635",24,900,"Field","Mpol","Native","Montemolina, Italy","c1","","MMLc1-13","F0","MP-MMLc1-13-F0",NA,"4/9/16",NA,42.828173,12.37152
+"CDC","W0636",24,436,"MSU","Mpol","Native","Arles, France","c1","","CDCc1-07-02","F1","MP-CDCc1-07-02-F1","7/18/16","4/9/16",100,43.618907,4.813317
+"SAN","W0637",24,759,"Field","Mpol","Native","Santona, Spain","","","SAN40-02","F0","MP-SAN40-02-F0",NA,"4/9/16",NA,43.45713,4.353194
+"MMG","W0638",24,855,"Field","Mpol","Native","Montemolina Garden, Italy","c2","","MMGc2-13","F0","MP-MMGc2-13-F0",NA,"4/9/16",NA,42.63074,8.14856
+"ALT","W0639",24,315,"MSU","Mpol","Native","Alter, Portugal","","","ALT12","F1","MP-ALT12-F1","6/6/16","4/9/16",58,37.168255,-8.090313
+"SAN","W0640",24,64,"MSU","Mpol","Native","Santona, Spain","","","SAN17","F1","MP-SAN17-F1","6/24/16","4/9/16",76,43.45713,4.353194
+"LDS","W0641",24,763,"Field","Mpol","Native","Lac du Sagou, France","c2","","LDSc2-02","F0","MP-LDSc2-02-F0","6/17/16","4/9/16",69,43.67624,3.352244
+"HIG","W0642",24,679,"Field","Mpol","Native","San Sebastian, Spain","","","HIG06-01","F0","MP-HIG06-01-F0","7/13/16","4/9/16",95,43.39133,1.792166
+"","W0643",24,514,"USDA","Mpol","","Hungary","","","W65565","","MP-W65565","6/6/16","4/9/16",58,42.643558,11.850325
+"SDS","W0644",24,135,"MSU","Mpol","Invaded","San Diego, California, USA","","","SDS2-02","F1","MP-SDS2-02-F1","6/1/16","4/9/16",53,32.775721,-117.074083
+"AZN","W0645",24,275,"MSU","Mpol","Native","Aznalcollar, Seville, Spain","","","AZN12","F1","MP-AZN12-F1","6/6/16","4/9/16",58,37.531929,-6.286561
+"COS","W0646",24,638,"Field","Mpol","Native","Huelva, Spain","","","COS13","F0","MP-COS13-F0","6/8/16","4/9/16",60,37.449665,-6.569143
+"LIS","W0647",24,333,"MSU","Mpol","Native","Lisbon, Portugal","","","LIS11","F1","MP-LIS11-F1","6/15/16","4/9/16",67,38.818216,-9.142902
+"","W0648",24,498,"USDA","Mpol","Invaded","California 2","","","PI577391","","MP-PI577391","5/19/16","4/9/16",40,42.643558,11.850325
+"DCR","W0649",24,287,"MSU","Mpol","Invaded","Vista, CA, USA","","","DCR12","F1","MP-DCR12-F1","5/31/16","4/9/16",52,33.184978,-117.310682
+"CAR","W0650",24,874,"MSU","Mpol","Native","Carcassonne, France","","","CAR12","F1","MP-CAR12-F1","6/27/16","4/9/16",79,43.204557,2.37969
+"NAR","W0651",24,17,"MSU","Mpol","Native","Narbonne, France","c1","","NARc1-07","F1","MP-NARc1-07-F1","6/24/16","4/9/16",76,43.15515,3.070667
+"MEL","W0652",24,388,"MSU","Mpol","Invaded","Roseburg, OR, USA","","","MEL20","F1","MP-MEL20-F1","6/6/16","4/9/16",58,43.221144,-123.406702
+"MLR","W0653",25,11,"MSU","Mpol","Invaded","Napa, CA, USA","","","MLR05","F1","MP-MLR05-F1","5/26/16","4/9/16",47,38.873952,-122.42384
+"","W0654",25,480,"USDA","Mpol","","Setubal, Portugal","","","PI493292","","MP-PI493292","6/6/16","4/9/16",58,42.643558,11.850325
+"LAT","W0655",25,796,"Field","Mpol","Native","Latera, Italy","","LATc1-05","LAT05","F0","MP-LAT05-F0","7/5/16","4/9/16",87,42.62872,11.82045
+"SCA","W0656",25,873,"Field","Mpol","Native","San Carlo, Italy","c2","","SCAc2-05","F0","MP-SCAc2-05-F0","6/8/16","4/9/16",60,44.086395,12.187785
+"","W0657",25,457,"USDA","Mpol","","Tunisia","","","W65409","","MP-W65409","6/8/16","4/9/16",60,42.643558,11.850325
+"PAL","W0658",25,329,"MSU","Mpol","Invaded","Palatka, FL, USA","","","PAL08","F1","MP-PAL08-F1","6/6/16","4/9/16",58,29.384424,-81.37429
+"HIG","W0659",25,654,"Field","Mpol","Native","San Sebastian, Spain","","","HIG02-03","F0","MP-HIG02-03-F0","7/15/16","4/9/16",97,43.39133,1.792166
+"ALT","W0660",25,362,"MSU","Mpol","Native","Alter, Portugal","","","ALT05","F1","MP-ALT05-F1","5/17/16","4/9/16",38,37.168255,-8.090313
+"RTM","W0661",25,122,"MSU","Mpol","Native","Rio Tia Mayor, Spain","","","RTM05","F1","MP-RTM05-F1","6/29/16","4/9/16",81,NA,NA
+"AZN","W0662",25,6,"MSU","Mpol","Native","Aznalcollar, Seville, Spain","","","AZN05","F1","MP-AZN05-F1","6/6/16","4/9/16",58,37.531929,-6.286561
+"MUS","W0663",25,600,"Field","Mpol","Native","Frontignan, France","s1","MUS1-04","MUSs1-04","F0","MP-MUSs1-04-F0","6/22/16","4/9/16",74,43.476116,3.762642
+"MEL","W0664",25,129,"MSU","Mpol","Invaded","Roseburg, OR, USA","","","MEL10","F1","MP-MEL10-F1","6/2/16","4/9/16",54,43.221144,-123.406702
+"MIR","W0665",25,818,"Field","Mpol","Native","Mirabilandia, Italy","c1","","MIRc1-05","F0","MP-MIRc1-05-F0","7/25/16","4/9/16",107,44.33056,12.295502
+"SAN","W0666",25,753,"Field","Mpol","Native","Santona, Spain","","","SAN35-01","F0","MP-SAN35-01-F0","7/27/16","4/9/16",109,43.45713,4.353194
+"HUE","W0667",25,8,"MSU","Mpol","Native","Huelva, Spain","","","HUE05","F1","MP-HUE05-F1","5/31/16","4/9/16",52,37.265483,-6.854716
+"DEB","W0668",25,222,"MSU","Mpol","Native","Deba, Gipuzkoa, Spain","","","DEB05","F1","MP-DEB05-F1","6/13/16","4/9/16",65,43.301433,2.344602
+"FUR","W0669",25,945,"Field","Mpol","Native","Furbara road, Italy","c1","","FURc1-04","F0","MP-FURc1-04-F0","6/15/16","4/9/16",67,NA,NA
+"LIS","W0670",25,326,"MSU","Mpol","Native","Lisbon, Portugal","","","LIS04","F1","MP-LIS04-F1","6/6/16","4/9/16",58,38.818216,-9.142902
+"BOL","W0671",25,911,"Field","Mpol","Native","Bolsera 1, Italy","","","BOL06","F0","MP-BOL06-F0","7/7/16","4/9/16",89,NA,NA
+"","W0672",25,512,"USDA","Mpol","","Ethiopia","","","PI286534","","MP-PI286534","5/17/16","4/9/16",38,42.643558,11.850325
+"MML","W0673",25,893,"Field","Mpol","Native","Montemolina, Italy","c1","","MMLc1-06","F0","MP-MMLc1-06-F0",NA,"4/9/16",NA,42.828173,12.37152
+"NAR","W0674",25,408,"MSU","Mpol","Native","Narbonne, France","c1","","NARc1-03","F1","MP-NARc1-03-F1","6/29/16","4/9/16",81,43.15515,3.070667
+"CAM","W0675",25,189,"MSU","Mpol","Native","Castro Marim, Portugal","","","CAM06","F1","MP-CAM06-F1","5/31/16","4/9/16",52,37.21854,-7.4492062
+"PEA","W0676",25,615,"Field","Mpol","Invaded","Casa Grande, AZ, USA","","","PEA12","F0","MP-PEA12-F0",NA,"4/9/16",NA,32.878033,-111.748964
+"NAR","W0677",25,722,"Field","Mpol","Native","Narbonne, France","c3","","NARc3-13","F0","MP-NARc3-13-F0","6/10/16","4/9/16",62,43.15515,3.070667
+"ORB","W0678",25,857,"Field","Mpol","Native","Orbetella, Italy","","ORBc1-08","ORB08","F0","MP-ORB08-F0","6/6/16","4/9/16",58,42.44123,11.20262
+"AUR","W0679",25,933,"Field","Mpol","Native","Aurelius, actually near Breccia, Italy","","AURc1-10","AUR10","F0","MP-AUR10-F0","5/17/16","4/9/16",38,45.54358,10.15363
+"CRG","W0680",25,111,"MSU","Mpol","Native","Seville, Spain","","","CRG05","F1","MP-CRG05-F1","5/31/16","4/9/16",52,37.429805,-6.21776
+"FUS","W0681",25,238,"MSU","Mpol","Native","Fuseta, Portugal","B","","FUSB4","F1","MP-FUSB4-F1","5/31/16","4/9/16",52,NA,NA
+"RIV","W0682",25,104,"MSU","Mpol","Invaded","Hillsborough, FL, USA","","","RIV12","F1","MP-RIV12-F1","6/1/16","4/9/16",53,27.59369,-82.27948
+"DCR","W0683",25,318,"MSU","Mpol","Invaded","Vista, CA, USA","","","DCR05","F1","MP-DCR05-F1","5/31/16","4/9/16",52,33.184978,-117.310682
+"SAN","W0684",25,730,"Field","Mpol","Native","Santona, Spain","","","SAN11-01","F0","MP-SAN11-01-F0","7/27/16","4/9/16",109,43.45713,4.353194
+"ARC","W0685",25,627,"Field","Mpol","Invaded","Arcata, CA, USA","","","ARC05-02","F0","MP-ARC05-02-F0","6/6/16","4/9/16",58,40.87011,-124.11282
+"LDS","W0686",25,376,"MSU","Mpol","Native","Lac du Sagou, France","","","LDS04","F1","MP-LDS04-F1","6/29/16","4/9/16",81,43.67624,3.352244
+"CAR","W0687",25,428,"MSU","Mpol","Native","Carcassonne, France","","","CAR06-02","F1","MP-CAR06-02-F1","7/20/16","4/9/16",102,43.204557,2.37969
+"SDS","W0688",25,39,"MSU","Mpol","Invaded","San Diego, California, USA","","","SDS1-05","F1","MP-SDS1-05-F1","5/31/16","4/9/16",52,32.775721,-117.074083
+"HIG","W0689",25,668,"Field","Mpol","Native","San Sebastian, Spain","","","HIG19-02","F0","MP-HIG19-02-F0","7/22/16","4/9/16",104,43.39133,1.792166
+"STA","W0690",25,132,"MSU","Mpol","Invaded","Saint Augustine, FL, USA","","","STA04","F2","MP-STA04-F2","6/6/16","4/9/16",58,29.55354,-81193554
+"EMO","W0691",25,299,"MSU","Mpol","Invaded","Temecula, CA, USA","","","EMO05","F1","MP-EMO05-F1","6/1/16","4/9/16",53,33.501351,-117.192456
+"CDC","W0692",25,620,"Field","Mpol","Native","Arles, France","c1","","CDCc1-04","F0","MP-CDCc1-04-F0","7/22/16","4/9/16",104,43.618907,4.813317
+"RHA","W0693",25,837,"Field","Mpol","Native","Rome Harbor parking lot, Italy","","RHAc1-06","RHA06","F0","MP-RHA06-F0",NA,"4/9/16",NA,NA,NA
+"MMG","W0694",25,557,"Field","Mpol","Native","Montemolina Garden, Italy","c2","","MMGc2-05","F0","MP-MMGc2-05-F0","7/13/16","4/9/16",95,42.63074,8.14856
+"COS","W0695",25,260,"MSU","Mpol","Native","Huelva, Spain","","","COS05","F1","MP-COS05-F1","6/10/16","4/9/16",62,37.449665,-6.569143
+"BHI","W0696",25,251,"MSU","Mpol","Invaded","Berkeley, CA, USA","","","BHI33-05","F1","MP-BHI33-05-F1","6/1/16","4/9/16",53,37.875926,-122.350833
+"CVD","W0697",25,113,"MSU","Mpol","Native","Castro Verde, Portugal","","","CVD06","F1","MP-CVD06-F1","6/6/16","4/9/16",58,37.708491,-8.099286
+"DCR","W0698",26,159,"MSU","Mpol","Invaded","Vista, CA, USA","","","DCR01","F1","MP-DCR01-F1","5/31/16","4/9/16",52,33.184978,-117.310682
+"","W0699",26,451,"USDA","Mpol","","Bolivia","","","PI478466","","MP-PI478466","5/26/16","4/9/16",47,42.643558,11.850325
+"MAG","W0700",26,790,"Grusak GH","Mpol","Invaded","Houston, TX, USA","","","MAG43","F1?","MP-MAG43-F1","6/10/16","4/9/16",62,NA,NA
+"FUS","W0701",26,102,"MSU","Mpol","Native","Fuseta, Portugal","A","","FUSA2","F1","MP-FUSA2-F1","6/6/16","4/9/16",58,NA,NA
+"CDC","W0702",26,636,"Field","Mpol","Native","Arles, France","c2","","CDCc2-14","F0","MP-CDCc2-14-F0","6/8/16","4/9/16",60,43.618907,4.813317
+"ALT","W0703",26,308,"MSU","Mpol","Native","Alter, Portugal","","","ALT01","F1","MP-ALT01-F1","6/6/16","4/9/16",58,37.168255,-8.090313
+"ARC","W0704",26,426,"MSU","Mpol","Invaded","Arcata, CA, USA","","","ARC03","F1","MP-ARC03-F1","6/17/16","4/9/16",69,40.87011,-124.11282
+"COS","W0705",26,394,"MSU","Mpol","Native","Huelva, Spain","","","COS01","F1","MP-COS01-F1","7/5/16","4/9/16",87,37.449665,-6.569143
+"LIS","W0706",26,101,"MSU","Mpol","Native","Lisbon, Portugal","","","LIS01","F1","MP-LIS01-F1","6/6/16","4/9/16",58,38.818216,-9.142902
+"","W0707",26,463,"USDA","Mpol","","Italy","","","W65374","","MP-W65374","7/11/16","4/9/16",93,42.643558,11.850325
+"CRG","W0708",26,201,"MSU","Mpol","Native","Seville, Spain","","","CRG01","F1","MP-CRG01-F1","6/6/16","4/9/16",58,37.429805,-6.21776
+"CVD","W0709",26,121,"MSU","Mpol","Native","Castro Verde, Portugal","","","CVD01","F1","MP-CVD01-F1","5/31/16","4/9/16",52,37.708491,-8.099286
+"RIV","W0710",26,29,"MSU","Mpol","Invaded","Hillsborough, FL, USA","","","RIV01","F1","MP-RIV01-F1","5/31/16","4/9/16",52,27.59369,-82.27948
+"HIG","W0711",26,664,"Field","Mpol","Native","San Sebastian, Spain","","","HIG16-02","F0","MP-HIG16-02-F0","7/22/16","4/9/16",104,43.39133,1.792166
+"AUR","W0712",26,924,"Field","Mpol","Native","Aurelius, actually near Breccia, Italy","","AURc1-01","AUR01","F0","MP-AUR01-F0","6/24/16","4/9/16",76,45.54358,10.15363
+"MMG","W0713",26,584,"Field","Mpol","Native","Montemolina Garden, Italy","c2","","MMGc2-01","F0","MP-MMGc2-01-F0","7/11/16","4/9/16",93,42.63074,8.14856
+"SAN","W0714",26,726,"Field","Mpol","Native","Santona, Spain","","SAN04","SAN04-01","F0","MP-SAN04-01-F0","7/18/16","4/9/16",100,43.45713,4.353194
+"SDS","W0715",26,166,"MSU","Mpol","Invaded","San Diego, California, USA","","","SDS1-01","F1","MP-SDS1-01-F1","5/31/16","4/9/16",52,32.775721,-117.074083
+"CAM","W0716",26,193,"MSU","Mpol","Native","Castro Marim, Portugal","","","CAM01","F1","MP-CAM01-F1","5/27/16","4/9/16",48,37.21854,-7.4492062
+"","W0717",26,452,"USDA","Mpol","","Australia","","","PI197336","","MP-PI197336","5/27/16","4/9/16",48,42.643558,11.850325
+"MUS","W0718",26,423,"MSU","Mpol","Native","Frontignan, France","s2","MUS2-10-01","MUSs2-10-01","F1","MP-MUSs2-10-01-F1","6/15/16","4/9/16",67,43.476116,3.762642
+"MZN","W0719",26,854,"Field","Mpol","Native","Manziana, Italy","","","MZN01","F0","MP-MZN01-F0","6/15/16","4/9/16",67,42.12963,12.105627
+"MIR","W0720",26,814,"Field","Mpol","Native","Mirabilandia, Italy","c1","","MIRc1-01","F0","MP-MIRc1-01-F0",NA,"4/9/16",NA,44.33056,12.295502
+"CDC","W0721",26,623,"Field","Mpol","Native","Arles, France","c1","","CDCc1-01","F0","MP-CDCc1-01-F0",NA,"4/9/16",NA,43.618907,4.813317
+"BHI","W0722",26,22,"MSU","Mpol","Invaded","Berkeley, CA, USA","","","BHI33-01","F1","MP-BHI33-01-F1","6/6/16","4/9/16",58,37.875926,-122.350833
+"LDS","W0723",26,585,"Field","Mpol","Native","Lac du Sagou, France","","","LDS01","F0","MP-LDS01-F0","6/24/16","4/9/16",76,43.67624,3.352244
+"NAR","W0724",26,209,"MSU","Mpol","Native","Narbonne, France","c3","","NARc3-09","F1","MP-NARc3-09-F1","6/22/16","4/9/16",74,43.15515,3.070667
+"EMO","W0725",26,332,"MSU","Mpol","Invaded","Temecula, CA, USA","","","EMO01","F1","MP-EMO01-F1","6/6/16","4/9/16",58,33.501351,-117.192456
+"RTM","W0726",26,289,"MSU","Mpol","Native","Rio Tia Mayor, Spain","","","RTM01","F1","MP-RTM01-F1","6/13/16","4/9/16",65,NA,NA
+"MEL","W0727",26,273,"MSU","Mpol","Invaded","Roseburg, OR, USA","","","MEL01","F1","MP-MEL01-F1","6/6/16","4/9/16",58,43.221144,-123.406702
+"AZN","W0728",26,76,"MSU","Mpol","Native","Aznalcollar, Seville, Spain","","","AZN01","F1","MP-AZN01-F1","6/6/16","4/9/16",58,37.531929,-6.286561
+"BOL","W0729",26,906,"Field","Mpol","Native","Bolsera 1, Italy","","","BOL01","F0","MP-BOL01-F0","7/22/16","4/9/16",104,NA,NA
+"HUE","W0730",26,223,"MSU","Mpol","Native","Huelva, Spain","","","HUE01","F1","MP-HUE01-F1","6/2/16","4/9/16",54,37.265483,-6.854716
+"MUS","W0731",26,401,"MSU","Mpol","Native","Frontignan, France","s1","MUS1-01","MUSs1-01","F1","MP-MUSs1-01-F1","6/6/16","4/9/16",58,43.476116,3.762642
+"CAR","W0732",26,89,"MSU","Mpol","Native","Carcassonne, France","","","CAR02","F1","MP-CAR02-F1","7/18/16","4/9/16",100,43.204557,2.37969
+"SCA","W0733",26,869,"Field","Mpol","Native","San Carlo, Italy","c2","","SCAc2-01","F0","MP-SCAc2-01-F0","7/2/16","4/9/16",84,44.086395,12.187785
+"SAN","W0734",26,65,"MSU","Mpol","Native","Santona, Spain","","","SAN32","F1","MP-SAN32-F1","8/1/16","4/9/16",114,43.45713,4.353194
+"MML","W0735",26,889,"Field","Mpol","Native","Montemolina, Italy","c1","","MMLc1-02","F0","MP-MMLc1-02-F0",NA,"4/9/16",NA,42.828173,12.37152
+"FUR","W0736",26,934,"Field","Mpol","Native","Furbara road, Italy","","","FUR01","F0","MP-FUR01-F0","7/7/16","4/9/16",89,NA,NA
+"PAL","W0737",26,316,"MSU","Mpol","Invaded","Palatka, FL, USA","","","PAL04","F1","MP-PAL04-F1","6/6/16","4/9/16",58,29.384424,-81.37429
+"RHA","W0738",26,832,"Field","Mpol","Native","Rome Harbor parking lot, Italy","","RHAc1-01","RHA01","F0","MP-RHA01-F0","6/17/16","4/9/16",69,NA,NA
+"DEB","W0739",26,68,"MSU","Mpol","Native","Deba, Gipuzkoa, Spain","","","DEB01","F1","MP-DEB01-F1","6/22/16","4/9/16",74,43.301433,2.344602
+"HIG","W0740",26,650,"Field","Mpol","Native","San Sebastian, Spain","","","HIG01-01","F0","MP-HIG01-01-F0","7/18/16","4/9/16",100,43.39133,1.792166
+"ORB","W0741",26,850,"Field","Mpol","Native","Orbetella, Italy","","ORBc1-01","ORB01","F0","MP-ORB01-F0","6/8/16","4/9/16",60,42.44123,11.20262
+"MLR","W0742",26,608,"Field","Mpol","Invaded","Napa, CA, USA","","","MLR01","F0","MP-MLR01-F0","5/31/16","4/9/16",52,38.873952,-122.42384
+"NAR","W0743",26,226,"MSU","Mpol","Native","Narbonne, France","","","NAR1-01","F1","MP-NAR1-01-F1","6/22/16","4/9/16",74,43.15515,3.070667
+"LAT","W0744",26,792,"Field","Mpol","Native","Latera, Italy","","LATc1-01","LAT01","F0","MP-LAT01-F0",NA,"4/9/16",NA,42.62872,11.82045
+"PEA","W0745",26,617,"Field","Mpol","Invaded","Casa Grande, AZ, USA","","","PEA01","F0","MP-PEA01-F0",NA,"4/9/16",NA,32.878033,-111.748964
+"STA","W0746",26,761,"FIU","Mpol","Invaded","Saint Augustine, FL, USA","","","STA01-01","F1","MP-STA01-01-F1","6/6/16","4/9/16",58,29.55354,-81193554
+"CRG","W0747",27,244,"MSU","Mpol","Native","Seville, Spain","","","CRG18","F1","MP-CRG18-F1","6/6/16","4/9/16",58,37.429805,-6.21776
+"LIS","W0748",27,117,"MSU","Mpol","Native","Lisbon, Portugal","","","LIS17","F1","MP-LIS17-F1","6/27/16","4/9/16",79,38.818216,-9.142902
+"HIG","W0749",27,683,"Field","Mpol","Native","San Sebastian, Spain","","","HIG10-01","F0","MP-HIG10-01-F0","7/13/16","4/9/16",95,43.39133,1.792166
+"CDC","W0750",27,345,"MSU","Mpol","Native","Arles, France","c2","","CDCc2-01","F1","MP-CDCc2-01-F1","7/11/16","4/9/16",93,43.618907,4.813317
+"SAN","W0751",27,742,"Field","Mpol","Native","Santona, Spain","","","SAN20-02","F0","MP-SAN20-02-F0","7/13/16","4/9/16",95,43.45713,4.353194
+"CAM","W0752",27,184,"MSU","Mpol","Native","Castro Marim, Portugal","","","CAM19","F1","MP-CAM19-F1","6/2/16","4/9/16",54,37.21854,-7.4492062
+"DEB","W0753",27,162,"MSU","Mpol","Native","Deba, Gipuzkoa, Spain","","","DEB26","F1","MP-DEB26-F1","6/15/16","4/9/16",67,43.301433,2.344602
+"HUE","W0754",27,693,"Field","Mpol","Native","Huelva, Spain","","","HUE18","F0","MP-HUE18-F0","6/6/16","4/9/16",58,37.265483,-6.854716
+"MUS","W0755",27,710,"Field","Mpol","Native","Frontignan, France","s1","MUS1-14","MUSs1-14","F0","MP-MUSs1-14-F0","6/10/16","4/9/16",62,43.476116,3.762642
+"DCR","W0756",27,255,"MSU","Mpol","Invaded","Vista, CA, USA","","","DCR18","F1","MP-DCR18-F1","6/2/16","4/9/16",54,33.184978,-117.310682
+"ARC","W0757",27,399,"MSU","Mpol","Invaded","Arcata, CA, USA","","","ARC25","F1","MP-ARC25-F1","6/8/16","4/9/16",60,40.87011,-124.11282
+"AZN","W0758",27,214,"MSU","Mpol","Native","Aznalcollar, Seville, Spain","","","AZN18","F1","MP-AZN18-F1","6/10/16","4/9/16",62,37.531929,-6.286561
+"FUS","W0759",27,26,"MSU","Mpol","Native","Fuseta, Portugal","F","","FUSF2","F1","MP-FUSF2-F1","7/2/16","4/9/16",84,NA,NA
+"MLR","W0760",27,63,"MSU","Mpol","Invaded","Napa, CA, USA","","","MLR19","F1","MP-MLR19-F1","6/6/16","4/9/16",58,38.873952,-122.42384
+"MEL","W0761",27,701,"Field","Mpol","Invaded","Roseburg, OR, USA","","","MEL26","F0","MP-MEL26-F0","6/22/16","4/9/16",74,43.221144,-123.406702
+"SDS","W0762",27,161,"MSU","Mpol","Invaded","San Diego, California, USA","","","SDS2-08","F1","MP-SDS2-08-F1","6/1/16","4/9/16",53,32.775721,-117.074083
+"CVD","W0763",27,177,"MSU","Mpol","Native","Castro Verde, Portugal","","","CVD19","F1","MP-CVD19-F1","6/8/16","4/9/16",60,37.708491,-8.099286
+"PEA","W0764",27,309,"MSU","Mpol","Invaded","Casa Grande, AZ, USA","","","PEA30","F1","MP-PEA30-F1","6/2/16","4/9/16",54,32.878033,-111.748964
+"","W0765",27,454,"USDA","Mpol","","Turkmenistan","","","W624449","","MP-W624449","5/27/16","4/9/16",48,42.643558,11.850325
+"","W0766",27,497,"USDA","Mpol","","Chile","","","PI368950","","MP-PI368950","5/20/16","4/9/16",41,42.643558,11.850325
+"BHI","W0767",27,219,"MSU","Mpol","Invaded","Berkeley, CA, USA","","","BHI33-18","F1","MP-BHI33-18-F1","6/6/16","4/9/16",58,37.875926,-122.350833
+"LDS","W0768",27,341,"MSU","Mpol","Native","Lac du Sagou, France","c3","","LDSc3-03","F1","MP-LDSc3-03-F1","6/27/16","4/9/16",79,43.67624,3.352244
+"EMO","W0769",27,358,"MSU","Mpol","Invaded","Temecula, CA, USA","","","EMO18","F1","MP-EMO18-F1","6/1/16","4/9/16",53,33.501351,-117.192456
+"NAR","W0770",27,718,"Field","Mpol","Native","Narbonne, France","c1","","NARc1-13","F0","MP-NARc1-13-F0","6/10/16","4/9/16",62,43.15515,3.070667
+"SAN","W0771",28,737,"Field","Mpol","Native","Santona, Spain","","","SAN18-01","F0","MP-SAN18-01-F0","7/27/16","4/9/16",109,43.45713,4.353194
+"EMO","W0772",28,236,"MSU","Mpol","Invaded","Temecula, CA, USA","","","EMO13","F1","MP-EMO13-F1","6/13/16","4/9/16",65,33.501351,-117.192456
+"MMG","W0773",28,926,"Field","Mpol","Native","Montemolina Garden, Italy","c2","","MMGc2-14","F0","MP-MMGc2-14-F0","7/29/16","4/9/16",111,42.63074,8.14856
+"FUS","W0774",28,53,"MSU","Mpol","Native","Fuseta, Portugal","D","","FUSD5","F1","MP-FUSD5-F1","6/15/16","4/9/16",67,NA,NA
+"LDS","W0775",28,764,"Field","Mpol","Native","Lac du Sagou, France","c2","","LDSc2-03","F0","MP-LDSc2-03-F0","6/22/16","4/9/16",74,43.67624,3.352244
+"CAM","W0776",28,20,"MSU","Mpol","Native","Castro Marim, Portugal","","","CAM14","F1","MP-CAM14-F1","6/13/16","4/9/16",65,37.21854,-7.4492062
+"PEA","W0777",28,612,"Field","Mpol","Invaded","Casa Grande, AZ, USA","","PEA22-02","PEA22","F0","MP-PEA22-F0",NA,"4/9/16",NA,32.878033,-111.748964
+"","W0778",28,507,"USDA","Mpol","Invaded","California 1","","","PI577392","","MP-PI577392","6/2/16","4/9/16",54,42.643558,11.850325
+"DEB","W0779",28,70,"MSU","Mpol","Native","Deba, Gipuzkoa, Spain","","","DEB15","F1","MP-DEB15-F1","6/10/16","4/9/16",62,43.301433,2.344602
+"DCR","W0780",28,243,"MSU","Mpol","Invaded","Vista, CA, USA","","","DCR13","F1","MP-DCR13-F1","5/31/16","4/9/16",52,33.184978,-117.310682
+"RTM","W0781",28,190,"MSU","Mpol","Native","Rio Tia Mayor, Spain","","","RTM19","F1","MP-RTM19-F1","6/10/16","4/9/16",62,NA,NA
+"MIR","W0782",28,827,"Field","Mpol","Native","Mirabilandia, Italy","c1","","MIRc1-14","F0","MP-MIRc1-14-F0","6/17/16","4/9/16",69,44.33056,12.295502
+"SDS","W0783",28,81,"MSU","Mpol","Invaded","San Diego, California, USA","","","SDS2-03","F1","MP-SDS2-03-F1","6/6/16","4/9/16",58,32.775721,-117.074083
+"HUE","W0784",28,19,"MSU","Mpol","Native","Huelva, Spain","","","HUE13","F1","MP-HUE13-F1","6/8/16","4/9/16",60,37.265483,-6.854716
+"BOL","W0785",28,920,"Field","Mpol","Native","Bolsera 1, Italy","","","BOL15","F0","MP-BOL15-F0","7/20/16","4/9/16",102,NA,NA
+"AZN","W0786",28,229,"MSU","Mpol","Native","Aznalcollar, Seville, Spain","","","AZN13","F1","MP-AZN13-F1","6/6/16","4/9/16",58,37.531929,-6.286561
+"COS","W0787",28,639,"Field","Mpol","Native","Huelva, Spain","","","COS14","F0","MP-COS14-F0","6/10/16","4/9/16",62,37.449665,-6.569143
+"SCA","W0788",28,883,"Field","Mpol","Native","San Carlo, Italy","c2","","SCAc2-15","F0","MP-SCAc2-15-F0","6/27/16","4/9/16",79,44.086395,12.187785
+"CDC","W0789",28,413,"MSU","Mpol","Native","Arles, France","c1","","CDCc1-08","F1","MP-CDCc1-08-F1","7/25/16","4/9/16",107,43.618907,4.813317
+"MLR","W0790",28,290,"MSU","Mpol","Invaded","Napa, CA, USA","","","MLR13","F1","MP-MLR13-F1","6/6/16","4/9/16",58,38.873952,-122.42384
+"HIG","W0791",28,680,"Field","Mpol","Native","San Sebastian, Spain","","","HIG06-02","F0","MP-HIG06-02-F0","7/5/16","4/9/16",87,43.39133,1.792166
+"ARC","W0792",28,108,"MSU","Mpol","Invaded","Arcata, CA, USA","","","ARC20","F1","MP-ARC20-F1",NA,"4/9/16",NA,40.87011,-124.11282
+"CRG","W0793",28,291,"MSU","Mpol","Native","Seville, Spain","","","CRG13","F1","MP-CRG13-F1","6/6/16","4/9/16",58,37.429805,-6.21776
+"FUR","W0794",28,954,"Field","Mpol","Native","Furbara road, Italy","c1","","FURc1-13","F0","MP-FURc1-13-F0","6/15/16","4/9/16",67,NA,NA
+"","W0795",28,474,"USDA","Mpol","","Cyprus","","","W65569","","MP-W65569","5/17/16","4/9/16",38,42.643558,11.850325
+"MUS","W0796",28,416,"MSU","Mpol","Native","Frontignan, France","s1","MUS1-09","MUSs1-09","F1","MP-MUSs1-09-F1","7/13/16","4/9/16",95,43.476116,3.762642
+"MML","W0797",28,901,"Field","Mpol","Native","Montemolina, Italy","c1","","MMLc1-14","F0","MP-MMLc1-14-F0",NA,"4/9/16",NA,42.828173,12.37152
+"","W0798",28,499,"USDA","Mpol","","Chile","","","PI368941","","MP-PI368941","5/20/16","4/9/16",41,42.643558,11.850325
+"RHA","W0799",28,845,"Field","Mpol","Native","Rome Harbor parking lot, Italy","","RHAc1-14","RHA14","F0","MP-RHA14-F0","7/5/16","4/9/16",87,NA,NA
+"CVD","W0800",28,372,"MSU","Mpol","Native","Castro Verde, Portugal","","","CVD14","F1","MP-CVD14-F1","6/6/16","4/9/16",58,37.708491,-8.099286
+"BHI","W0801",28,301,"MSU","Mpol","Invaded","Berkeley, CA, USA","","","BHI33-13","F1","MP-BHI33-13-F1","6/6/16","4/9/16",58,37.875926,-122.350833
+"NAR","W0802",28,182,"MSU","Mpol","Native","Narbonne, France","c1","","NARc1-08","F1","MP-NARc1-08-F1","6/15/16","4/9/16",67,43.15515,3.070667
+"LIS","W0803",28,250,"MSU","Mpol","Native","Lisbon, Portugal","","","LIS12","F1","MP-LIS12-F1","6/8/16","4/9/16",60,38.818216,-9.142902
+"ALT","W0804",28,323,"MSU","Mpol","Native","Alter, Portugal","","","ALT13","F1","MP-ALT13-F1","5/17/16","4/9/16",38,37.168255,-8.090313
+"MEL","W0805",28,406,"MSU","Mpol","Invaded","Roseburg, OR, USA","","","MEL22","F1","MP-MEL22-F1","6/8/16","4/9/16",60,43.221144,-123.406702
+"ORB","W0806",28,866,"Field","Mpol","Native","Orbetella, Italy","","ORBc1-17","ORB17","F0","MP-ORB17-F0","6/13/16","4/9/16",65,42.44123,11.20262
+"HIG","W0807",28,676,"Field","Mpol","Native","San Sebastian, Spain","","","HIG27-01","F0","MP-HIG27-01-F0","7/11/16","4/9/16",93,43.39133,1.792166
+"","W0808",29,455,"USDA","Mpol","","Spain","","","PI319029","","MP-PI319029","6/1/16","4/9/16",53,42.643558,11.850325
+"MLR","W0809",29,92,"MSU","Mpol","Invaded","Napa, CA, USA","","","MLR07","F1","MP-MLR07-F1","6/8/16","4/9/16",60,38.873952,-122.42384
+"MIR","W0810",29,820,"Field","Mpol","Native","Mirabilandia, Italy","c1","","MIRc1-07","F0","MP-MIRc1-07-F0","8/1/16","4/9/16",114,44.33056,12.295502
+"SAN","W0811",29,403,"MSU","Mpol","Native","Santona, Spain","","","SAN36","F1","MP-SAN36-F1","7/27/16","4/9/16",109,43.45713,4.353194
+"LDS","W0812",29,305,"MSU","Mpol","Native","Lac du Sagou, France","","","LDS06","F1","MP-LDS06-F1","6/20/16","4/9/16",72,43.67624,3.352244
+"PAL","W0813",29,276,"MSU","Mpol","Invaded","Palatka, FL, USA","","","PAL10","F1","MP-PAL10-F1","6/6/16","4/9/16",58,29.384424,-81.37429
+"RTM","W0814",29,884,"MSU","Mpol","Native","Rio Tia Mayor, Spain","","","RTM08","F1","MP-RTM08-F1","6/17/16","4/9/16",69,NA,NA
+"SCA","W0815",29,877,"Field","Mpol","Native","San Carlo, Italy","c2","","SCAc2-09","F0","MP-SCAc2-09-F0",NA,"4/9/16",NA,44.086395,12.187785
+"SAN","W0816",29,732,"Field","Mpol","Native","Santona, Spain","","","SAN12-01","F0","MP-SAN12-01-F0","7/25/16","4/9/16",107,43.45713,4.353194
+"BHI","W0817",29,73,"MSU","Mpol","Invaded","Berkeley, CA, USA","","","BHI33-07","F1","MP-BHI33-07-F1","6/6/16","4/9/16",58,37.875926,-122.350833
+"MEL","W0818",29,382,"MSU","Mpol","Invaded","Roseburg, OR, USA","","","MEL12","F1","MP-MEL12-F1","6/8/16","4/9/16",60,43.221144,-123.406702
+"DEB","W0819",29,96,"MSU","Mpol","Native","Deba, Gipuzkoa, Spain","","","DEB08","F1","MP-DEB08-F1","6/24/16","4/9/16",76,43.301433,2.344602
+"LAT","W0820",29,798,"Field","Mpol","Native","Latera, Italy","","LATc1-07","LAT07","F0","MP-LAT07-F0","7/5/16","4/9/16",87,42.62872,11.82045
+"NAR","W0821",29,417,"MSU","Mpol","Native","Narbonne, France","c1","","NARc1-04","F1","MP-NARc1-04-F1","6/27/16","4/9/16",79,43.15515,3.070667
+"DCR","W0822",29,213,"MSU","Mpol","Invaded","Vista, CA, USA","","","DCR07","F1","MP-DCR07-F1","5/31/16","4/9/16",52,33.184978,-117.310682
+"HUE","W0823",29,347,"MSU","Mpol","Native","Huelva, Spain","","","HUE07","F1","MP-HUE07-F1","6/2/16","4/9/16",54,37.265483,-6.854716
+"AUR","W0824",29,937,"Field","Mpol","Native","Aurelius, actually near Breccia, Italy","","AURc1-14","AUR14","F0","MP-AUR14-F0","5/17/16","4/9/16",38,45.54358,10.15363
+"","W0825",29,462,"USDA","Mpol","","Algeria","","","W65444","","MP-W65444","5/31/16","4/9/16",52,42.643558,11.850325
+"CDC","W0826",29,405,"MSU","Mpol","Native","Arles, France","c1","","CDCc1-05","F1","MP-CDCc1-05-F1","6/29/16","4/9/16",81,43.618907,4.813317
+"","W0827",29,478,"USDA","Mpol","","Faro, Portugal","","","PI493298","","MP-PI493298","6/15/16","4/9/16",67,42.643558,11.850325
+"STA","W0828",29,118,"MSU","Mpol","Invaded","Saint Augustine, FL, USA","","","STA06","F2","MP-STA06-F2","6/6/16","4/9/16",58,29.55354,-81193554
+"MML","W0829",29,895,"Field","Mpol","Native","Montemolina, Italy","c1","","MMLc1-08","F0","MP-MMLc1-08-F0",NA,"4/9/16",NA,42.828173,12.37152
+"FUS","W0830",29,327,"MSU","Mpol","Native","Fuseta, Portugal","B","","FUSB6","F1","MP-FUSB6-F1","5/31/16","4/9/16",52,NA,NA
+"ARC","W0831",29,210,"MSU","Mpol","Invaded","Arcata, CA, USA","","","ARC10","F1","MP-ARC10-F1","8/1/16","4/9/16",114,40.87011,-124.11282
+"EMO","W0832",29,338,"MSU","Mpol","Invaded","Temecula, CA, USA","","","EMO07","F1","MP-EMO07-F1","6/13/16","4/9/16",65,33.501351,-117.192456
+"FUR","W0833",29,948,"Field","Mpol","Native","Furbara road, Italy","c1","","FURc1-07","F0","MP-FURc1-07-F0","6/29/16","4/9/16",81,NA,NA
+"CAR","W0834",29,425,"MSU","Mpol","Native","Carcassonne, France","","","CAR08","F1","MP-CAR08-F1","7/13/16","4/9/16",95,43.204557,2.37969
+"MMG","W0835",29,875,"Field","Mpol","Native","Montemolina Garden, Italy","c2","","MMGc2-08","F0","MP-MMGc2-08-F0","7/5/16","4/9/16",87,42.63074,8.14856
+"HIG","W0836",29,656,"Field","Mpol","Native","San Sebastian, Spain","","","HIG03-02","F0","MP-HIG03-02-F0","7/18/16","4/9/16",100,43.39133,1.792166
+"CVD","W0837",29,259,"MSU","Mpol","Native","Castro Verde, Portugal","","","CVD08","F1","MP-CVD08-F1","6/2/16","4/9/16",54,37.708491,-8.099286
+"MUS","W0838",29,919,"MSU","Mpol","Native","Frontignan, France","s1","","MUSs1-06","F1","MP-MUSs1-06-F1","7/13/16","4/9/16",95,43.476116,3.762642
+"AZN","W0839",29,364,"MSU","Mpol","Native","Aznalcollar, Seville, Spain","","","AZN07","F1","MP-AZN07-F1","6/6/16","4/9/16",58,37.531929,-6.286561
+"CRG","W0840",29,9,"MSU","Mpol","Native","Seville, Spain","","","CRG07","F1","MP-CRG07-F1","6/13/16","4/9/16",65,37.429805,-6.21776
+"BOL","W0841",29,913,"Field","Mpol","Native","Bolsera 1, Italy","","","BOL08","F0","MP-BOL08-F0","6/20/16","4/9/16",72,NA,NA
+"COS","W0842",29,264,"MSU","Mpol","Native","Huelva, Spain","","","COS07","F1","MP-COS07-F1","5/23/16","4/9/16",44,37.449665,-6.569143
+"PEA","W0843",29,270,"MSU","Mpol","Invaded","Casa Grande, AZ, USA","","","PEA14","F1","MP-PEA14-F1","5/19/16","4/9/16",40,32.878033,-111.748964
+"HIG","W0844",29,670,"Field","Mpol","Native","San Sebastian, Spain","","","HIG20-02","F0","MP-HIG20-02-F0","7/5/16","4/9/16",87,43.39133,1.792166
+"SDS","W0845",29,175,"MSU","Mpol","Invaded","San Diego, California, USA","","","SDS1-07","F1","MP-SDS1-07-F1","6/6/16","4/9/16",58,32.775721,-117.074083
+"RHA","W0846",29,839,"Field","Mpol","Native","Rome Harbor parking lot, Italy","","RHAc1-08","RHA08","F0","MP-RHA08-F0","7/15/16","4/9/16",97,NA,NA
+"ORB","W0847",29,859,"Field","Mpol","Native","Orbetella, Italy","","ORBc1-10","ORB10","F0","MP-ORB10-F0","6/8/16","4/9/16",60,42.44123,11.20262
+"ALT","W0848",29,124,"MSU","Mpol","Native","Alter, Portugal","","","ALT07","F1","MP-ALT07-F1","6/6/16","4/9/16",58,37.168255,-8.090313
+"CAM","W0849",29,172,"MSU","Mpol","Native","Castro Marim, Portugal","","","CAM08","F1","MP-CAM08-F1","5/31/16","4/9/16",52,37.21854,-7.4492062
+"LIS","W0850",29,314,"MSU","Mpol","Native","Lisbon, Portugal","","","LIS07","F1","MP-LIS07-F1","6/8/16","4/9/16",60,38.818216,-9.142902
+"PAL","W0851",30,769,"Field","Mlup","Invaded","Palatka, FL, USA","","","","F0","ML-PAL01","6/22/16","4/9/16",74,29.384424,-81.37429
+"MML","W0852",30,549,"Field","Mlup","Native","Montemolina, Italy","","","","F0","MML02",NA,"4/9/16",NA,42.828173,12.37152
+"MAG","W0853",30,782,"Grusak GH","Mlup","Invaded","Columbus, OH, USA","","","","F1?","MAG57","6/20/16","4/9/16",72,NA,NA
+"","W0854",30,536,"USDA","Mlup","","Iran","","","","","PI380902","6/6/16","4/9/16",58,42.643558,11.850325
+"OGP","W0855",30,559,"Field","Mlup","Invaded","Yucaipa, CA, USA","","","","F0","OGP01","6/22/16","4/9/16",74,34.040635,-117.114625
+"","W0856",30,542,"USDA","Mlup","","Uzbekistan","","","","","PI502423","7/7/16","4/9/16",89,42.643558,11.850325
+"","W0857",30,543,"USDA","Mlup","","Mongolia","","","","","W616613","6/1/16","4/9/16",53,42.643558,11.850325
+"","W0858",30,544,"USDA","Mlup","","NE, USA","","","","","PI215242","6/6/16","4/9/16",58,42.643558,11.850325
+"MAG","W0859",30,786,"Grusak GH","Mlup","Native","Faro, Portugal","","","","F1?","MAG37","6/2/16","4/9/16",54,NA,NA
+"DOV","W0860",30,800,"Field","Mlup","Native","Dover, UK","","","","F0","DOV25","7/7/16","4/9/16",89,51.130709,1.322751
+"","W0861",30,546,"USDA","Mlup","","Morocco","","","","","PI516697","7/29/16","4/9/16",111,42.643558,11.850325
+"VER","W0862",30,833,"Field","Mlup","Native","Verghereto, Italy","","","","F0","VER13","7/29/16","4/9/16",111,43.79919,11.986181
+"DIN","W0863",30,580,"Field","Mlup","Native","\"Dinosaur\", Barcelona, Spain","","","","F0","DIN13","6/22/16","4/9/16",74,42.076922,2.017113
+"PHD","W0864",30,550,"Field","Mlup","Native","Portishead, UK","","","","F0","PHD38","7/29/16","4/9/16",111,51.494559,-2.773099
+"PER","W0865",30,556,"Field","Mlup","Native","Perugia University, Italy","","","","F0","PER23","7/29/16","4/9/16",111,43.103158,12.394835
+"","W0866",30,533,"USDA","Mlup","","China","","","","","W69554","7/29/16","4/9/16",111,42.643558,11.850325
+"","W0867",30,526,"USDA","Mlup","","Sweden","","","","","PI235103","6/15/16","4/9/16",67,42.643558,11.850325
+"STA","W0868",30,767,"Field","Mlup","Invaded","Saint Augustine, FL, USA","","","","F0","ML-STA04","5/23/16","4/9/16",44,29.55354,-81193554
+"","W0869",30,539,"USDA","Mlup","","Morocco","","","","","PI516701",NA,"4/9/16",NA,42.643558,11.850325
+"CNF","W0870",30,564,"Field","Mlup","Invaded","Flagstaff, AZ, USA","","","","F0","CNF11","7/7/16","4/9/16",89,35.029798,-111.733659
+"MAG","W0871",30,781,"Grusak GH","Mlup","Invaded","Seattle, WA, USA","","","","F1?","MAG20","6/20/16","4/9/16",72,NA,NA
+"ASH","W0872",30,576,"Field","Mlup","Invaded","Santa Fe, NM, USA","","","","F0","ASU14","6/15/16","4/9/16",67,35.667044,-105.971696
+"BRC","W0873",30,804,"Field","Mlup","Native","Barcelona, Spain","","","","F0","BRC12","6/2/16","4/9/16",54,41.475145,2.282095
+"MAG","W0874",30,776,"Grusak GH","Mlup","Invaded","Portage, IN, USA","","","","F1?","MAG47","5/31/16","4/9/16",52,NA,NA
+"MAG","W0875",30,774,"Grusak GH","Mlup","Invaded","Barrier Island, SC, USA","","","","F1?","MAG34","5/31/16","4/9/16",52,NA,NA
+"","W0876",30,521,"USDA","Mlup","Invaded","WA, USA","","","","","PI641428","7/29/16","4/9/16",111,42.643558,11.850325
+"RIV","W0877",30,768,"Field","Mlup","Invaded","Hillsborough, FL, USA","","","","F0","ML-RIV12","5/19/16","4/9/16",40,27.59369,-82.27948
+"PUL","W0878",30,548,"Field","Mlup","Invaded","Pullman, WA, USA","","","","F0","PUL04","7/29/16","4/9/16",111,46.730457,-117.22247
+"RTM","W0879",30,583,"Field","Mlup","Native","Rio Tia Mayor, Spain","","","","F0","ML-RTM16","7/29/16","4/9/16",111,NA,NA
+"CHA","W0880",30,553,"Field","Mlup","Native","Chantilly, France","","","","F0","CHA09",NA,"4/9/16",NA,49.132388,2.434715
+"ASH","W0881",30,808,"Field","Mlup","Invaded","Santa Fe, NM, USA","","","","F0","ASH13","6/10/16","4/9/16",62,35.667044,-105.971696
+"AVP","W0882",30,554,"Field","Mlup","Invaded","Glorieta, NM, USA","","","","F0","AVP02","6/13/16","4/9/16",65,35.582838,-105.770197
+"LAT","W0883",30,791,"Field","Mlup","Native","Latera, Italy","","","","F0","ML-LAT24","6/6/16","4/9/16",58,42.62872,11.82045
+"DOV","W0884",30,807,"Field","Mlup","Native","Dover, UK","","","","F0","DOV06",NA,"4/9/16",NA,51.130709,1.322751
+"","W0885",30,520,"USDA","Mlup","","Ukraine","","","","","W633643","6/10/16","4/9/16",62,42.643558,11.850325
+"KFP","W0886",30,571,"Field","Mlup","Native","Aachen, Germany","","","","F0","KFP22","6/6/16","4/9/16",58,50.758949,6.071544
+"FRI","W0887",30,831,"Field","Mlup","Native","Friesenberg, Germany","","","","F0","FRI08","6/17/16","4/9/16",69,47.353023,8.48662
+"CHA","W0888",30,810,"Field","Mlup","Native","Chantilly, France","","","","F0","CHA11","6/17/16","4/9/16",69,49.132388,2.434715
+"MSP","W0889",30,772,"Field","Mlup","Invaded","Minneapolis, MN, USA","","","","F0","MSP03","6/6/16","4/9/16",58,44.96958,-93.29124
+"","W0890",30,523,"USDA","Mlup","","NE, USA","","","","","PI215245","5/31/16","4/9/16",52,42.643558,11.850325
+"","W0891",30,527,"USDA","Mlup","","Kazakhstan","","","","","PI641607","6/13/16","4/9/16",65,42.643558,11.850325
+"MAG","W0892",30,775,"Grusak GH","Mlup","Invaded","Potomac, MD, USA","","","","F1?","MAG48","6/10/16","4/9/16",62,NA,NA
+"","W0893",30,532,"USDA","Mlup","","Canada","","","","","PI452459","6/15/16","4/9/16",67,42.643558,11.850325
+"BRC","W0894",30,805,"Field","Mlup","Native","Barcelona, Spain","","","","F0","BRC08","6/2/16","4/9/16",54,41.475145,2.282095
+"DEB","W0895",30,809,"Field","Mlup","Native","Deba, Gipuzkoa, Spain","","","","F0","DEB02","6/8/16","4/9/16",60,43.301433,2.344602
+"SAN","W0896",30,566,"Field","Mlup","Native","Santona, Spain","","","","F0","ML-SAN06","7/29/16","4/9/16",111,43.45713,4.353194
+"","W0897",30,522,"USDA","Mlup","","Argentina","","","","","PI202038","6/20/16","4/9/16",72,42.643558,11.850325
+"MPT","W0898",30,830,"Field","Mlup","Native","near Montepetra, Italy","","","","F0","MPT29","6/6/16","4/9/16",58,43.931979,12.177063
+"","W0899",30,528,"USDA","Mlup","","Armenia","","","","","PI641664","6/6/16","4/9/16",58,42.643558,11.850325
+"MAG","W0900",30,777,"Grusak GH","Mlup","Native","Visegrad, Hungary","","","","F1?","MAG55","6/10/16","4/9/16",62,NA,NA
+"CAR","W0901",30,551,"Field","Mlup","Native","Carcassonne, France","","","","F0","ML-CAR15","6/6/16","4/9/16",58,43.204557,2.37969
+"CHA","W0902",30,811,"Field","Mlup","Native","Chantilly, France","","","","F0","CHA04","6/20/16","4/9/16",72,49.132388,2.434715
+"KAL","W0903",30,771,"Field","Mlup","Invaded","Sarasota, FL, USA","","","","F0","KAL02","5/23/16","4/9/16",44,NA,NA
+"MML","W0904",30,887,"Field","Mlup","Native","Montemolina, Italy","","","","F0","ML-MML39","7/29/16","4/9/16",111,42.828173,12.37152
+"GHO","W0905",30,770,"Field","Mlup","Invaded","Dade, FL, USA","","","","F0","GHO02","5/23/16","4/9/16",44,NA,NA
+"FRE","W0906",30,565,"Field","Mlup","Invaded","Las Cruces, NM, USA","","","","F0","FRE12","6/1/16","4/9/16",53,32.291808,-106.763578
+"","W0907",30,524,"USDA","Mlup","","Russian Federation","","","","","PI314539","6/20/16","4/9/16",72,42.643558,11.850325
+"DEB","W0908",30,572,"Field","Mlup","Native","Deba, Gipuzkoa, Spain","","","","F0","DEB20","6/20/16","4/9/16",72,43.301433,2.344602
+"DOV","W0909",30,560,"Field","Mlup","Native","Dover, UK","","","","F0","DOV26","7/29/16","4/9/16",111,51.130709,1.322751
+"CHA","W0910",30,803,"Field","Mlup","Native","Chantilly, France","","","","F0","CHA08",NA,"4/9/16",NA,49.132388,2.434715
+"CHA","W0911",30,552,"Field","Mlup","Native","Chantilly, France","","","","F0","CHA06",NA,"4/9/16",NA,49.132388,2.434715
+"DML","W0912",30,766,"Field","Mlup","Invaded","Dade, FL, USA","","","","F0","DML05","5/18/16","4/9/16",39,NA,NA
+"","W0913",30,525,"USDA","Mlup","","Netherlands","","","","","PI566869","6/10/16","4/9/16",62,42.643558,11.850325
+"KRM","W0914",30,568,"Field","Mlup","Native","Kormbacher, Germany","","","","F0","KRM19","6/13/16","4/9/16",65,50.9909,7.95335
+"MIR","W0915",30,813,"Field","Mlup","Native","Mirabilandia, Italy","","","","F0","ML-MIR02","6/6/16","4/9/16",58,44.33056,12.295502
+"HIG","W0916",30,582,"Field","Mlup","Native","San Sebastian, Spain","","","","F0","ML-HIG11","7/29/16","4/9/16",111,43.39133,1.792166
+"","W0917",30,545,"USDA","Mlup","","Turkmenistan","","","","","W624380","6/15/16","4/9/16",67,42.643558,11.850325
+"SAN","W0918",30,801,"Field","Mlup","Native","Santona, Spain","","","","F0","ML-SAN21","7/29/16","4/9/16",111,43.45713,4.353194
+"AQS","W0919",30,562,"Field","Mlup","Native","Acquasparta, Italy","","","","F0","AQS13","7/29/16","4/9/16",111,42.699811,12.565373
+"","W0920",30,541,"USDA","Mlup","","Mongolia","","","","","W619828","5/31/16","4/9/16",52,42.643558,11.850325
+"","W0921",30,519,"USDA","Mlup","","Russian Federation","","","","","PI314538","7/7/16","4/9/16",89,42.643558,11.850325
+"","W0922",30,537,"USDA","Mlup","","China","","","","","PI641533","6/13/16","4/9/16",65,42.643558,11.850325
+"MDB","W0923",30,575,"Field","Mlup","Invaded","Baltimore, MD, USA","","","","F0","MDB02","6/22/16","4/9/16",74,39.284622,-76.760914
+"MDB","W0924",30,812,"Field","Mlup","Invaded","Baltimore, MD, USA","","","","F0","MDB11","6/20/16","4/9/16",72,39.284622,-76.760914
+"","W0925",30,529,"USDA","Mlup","","Russian Federation","","","","","PI314578","6/13/16","4/9/16",65,42.643558,11.850325
+"TOC","W0926",30,806,"Field","Mlup","Invaded","Truth or Consequences, NM, USA","","","","F0","TOC24","5/31/16","4/9/16",52,33.132064,-107.251028
+"","W0927",30,535,"USDA","Mlup","","China","","","","","W613101","5/31/16","4/9/16",52,42.643558,11.850325
+"BHI","W0928",30,573,"Field","Mlup","Invaded","Berkeley, CA, USA","","","","F0","BHI18","5/31/16","4/9/16",52,37.875926,-122.350833
+"JUR","W0929",30,581,"Field","Mlup","Native","Gijon, Spain","","","","F0","JUR02","6/13/16","4/9/16",65,43.504964,-5.273769
+"DVN","W0930",30,579,"Field","Mlup","Native","Devon, UK","","","","F0","DVN05","6/22/16","4/9/16",74,50.542393,-3.701094
+"","W0931",30,540,"USDA","Mlup","","Austria","","","","","PI577338","7/7/16","4/9/16",89,42.643558,11.850325
+"EDM","W0932",30,567,"Field","Mlup","Invaded","Edmonton, Alberta, CAN","","","","F0","EDM06","6/13/16","4/9/16",65,53.555548,-113.774814
+"","W0933",30,538,"USDA","Mlup","","Spain","","","","","PI319026","6/6/16","4/9/16",58,42.643558,11.850325
+"MAG","W0934",30,783,"Grusak GH","Mlup","Invaded","Chesterton, IN, USA","","","","F1?","MAG18","6/8/16","4/9/16",60,NA,NA
+"","W0935",30,534,"USDA","Mlup","","Tajikistan","","","","","W624969","5/31/16","4/9/16",52,42.643558,11.850325
+"SLB","W0936",30,773,"Field","Mlup","Invaded","Empire, MI, USA","","","","F0","SLB01","6/20/16","4/9/16",72,44.852371,-86.120466
+"","W0937",30,547,"USDA","Mlup","","Bulgaria","","","","","W619328","6/6/16","4/9/16",58,42.643558,11.850325
+"MAG","W0938",30,780,"Grusak GH","Mlup","Invaded","Houston, TX, USA","","","","F1?","MAG09","6/6/16","4/9/16",58,NA,NA
+"MAG","W0939",30,778,"Grusak GH","Mlup","Native","Undine, Italy","","","","F1?","MAG05","5/31/16","4/9/16",52,NA,NA
+"","W0940",30,530,"USDA","Mlup","","Afghanistan","","","","","PI221939","6/1/16","4/9/16",53,42.643558,11.850325
+"MAG","W0941",30,785,"Grusak GH","Mlup","Invaded","Madison, AL, USA","","","","F1?","MAG59","6/6/16","4/9/16",58,NA,NA
+"PHD","W0942",30,578,"Field","Mlup","Native","Portishead, UK","","","","F0","PHD26","7/29/16","4/9/16",111,51.494559,-2.773099
+"MAG","W0943",30,784,"Grusak GH","Mlup","Invaded","Letchworth St. Park, NY, USA","","","","F1?","MAG11","6/13/16","4/9/16",65,NA,NA
+"HHU","W0944",30,570,"Field","Mlup","Native","Dusseldorf, Germany","","","","F0","HHU14","7/7/16","4/9/16",89,51.206565,6.7568
+"TOC","W0945",30,561,"Field","Mlup","Invaded","Truth or Consequences, NM, USA","","","","F0","TOC04","5/31/16","4/9/16",52,33.132064,-107.251028
+"SCA","W0946",30,868,"Field","Mlup","Native","San Carlo, Italy","","","","F0","ML-SCA05",NA,"4/9/16",NA,44.086395,12.187785
+"CHA","W0947",30,569,"Field","Mlup","Native","Chantilly, France","","","","F0","CHA07","7/7/16","4/9/16",89,49.132388,2.434715
+"ASH","W0948",30,563,"Field","Mlup","Invaded","Santa Fe, NM, USA","","","","F0","ASH27","6/13/16","4/9/16",65,35.667044,-105.971696
+"BHB","W0949",30,574,"Field","Mlup","Invaded","Bar Harbor, ME, USA","","","","F0","BHB09","6/6/16","4/9/16",58,44.375939,-68.427112
+"IND","W0950",30,577,"Field","Mlup","Invaded","Angola, IN, USA","","","","F0","IND01-03","6/6/16","4/9/16",58,41.648169,-85.038894
+"MAG","W0951",30,779,"Grusak GH","Mlup","Invaded","Springfield, IL, USA","","","","F1?","MAG64","6/13/16","4/9/16",65,NA,NA
+"","W0952",30,531,"USDA","Mlup","","Turkey","","","","","PI542699","6/1/16","4/9/16",53,42.643558,11.850325
+"BRC","W0953",30,802,"Field","Mlup","Native","Barcelona, Spain","","","","F0","BRC11","6/6/16","4/9/16",58,41.475145,2.282095
+"MZN","W0954",30,853,"Field","Mlup","Native","Manziana, Italy","","","","F0","ML-MZN02","6/13/16","4/9/16",65,42.12963,12.105627
+"VAN","W0955",30,555,"Field","Mlup","Invaded","Vancouver, WA, USA","","","","F0","VAN04","6/20/16","4/9/16",72,45.640118,-122.762722
+"","",NA,NA,"","","","","","","","","",NA,"4/9/16",NA,42.643558,11.850325
+"","",NA,NA,"","","","","","","","","",NA,"4/9/16",NA,42.643558,11.850325
+"","",NA,NA,"","","","","","","","","",NA,"4/9/16",NA,42.643558,11.850325
+"","",NA,NA,"","","","","","","","","",NA,"4/9/16",NA,42.643558,11.850325
+"","",NA,NA,"","","","","","","","","","","4/9/16",NA,42.643558,11.850325
+"","",NA,NA,"","","","","","","","","","7/7/16","",NA,42.643558,11.850325

@@ -1,0 +1,208 @@
+---
+title: 'Induced vs Constitutive Project: Univariate repeated analysis of biochemical
+  assays'
+author: "Chandra Jack"
+date: "October 27, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Results of the univariate analyses for each biochemical assay
+
+Prior to running the multivariate analysis, I looked at each assay separately as a repeated measures test.
+
+```{r message=FALSE, warning=FALSE}
+library(ggplot2)
+library(data.table)
+library(scales)
+library(plyr)
+library(dplyr)
+library(reshape2)
+library(lme4)
+library(effects)
+library(multcomp)
+library(lmerTest)
+library(piecewiseSEM)
+library(car)
+library(gridExtra)
+library(cowplot)
+library(Rmisc)
+```
+
+## Protein Quantification Analysis
+
+Boxplots to examine for homogeneity of variances and density plots for normal distributions
+
+```{r pressure, echo=FALSE, warning=FALSE}
+ProteinFile <- read.csv("~/Documents/Friesen lab/MedicagoHerbPopulation/HerbivoryCollabWSU/Data/ProcessedData/ProteinData22Feb2017.csv")
+
+# Removed unnecessary columns
+ProRemove <- names(ProteinFile) %in% c("PCheck", "Plate", "fileName", "Absorbance")
+ProteinFile <- ProteinFile[!ProRemove]
+
+# Removed USDA genotypes
+MPmaster <- read.csv("~/Documents/Friesen lab/MedicagoHerbPopulation/HerbivoryCollabWSU/Copy of WSUV_MpolMlup_BulkingDesign_3.2016_masterfile -1.csv")
+
+MP_USDA <- MPmaster$Unique.ID[MPmaster$Pod.Produced != "USDA"]
+
+ProteinFile <- ProteinFile[ProteinFile$Sample %in% MP_USDA,]
+
+ProteinFile$Hour <- factor(ProteinFile$Hour, levels = c("0hr", "4hr", "24hr"))
+
+P1 <-ggplot(ProteinFile, aes(Hour, Protein, fill = Range)) + geom_boxplot()
+P2 <- ggplot(ProteinFile, aes(Hour, Protein, fill = Range)) + geom_boxplot() +ylim(0, 1*10^6)
+ProBoxplot <-ggdraw() + draw_plot(P1 + theme(legend.position = "none"), 0, 0, 1, 1) + draw_plot(P2, 0.5, 0.6, 0.5, 0.5)
+ProBoxplot
+
+ProteinFile$ProSqrt <- sqrt(ProteinFile$Protein)
+ProteinFile$ProCube <- ProteinFile$Protein ^ 0.33
+ProteinFile$ProLog <- log(ProteinFile$Protein)
+
+opar <- par()      # make a copy of current settings
+par(mfrow=c(2,2))
+densityPlot(ProteinFile$Protein)
+densityPlot(ProteinFile$ProSqrt)
+densityPlot(ProteinFile$ProCube)
+densityPlot(ProteinFile$ProLog)
+par(opar)
+```
+
+Results of the univariate repeated measures
+
+```{r protein uni, echo=FALSE, warning=FALSE}
+ProteinWide <- dcast(ProteinFile, Sample + Site + Replicate + Genotype + Range ~ Hour, value.var = "ProLog")
+ProteinWide <- na.exclude(ProteinWide)
+colnames(ProteinWide)[colnames(ProteinWide) =="0hr"] <- "ProteinHr0"
+colnames(ProteinWide)[colnames(ProteinWide) =="4hr"] <- "ProteinHr4"
+colnames(ProteinWide)[colnames(ProteinWide) =="24hr"] <- "ProteinHr24"
+```
+
+```{r}
+ProMod1 <- lm(cbind(ProteinHr0, ProteinHr4, ProteinHr24) ~ Range, data = ProteinWide)
+```
+
+Residuals:
+```{r, echo= FALSE}
+plot(density(resid(ProMod1)))
+```
+
+```{r, echo=FALSE}
+blockD <- ordered(c("Hr0", "Hr4", "Hr24"), levels = c("Hr0", "Hr4", "Hr24"))
+contrasts(blockD) <- matrix(c(-1,1,0,0,-1,1), ncol = 2)
+idata <-data.frame(blockD)
+
+proMod1a <-Anova(ProMod1, idata = idata, idesign = ~ blockD)
+proMod1a
+```
+## Peroxidase Activity Assay
+
+```{r, echo=F, warning=F}
+PODfile <- read.csv("~/Documents/Friesen lab/MedicagoHerbPopulation/HerbivoryCollabWSU/Data/ProcessedData/WSU_PODfiles11Sept2017.csv")
+
+# Removed unnecessary columns
+PODRemove <- names(PODfile) %in% c("PCheck", "Plate", "fileName", "values", "MatchValue", "CtrlVal","ABStrt_ABSctr")
+PODfile <- PODfile[!PODRemove]
+
+PODfile <- PODfile[PODfile$Sample %in% MP_USDA,]
+PODfile$Hour <- factor(PODfile$Hour, levels = c("0hr", "4hr", "24hr"))
+Pd1<- ggplot(PODfile, aes(Hour, AbsFreshWeight, fill = Range)) + geom_boxplot() 
+Pd2 <- ggplot(PODfile, aes(Hour, AbsFreshWeight, fill = Range)) + geom_boxplot() +ylim(0, 1*10^2)
+ProBoxplot <-ggdraw() + draw_plot(Pd1 + theme(legend.position = "none"), 0, 0, 1, 1) + draw_plot(Pd2, 0.1, 0.5, 0.5, 0.5)
+ProBoxplot
+
+PODfile$AbsFreshWeightN <- PODfile$AbsFreshWeight + 4
+PODfile$PodSqrt <- sqrt(PODfile$AbsFreshWeightN)
+PODfile$PodCube <- PODfile$AbsFreshWeightN ^ 0.33
+PODfile$PodLog <- log(PODfile$AbsFreshWeightN)
+par(mfrow=c(2,2))
+densityPlot(PODfile$AbsFreshWeightN)
+densityPlot(PODfile$PodSqrt)
+densityPlot(PODfile$PodCube)
+densityPlot(PODfile$PodLog)
+par(opar)
+```
+
+These looked a little odd so I broke them down by range. Graph on the right is at same scale, left is to give better view of distribution
+
+```{r, echo=FALSE, warning= F}
+F1 <-ggplot(PODfile, aes(PodLog, fill = Range)) + geom_density()  + facet_grid(Range~ Hour, scales = "free")
+F2 <-ggplot(PODfile, aes(PodLog, fill = Range)) + geom_density()  + facet_grid(Range~ Hour)
+PODdist <-plot_grid(F1, F2)
+PODdist
+```
+
+Results of the univariate repeated measures
+```{r pod uni, echo=FALSE, warning=FALSE}
+PODWide <- dcast(PODfile, Sample + Site + Replicate + Genotype + Range ~ Hour, value.var = "PodLog")
+PODWide <- na.exclude(PODWide)
+colnames(PODWide)[colnames(PODWide) =="0hr"] <- "PODHr0"
+colnames(PODWide)[colnames(PODWide) =="4hr"] <- "PODHr4"
+colnames(PODWide)[colnames(PODWide) =="24hr"] <- "PODHr24"
+```
+
+```{r}
+PodMod1 <- lm(cbind(PODHr0, PODHr4, PODHr24) ~ Range, data = PODWide)
+```
+
+Residuals:
+```{r, echo= FALSE}
+plot(density(resid(PodMod1)))
+```
+
+```{r, echo= F}
+Anova(PodMod1, idata = idata, idesign = ~ blockD)
+```
+
+## Polyphenol Oxidase Activity
+
+```{r, echo=FALSE, warning=FALSE}
+PPOFile <- read.csv("~/Documents/Friesen lab/MedicagoHerbPopulation/HerbivoryCollabWSU/Data/ProcessedData/WSU_PPOfiles11Sept2017.csv")
+PPOFile <- subset(PPOFile, Sample !="")
+
+# Removed unnecessary columns
+ProRemove <- names(PPOFile) %in% c("PCheck", "Plate", "fileName", "values", "MatchValue", "CtrlVal","ABStrt_ABSctr")
+PPOFile <- PPOFile[!ProRemove]
+PPOFile <- PPOFile[PPOFile$Sample %in% MP_USDA,]
+PPOFile$Hour <- factor(PPOFile$Hour, levels = c("0hr", "4hr", "24hr"))
+
+ggplot(PPOFile, aes(Hour, AbsFreshWeight, fill = Range)) + geom_boxplot() 
+PPOFile$AbsFreshWeightN <- PPOFile$AbsFreshWeight + 1
+PPOFile$PpoSqrt <- sqrt(PPOFile$AbsFreshWeightN)
+PPOFile$PpoCube <- PPOFile$AbsFreshWeightN ^ 0.33
+PPOFile$PpoLog <- log(PPOFile$AbsFreshWeightN)
+par(mfrow=c(2,2))
+densityPlot(PPOFile$AbsFreshWeightN)
+densityPlot(PPOFile$PpoSqrt)
+densityPlot(PPOFile$PpoCube)
+densityPlot(PPOFile$PpoLog)
+par(opar)
+
+ggplot(PPOFile, aes(PpoLog, fill = Range)) + geom_density()  + facet_grid(Range~ Hour)
+```
+
+Results of the univariate repeated measures
+
+```{r, echo=FALSE, warning=FALSE}
+PPOWide <- dcast(PPOFile, Sample + Site + Replicate + Genotype + Range ~ Hour, value.var = "PpoLog")
+PPOWide <- na.exclude(PPOWide)
+colnames(PPOWide)[colnames(PPOWide) =="0hr"] <- "PPOHr0"
+colnames(PPOWide)[colnames(PPOWide) =="4hr"] <- "PPOHr4"
+colnames(PPOWide)[colnames(PPOWide) =="24hr"] <- "PPOHr24"
+```
+
+```{r}
+PPOMod1 <- lm(cbind(PPOHr0, PPOHr4, PPOHr24) ~ Range, data = PPOWide)
+```
+
+Residuals:
+```{r, echo= FALSE}
+plot(density(resid(PPOMod1)))
+```
+
+```{r echo=FALSE}
+Anova(PPOMod1, idata = idata, idesign = ~ blockD)
+```
+

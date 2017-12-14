@@ -1,0 +1,95 @@
+---
+title: "Multivariate analysis of biochemical assayss"
+author: "Chandra Jack"
+date: "November 6, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Multivariate analysis of biochemical assayss
+
+
+
+```{r message=FALSE, warning=FALSE}
+library(ggplot2)
+library(data.table)
+library(scales)
+library(plyr)
+library(dplyr)
+library(reshape2)
+library(lme4)
+library(effects)
+library(multcomp)
+library(lmerTest)
+library(piecewiseSEM)
+library(car)
+library(gridExtra)
+library(cowplot)
+library(Rmisc)
+library(Hmisc)
+library(heplots)
+library(corrplot)
+library(PerformanceAnalytics)
+```
+
+
+```{r echo=FALSE, warning=FALSE}
+setwd("~/Documents/Friesen\ lab/MedicagoHerbPopulation/HerbivoryCollabWSU/Data/ProcessedData/")
+
+ProteinWide  <- read.csv("/Users/chanj/Documents/Friesen\ lab/MedicagoHerbPopulation/HerbivoryCollabWSU/Data/ProcessedData/ProteinWideFormat25Oct2017.csv")
+
+PODWide <- read.csv("/Users/chanj/Documents/Friesen\ lab/MedicagoHerbPopulation/HerbivoryCollabWSU/Data/ProcessedData/PeroxidaselDataWideFormat25Oct2017.csv")
+
+PPOWide <- read.csv("/Users/chanj/Documents/Friesen\ lab/MedicagoHerbPopulation/HerbivoryCollabWSU/Data/ProcessedData/PolyphenolDataWideFormat25Oct2017.csv")
+
+BiocAssaysWide <- merge(ProteinWide, PODWide)
+BiocAssaysWide <- merge(BiocAssaysWide, PPOWide)
+
+# Time for the big jump! 
+
+Assay <- factor(rep(c("Protein", "POD", "PPO"), each = 3))
+MeasTime <- factor(rep(c("Hr0", "Hr4", "Hr24"), 3), levels = c("Hr0", "Hr4", "Hr24"))
+
+idata <- data.frame(Assay, MeasTime)
+
+```
+
+``` {r pressure, warning=FALSE}
+BCmod1 <- lm(cbind(ProteinHr0, ProteinHr4, ProteinHr24, PODHr0, PODHr4, PODHr24,PPOHr0, PPOHr4, PPOHr24) ~ Range, data = BiocAssaysWide)
+
+BCmod2 <- lm(cbind(ProteinHr0, ProteinHr4, ProteinHr24, PODHr0, PODHr4, PODHr24,PPOHr0, PPOHr4, PPOHr24) ~ Site, data = BiocAssaysWide)
+
+anova.BCmod1 <- Anova(BCmod1, idata= idata, idesign = ~ Assay * MeasTime, iterm = "Assay:MeasTime", type = 3)
+anova.BCmod2 <- Anova(BCmod2, idata= idata, idesign = ~ Assay * MeasTime,iterm = "Assay:MeasTime", type = 3)
+
+```
+
+There is a significant effect for Population, but not for Range
+
+``` {r, echo = FALSE, warning = FALSE}
+anova.BCmod1
+heplot(BCmod1)
+
+anova.BCmod2
+heplot(BCmod2)
+```
+
+## Correlation Data
+
+Plot 1: Correlation plot
+Plot 2: Keeping only dots that are significant at 0.05
+Plot 3: Numbers instead of dot size
+Plot 4: All the info
+
+``` {r, echo = FALSE,  warning = FALSE}
+CorData <- BiocAssaysWide[, c(6:14)]
+CDmatrix <- cor(CorData)
+CDmatrix2 <- rcorr(as.matrix(CorData))
+
+corrplot(CDmatrix, type = "upper")
+corrplot(CDmatrix2$r, type = "upper", p.mat = CDmatrix2$P, sig.level = 0.05, insig = "blank")
+corrplot(CDmatrix2$r, type = "upper", p.mat = CDmatrix2$P, sig.level = 0.05, insig = "blank", method = "number")
+chart.Correlation(CorData, histogram=TRUE, pch=19)

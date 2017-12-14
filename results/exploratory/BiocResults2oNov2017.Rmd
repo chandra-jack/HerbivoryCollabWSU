@@ -1,0 +1,368 @@
+---
+title: "Biochemical Analysis 20 Nov 2017"
+author: "Chandra Jack"
+date: "November 20, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r library, warning=FALSE, message=FALSE}
+library(ggplot2)
+library(data.table)
+library(scales)
+library(plyr)
+library(dplyr)
+library(reshape2)
+library(lme4)
+library(effects)
+library(multcomp)
+library(lmerTest)
+library(piecewiseSEM)
+library(car)
+library(gridExtra)
+library(cowplot)
+library(Rmisc)
+library(heplots)
+library(Hmisc)
+library(RcmdrMisc)
+library(corrplot)
+```
+
+This is the set of packages that I regularly use. Not all of them are necessary to run the code below. This is a compilation of the key parts of the analysis that has been done.
+
+## Bootstrapping 
+
+There are 11 Invasive genotypes representing 5 populations but 70 genotypes 13 populations for the Native range. I ran a Type II MANOVA for each assay instead of a repeated measures ANOVA due to the unbalanced design and because it is less sensitive to heterogeneity of variances. However, I still wanted to check to see if differences in group size could change significance. 
+
+```{r, echo=FALSE}
+BiocAssaysWide <- read.csv("~/Documents/Friesen lab/MedicagoHerbPopulation/HerbivoryCollabWSU/Data/ProcessedData/AllBiocAssaysMANOVADataStyle14Nov2017.csv") 
+PopulationTable <- BiocAssaysWide %>% count(Range, Site)
+PopulationTable$NoGenotypes <- PopulationTable$n/3
+PopTab <- dcast(PopulationTable, Site ~ Range, value.var = "NoGenotypes")
+ggplot(PopulationTable, aes(Site, n/3, fill = Range, label = n/3)) + geom_bar(stat = "identity") + ylab("Number of Genotypes") + theme(axis.text.x = element_text(angle = 45)) + geom_text()
+```
+
+
+### T test of bootstrap variance
+
+I resampled from the native population, calcuated the variance and compared it to the variance from the full range set
+
+Subset the native and invasive populations
+```{r BootTSubset, warning=FALSE, message=FALSE}
+BV_Nat <- subset(BiocAssaysWide, Range == "Native")
+BV_Inv <- subset(BiocAssaysWide, Range == "Invasive")
+```
+
+```{r BootTRun, warning=FALSE, message= FALSE}
+N = 1000 # Number of times to resample
+TestMat <- matrix(rep(0, 9*N), ncol = 9) # Define the matrix to hold bootstrapped values and initiate with 0's
+for (i in 1:N){
+  pops <- sample(unique(BV_Nat$Genotype), 11) # Sample populations randomly keeping the rows and replicates together
+  BV_Nat2 <- BV_Nat[BV_Nat$Genotype %in% pops, ] # Narrow dataset
+  TestMat[i,] <- apply(BV_Nat2[,6:ncol(BV_Nat2)], 2, function(x) var(x, na.rm=TRUE)) # Calculate variance and fill matrix
+}
+
+VecVar <- apply(BV_Nat[,6:ncol(BV_Nat)], 2, function(x) var(x, na.rm=TRUE)) # Variance of all native genotypes
+ColnNames <- colnames(BV_Nat)
+ColnNames <- ColnNames[-(1:5)]
+
+NewMat <- matrix(rep(0, 27), ncol = 3) # Place in its own matrix to call later
+for (i in 1:9) {
+  NewMat[i,1] <- ColnNames[i] # each variable tested
+  NewMat[i,2] <- t.test(TestMat[,i], mu = VecVar[i])$p.value # p value comparing vector of bootstrap variances to observed variance
+  NewMat[i,3] <- mean(abs(TestMat[,i] -mean(TestMat[,i])) > VecVar[i]) # a way to calculate a p value for the bootstrap
+}
+NewMat
+```
+According to this metric, the variances do not differ between the bootstrapped test and the observed variance.
+
+### Levene's Test resample
+
+I resampled the native range, combined it with the invasive range dataset and then ran the LeveneTest to compare variances
+```{r BootLev}
+N = 1000
+TestMat <- matrix(rep(0, 9*N), ncol = 9)
+for (i in 1:N){
+  pops <- sample(unique(BV_Nat$Genotype), 11, replace = T) # Sample populations randomly 
+  BV_Nat2 <- BV_Nat[BV_Nat$Genotype %in% pops, ] # Narrow dataset
+  FullBV <- rbind(BV_Nat2, BV_Inv)
+  test <- leveneTests(FullBV[,6:14], FullBV$Range)
+  FStat <- test[,3] # Gets the F statistic from the Levene Test
+  for (j in 1:9){
+    TestMat[i, j] <- FStat[j]
+  }
+}
+
+ColnNames <- colnames(BV_Nat)
+ColnNames <- ColnNames[-(1:5)]
+testObs <- leveneTests(BiocAssaysWide[,6:14], BiocAssaysWide$Range)
+FStatObs <- testObs[,3] # Observed F statistic
+
+FMat <- matrix(rep(0, 18), ncol = 2)
+for (i in 1:9) {
+  FMat[i,1] <- ColnNames[i]
+  FMat[i,2] <- mean(abs(TestMat[,i] -mean(TestMat[,i])) > FStatObs[i]) # p value for bootstrapped difference between groups
+}
+FMat
+```
+Under this metric there is also not a significant difference between group variances
+
+
+### Bootstrap univariate MANOVAs
+
+ I resampled the native range and ran univariate MANOVAs. I'm going to run all of the code and then show the outputs together after.
+
+```{r BootMANOVAGetData, include=FALSE}
+PODWide <- read.csv("~/Documents/Friesen lab/MedicagoHerbPopulation/HerbivoryCollabWSU/Data/ProcessedData/PeroxidaselDataWideFormat25Oct2017.csv")
+PPOWide <- read.csv("~/Documents/Friesen lab/MedicagoHerbPopulation/HerbivoryCollabWSU/Data/ProcessedData/PolyphenolDataWideFormat25Oct2017.csv")
+ProWide <- read.csv("/Users/chanj/Documents/Friesen\ lab/MedicagoHerbPopulation/HerbivoryCollabWSU/Data/ProcessedData/ProteinWideFormat25Oct2017.csv")
+```
+
+This section of code is also used to run the repeated measures MANOVA on the full dataset
+```{r RepeatedMeasuresMANOVA}
+block <- ordered(c("Hr0", "Hr4", "Hr24"), levels = c("Hr0", "Hr4", "Hr24"))
+contrasts(block) <- matrix(c(-1,1,0,0,-1,1), ncol = 2)
+idata <- data.frame(block)
+```
+
+#### Bootstrap Peroxidase Assay
+```{r bootPod}
+PODWide_Nat <- subset(PODWide, Range == "Native")
+PODWide_Inv <- subset(PODWide, Range == "Invasive")
+
+N = 1000
+PodMat <- matrix(rep(0, 6*N), ncol = 6)
+
+for (i in 1:N) {
+  outtests <- car:::print.Anova.mlm
+  body(outtests)[[16]] <- quote(invisible(tests))
+  body(outtests)[[15]] <- NULL
+  pops <- sample(unique(PODWide_Nat$Genotype), 11, replace = T) 
+  PODWide_Nat2 <- PODWide_Nat[PODWide_Nat$Genotype %in% pops, ] # Narrow dataset
+  FullPODWide <- rbind(PODWide_Nat2, PODWide_Inv)
+  PodMod1 <- lm(cbind(PODHr0, PODHr4, PODHr24) ~ Range, data = FullPODWide)
+  tab <- lapply(c("Pillai", "Wilks", "Hotelling-Lawley", "Roy"),  function(i)  outtests(Anova(PodMod1, idata = idata, idesign = ~ block, test.statistic=i)))
+  tab <- do.call(rbind, tab)
+  Fval <- tab[,3]
+  Pval <- tab[,6]
+  for (j in 1:3){
+    X = j + 1
+    Y = j + 3
+    PodMat[i,j] <- Fval[X]
+    PodMat[i,Y] <- Pval[X]
+  }
+}
+```
+
+#### Bootstrap Polyphenol Oxidase Assay
+```{r bootPPO}
+PPOWide_Nat <- subset(PPOWide, Range == "Native")
+PPOWide_Inv <- subset(PPOWide, Range == "Invasive")
+N = 1000
+PpoMat <- matrix(rep(0, 6*N), ncol = 6)
+
+for (i in 1:N) {
+  outtests <- car:::print.Anova.mlm
+  body(outtests)[[16]] <- quote(invisible(tests))
+  body(outtests)[[15]] <- NULL
+  pops <- sample(unique(PPOWide_Nat$Genotype), 11, replace = T) 
+  PPOWide_Nat2 <- PPOWide_Nat[PPOWide_Nat$Genotype %in% pops, ] # Narrow dataset
+  FullPPOWide <- rbind(PPOWide_Nat2, PPOWide_Inv)
+  PpoMod1 <- lm(cbind(PPOHr0, PPOHr4, PPOHr24) ~ Range, data = FullPPOWide)
+  tab <- lapply(c("Pillai", "Wilks", "Hotelling-Lawley", "Roy"),  function(i)  outtests(Anova(PpoMod1, idata = idata, idesign = ~ block, test.statistic=i)))
+  tab <- do.call(rbind, tab)
+  Fval <- tab[,3]
+  Pval <- tab[,6]
+  for (j in 1:3){
+    X = j + 1
+    Y = j + 3
+    PpoMat[i,j] <- Fval[X]
+    PpoMat[i,Y] <- Pval[X]
+  }
+}
+```
+
+#### Bootstrap Protein Quantification Assay
+```{r}
+ProWide_Nat <- subset(ProWide, Range == "Native")
+ProWide_Inv <- subset(ProWide, Range == "Invasive")
+N = 1000
+ProMat <- matrix(rep(0, 6*N), ncol = 6)
+
+for (i in 1:N) {
+  outtests <- car:::print.Anova.mlm
+  body(outtests)[[16]] <- quote(invisible(tests))
+  body(outtests)[[15]] <- NULL
+  pops <- sample(unique(PODWide_Nat$Genotype), 11, replace = T) 
+  ProWide_Nat2 <- ProWide_Nat[ProWide_Nat$Genotype %in% pops, ] # Narrow dataset
+  FullProWide <- rbind(ProWide_Nat2, ProWide_Inv)
+  ProMod1 <- lm(cbind(ProteinHr0, ProteinHr4, ProteinHr24) ~ Range, data = FullProWide)
+  tab <- lapply(c("Pillai", "Wilks", "Hotelling-Lawley", "Roy"),  function(i)  outtests(Anova(ProMod1, idata = idata, idesign = ~ block, test.statistic=i)))
+  tab <- do.call(rbind, tab)
+  Fval <- tab[,3]
+  Pval <- tab[,6]
+  for (j in 1:3){
+    X = j + 1
+    Y = j + 3
+    ProMat[i,j] <- Fval[X]
+    ProMat[i,Y] <- Pval[X]
+  }
+}
+```
+
+This gives the observed output. It is arranged by F statistic of the observed model, p value of the observed model, and p value for the F statistic of the bootstrap
+```{r}
+#pod
+outtests <- car:::print.Anova.mlm
+body(outtests)[[16]] <- quote(invisible(tests))
+body(outtests)[[15]] <- NULL
+PodMod1 <- lm(cbind(PODHr0, PODHr4, PODHr24) ~ Range, data = PODWide)
+tab <- lapply(c("Pillai", "Wilks", "Hotelling-Lawley", "Roy"),  function(i)  outtests(Anova(PodMod1, idata = idata, idesign = ~ block, test.statistic=i)))
+tab <- do.call(rbind, tab)
+
+Fval <- tab[,3]
+Pval <- tab[,6]
+PODtrue <- data.frame(Fval[2:4], Pval[2:4])
+rownames(PODtrue) <- c("Range", "block", "Range:block")
+names(PODtrue)[names(PODtrue) == 'Fval.2.4.'] <- 'test.statistic'
+names(PODtrue)[names(PODtrue) == 'Pval.2.4.'] <- 'p.value'
+
+for (i in 1:3) {
+  PODtrue$BootF[i] <-mean(abs(PodMat[,i] - mean(PodMat[,i])) > PODtrue$test.statistic[i])
+}
+
+# PPO
+outtests <- car:::print.Anova.mlm
+body(outtests)[[16]] <- quote(invisible(tests))
+body(outtests)[[15]] <- NULL
+PpoMod1 <- lm(cbind(PPOHr0, PPOHr4, PPOHr24) ~ Range, data = PPOWide)
+tab <- lapply(c("Pillai", "Wilks", "Hotelling-Lawley", "Roy"),  function(i)  outtests(Anova(PpoMod1, idata = idata, idesign = ~ block, test.statistic=i)))
+tab <- do.call(rbind, tab)
+
+Fval <- tab[,3]
+Pval <- tab[,6]
+PPOtrue <- data.frame(Fval[2:4], Pval[2:4])
+rownames(PPOtrue) <- c("Range", "block", "Range:block")
+names(PPOtrue)[names(PPOtrue) == 'Fval.2.4.'] <- 'test.statistic'
+names(PPOtrue)[names(PPOtrue) == 'Pval.2.4.'] <- 'p.value'
+
+for (i in 1:3) {
+  PPOtrue$BootF[i] <-mean(abs(PpoMat[,i] - mean(PpoMat[,i])) > PPOtrue$test.statistic[i])
+}      
+
+# PROTEIN
+outtests <- car:::print.Anova.mlm
+body(outtests)[[16]] <- quote(invisible(tests))
+body(outtests)[[15]] <- NULL
+ProMod1 <- lm(cbind(ProteinHr0, ProteinHr4, ProteinHr24) ~ Range, data = ProWide)
+tab <- lapply(c("Pillai", "Wilks", "Hotelling-Lawley", "Roy"),  function(i)  outtests(Anova(ProMod1, idata = idata, idesign = ~ block, test.statistic=i)))
+tab <- do.call(rbind, tab)
+
+Fval <- tab[,3]
+Pval <- tab[,6]
+PROtrue <- data.frame(Fval[2:4], Pval[2:4])
+rownames(PROtrue) <- c("Range", "block", "Range:block")
+names(PROtrue)[names(PROtrue) == 'Fval.2.4.'] <- 'test.statistic'
+names(PROtrue)[names(PROtrue) == 'Pval.2.4.'] <- 'p.value'
+
+for (i in 1:3) {
+  PROtrue$BootF[i] <-mean(abs(ProMat[,i] - mean(ProMat[,i])) > PROtrue$test.statistic[i])
+}      
+
+PODtrue
+PPOtrue
+PROtrue
+```
+p values for the bootstrapped values seem elevated compared to the observed value. 
+
+
+## Repeated measures MANOVAs for each assay.
+
+Diagnostic steps for these assays can be found in the most Induced vs constitutive pdf. 
+
+### Peroxidase
+
+1. Does the invasive range differ in POD activity significantly from the native range?
+
+2. Do the two ranges respond similarly over time?
+```{r}
+PodMod1 <- lm(cbind(PODHr0, PODHr4, PODHr24) ~ Range, data = PODWide)
+Anova(PodMod1, idata = idata, idesign = ~ block)
+```
+Range is not significant but there are differences between the two over time.
+
+
+### Polyphenol Oxidase
+
+1. Does the invasive range differ in PPO activity significantly from the native range?
+
+2. Do the two ranges respond similarly over time?
+```{r}
+PpoMod1 <- lm(cbind(PPOHr0, PPOHr4, PPOHr24) ~ Range, data = PPOWide)
+Anova(PpoMod1, idata = idata, idesign = ~ block)
+```
+PPO activity varies between the ranges but both respond similarly over time
+
+
+### Protein Quantification
+
+1. Does the invasive range differ in protein production significantly from the native range?
+
+2. Do the two ranges respond similarly over time?
+```{r}
+ProMod1 <- lm(cbind(ProteinHr0, ProteinHr4, ProteinHr24) ~ Range, data = ProWide)
+Anova(ProMod1, idata = idata, idesign = ~ block)
+```
+Protein production varies between the ranges but both respond similarly over time
+
+### Plot of assay results
+
+```{r, echo=FALSE, warning= FALSE, message= FALSE}
+ProteinUntra <- read.csv("/Users/chanj/Documents/Friesen lab/MedicagoHerbPopulation/HerbivoryCollabWSU/Data/ProcessedData/ProteinData22Feb2017.csv")
+
+PODUntra <- read.csv("/Users/chanj/Documents/Friesen lab/MedicagoHerbPopulation/HerbivoryCollabWSU/Data/ProcessedData/WSU_PODfiles11Sept2017.csv")
+
+PPOUntra <- read.csv("/Users/chanj/Documents/Friesen\ lab/MedicagoHerbPopulation/HerbivoryCollabWSU/Data/ProcessedData/WSU_PPOfiles11Sept2017.csv")
+
+# Remove all extraneous columns
+ProteinUnneeded <- names(ProteinUntra) %in% c("Well", "Weight", "Hour", "PCheck", "Plate", "fileName", "Absorbance")
+ProteinUntra <- ProteinUntra[!ProteinUnneeded]
+
+PODKeep <- names(PODUntra) %in% c("Sample", "Replicate", "Time", "AbsFreshWeight", "Range", "Genotype", "Site")
+PODUntra <- PODUntra[PODKeep]
+
+PPOKeep <- names(PPOUntra) %in% c("Sample", "Replicate", "Time", "AbsFreshWeight", "Range", "Genotype", "Site")
+PPOUntra <- PPOUntra[PPOKeep]
+
+# Rename response variable so that can bind the rows
+names(ProteinUntra)[names(ProteinUntra) == "Protein"] <- "Response"
+names(PODUntra)[names(PODUntra) == "AbsFreshWeight"] <- "Response"
+names(PPOUntra)[names(PPOUntra) == "AbsFreshWeight"] <- "Response"
+
+# Add column that identifies each assay
+ProteinUntra$Assay <- rep("Protein", nrow(ProteinUntra))
+PODUntra$Assay <- rep("POD", nrow(PODUntra))
+PPOUntra$Assay <- rep("PPO", nrow(PPOUntra))
+
+# Combine datasets
+AllBiocUntrans <- rbind(ProteinUntra, PODUntra)
+AllBiocUntrans <- rbind(AllBiocUntrans, PPOUntra)
+
+ABU <- na.omit(AllBiocUntrans)
+ggplot(ABU, aes(x = as.factor(Time), y = Response, shape = Range, colour = Range)) + stat_summary(fun.data = "mean_se") + facet_wrap(~Assay, scales = "free") + stat_summary(fun.y = mean, geom = "line", aes(group = Range))
+```
+
+### Correlations between all the assays and times
+
+A pearson correlation plot where the intensity of the color and size of the circle indicate correlations. Blue are positive and Red are negative. Only significant correlations are shown (Holm's adjusted p values < 0.05)
+```{r, echo = FALSE, warning = FALSE}
+CorData <- BiocAssaysWide[, c(6:14)]
+CDmatrix3 <- rcorr.adjust(as.matrix(CorData))
+corrplot(CDmatrix3$R$r, type = "upper", p.mat = apply(CDmatrix3$P, 2, as.numeric)
+, sig.level = 0.05, insig = "blank")
+```
+
+

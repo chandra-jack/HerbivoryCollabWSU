@@ -1,0 +1,162 @@
+---
+title: "Choice Data ANOVA tables"
+author: "Chandra Jack"
+date: "December 11, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(ggplot2)
+library(data.table)
+library(scales)
+library(plyr)
+library(dplyr)
+library(reshape2)
+library(lme4)
+library(effects)
+library(multcomp)
+library(lmerTest)
+library(piecewiseSEM)
+library(car)
+library(gridExtra)
+library(cowplot)
+library(Rmisc)
+library(heplots)
+library(Hmisc)
+library(RcmdrMisc)
+library(corrplot)
+
+setwd("~/Documents/Friesen lab/MedicagoHerbPopulation/HerbivoryCollabWSU/Data/ProcessedData/ChoiceExpts/")
+
+PrefData <- read.csv("Corrected_FINAL_PreferenceData.csv")
+MPmaster <- read.csv("~/Documents/Friesen lab/MedicagoHerbPopulation/HerbivoryCollabWSU/Data/ProcessedData/WSUV_BulkingData_Final_ZCL.csv")
+
+# Preparing the dataset
+PrefData$Genotype_Plant1 <- MPmaster[match(PrefData$PlantID_1, MPmaster$Unique.ID), "MSU.Genotype"]
+PrefData$Population_Plant1 <- MPmaster[match(PrefData$PlantID_1, MPmaster$Unique.ID), "Site.ID"]
+
+PrefData$Genotype_Plant2 <- MPmaster[match(PrefData$PlantID_2, MPmaster$Unique.ID), "MSU.Genotype"]
+PrefData$Population_Plant2 <- MPmaster[match(PrefData$PlantID_2, MPmaster$Unique.ID), "Site.ID"]
+
+PrefData$TissuePref <- PrefData$AmtPlant1Consumed - PrefData$AmtPlant2Consumed
+
+```
+
+## Preference Data: Constitutive defenses
+
+The script used for this is the PrefPlastic17Nov2017.R file found in the src folder https://drive.google.com/open?id=14cdMdq77dwGCwBEXXVfOB7uV_1m1BdBV
+
+The dataset is found in the constitutive data folder
+https://drive.google.com/open?id=1RRla12LJq7zppEN5uRPZvezYLPzLg251
+
+I've uploaded the excel spreadsheet so that you can see the formulas that I used outside of R. You can convert that to a csv file if you want to follow from the beginning, otherwise use the uploaded modified csv file that starts at line 36.
+
+Running a glm binomial model to check for preference for invasive or native range where 1 is invasive and 0 is native
+
+```{r }
+mod1 <- glm(as.factor(Inv_1_Nat_0) ~ Herbivore*CatStage , family = binomial(link = "logit"), data = PrefData)
+anova(mod1, test = "Chisq")
+```
+
+I realized that I never plotted this data.
+
+```{r constit, echo=FALSE}
+ggplot(PrefData, aes(CatStage, Inv_1_Nat_0, colour = Herbivore)) + stat_summary(fun.data = "mean_se") + geom_hline(yintercept = 0.5, colour = "black")
+```
+
+From this it looks as if there should be some type of significant difference, at least in the soybean looper data, but from the above ANOVA, it doesn't show up. I am still concerned that there is a lack of replication but I subsetted the data and ran a non-parametric one sample t test (lines 43-48)
+
+```{r}
+PrefLoop <- subset(PrefData, Herbivore == "Soybean Looper")
+PrefV <- subset(PrefData, Herbivore != "Soybean Looper")
+
+# Looper data
+wilcox.test(PrefLoop$Inv_1_Nat_0, mu = 0.5)
+# Velvet bean data
+wilcox.test(PrefV$Inv_1_Nat_0, mu = 0.5)
+```
+
+
+Here is the ANOVA table based on the amount actually consumed and the non-p t test results.
+
+```{r echo= FALSE}
+
+ggplot(PrefData, aes(CatStage, TissuePref, colour = Herbivore)) + stat_summary(fun.data = "mean_se") + geom_hline(yintercept = 0, colour = "black")
+```
+
+```{r}
+mod3 <- lm(TissuePref ~ Herbivore*CatStage, data = PrefData)
+anova(mod3)
+M3.res <- rstandard(mod3)
+qqnorm(M3.res)
+qqline(M3.res)
+
+# Looper data
+wilcox.test(PrefLoop$TissuePref, mu = 0)
+# Velvet bean data
+wilcox.test(PrefV$TissuePref, mu = 0)
+```
+
+
+## Preference Data: Inducible/Plastic 
+
+This is included in the same script. The dataset is found in the inducible folder
+https://drive.google.com/open?id=1cY6FTjSg0KPTTiBgWsUsB8RI6H7Ezxm3
+
+The excel spreadsheet is not in the folder just the csv file(s) I used. Use the Modified file to start at line 77.
+
+```{r echo= FALSE}
+PlasticData <- read.csv("Corrected_FINAL_PlasticityData.csv")
+
+# Preparing the dataset
+PlasticData$Genotype_Plant1 <- MPmaster[match(PlasticData$PlantID_1, MPmaster$Unique.ID), "MSU.Genotype"]
+PlasticData$Population_Plant1 <- MPmaster[match(PlasticData$PlantID_1, MPmaster$Unique.ID), "Site.ID"]
+
+PlasticData$Genotype_Plant2 <- MPmaster[match(PlasticData$PlantID_2, MPmaster$Unique.ID), "MSU.Genotype"]
+PlasticData$Population_Plant2 <- MPmaster[match(PlasticData$PlantID_2, MPmaster$Unique.ID), "Site.ID"]
+
+write.table(PlasticData, file = "ModifiedPlasticity7Dec2017cj.csv", sep = ",", row = F)
+PlasticData$TissuePref <- PlasticData$AmtPlant1Consumed - PlasticData$AmtPlant2Consumed
+```
+
+Running a glm binomial model to check for preference where 1 is constitutive and 0 is invasive. I also included Range as a variable.
+
+```{r}
+mod1 <- glm(as.factor(Con_1_Ind_0) ~ Herbivore*CatStage + Range, family = binomial(link = "logit"), data = PlasticData)
+anova(mod1, test = "Chisq")
+```
+
+```{r echo= FALSE}
+ggplot(PlasticData, aes(CatStage, Con_1_Ind_0, colour = Herbivore)) + stat_summary(fun.data = "mean_se") + geom_hline(yintercept = 0.5, colour = "black") + facet_wrap(~ Range)
+PlasticLoop <- subset(PlasticData, Herbivore == "Soybean Looper")
+PlasticV <- subset(PlasticData, Herbivore != "Soybean Looper")
+```
+
+For completion, also included 2 group Mann-Whitney U
+```{r}
+# Looper
+wilcox.test(PlasticLoop$Con_1_Ind_0 ~ PlasticLoop$Range)
+#Velvet bean
+wilcox.test(PlasticV$Con_1_Ind_0 ~ PlasticV$Range)
+```
+
+
+Here is the data based on the amount of tissue consumed 
+```{r echo= FALSE}
+
+ggplot(PlasticData, aes(CatStage, TissuePref, colour = Herbivore)) + stat_summary(fun.data = "mean_se") + geom_hline(yintercept = 0, colour = "black") + facet_wrap(~ Range)
+```
+
+```{r}
+mod4 <- lm(TissuePref ~ Herbivore*CatStage + Range, data = PlasticData)
+anova(mod4)
+```
+
+```{r}
+# Looper
+wilcox.test(PlasticLoop$TissuePref ~ PlasticLoop$Range)
+#Velvet bean
+wilcox.test(PlasticV$TissuePref ~ PlasticV$Range)
+```
